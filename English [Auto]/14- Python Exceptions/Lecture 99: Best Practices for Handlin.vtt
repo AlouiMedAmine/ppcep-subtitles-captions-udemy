@@ -1,0 +1,82 @@
+WEBVTT
+
+00:00.280 --> 00:01.360
+Hi everyone!
+
+00:01.480 --> 00:05.640
+In this video we will learn some best practices for handling exceptions.
+
+00:05.840 --> 00:08.840
+First, be specific with your exception handling.
+
+00:09.320 --> 00:13.640
+Catch specific exceptions rather than using a broad accept statement.
+
+00:13.800 --> 00:18.520
+This allows you to handle specific errors in a more targeted manner.
+
+00:18.960 --> 00:25.160
+To apply the first best practices, we need to know Python exception hierarchy.
+
+00:26.240 --> 00:34.880
+That base exception is the top level class, which has a lot of subclasses like exception and exception
+
+00:34.880 --> 00:37.920
+also has a lot of subclasses.
+
+00:37.920 --> 00:41.000
+Second, keep exception handling concise.
+
+00:41.480 --> 00:46.440
+Try to keep your exception handling blocks as short and concise as possible.
+
+00:46.760 --> 00:50.160
+This makes your code more readable and easier to debug.
+
+00:51.280 --> 01:00.480
+The second best practices should apply it in all our code to create a function to create a conditional
+
+01:00.480 --> 01:06.490
+block, loops or anything in our code, we need to be more concise.
+
+01:08.410 --> 01:12.250
+Makes our code more readable and easier to debug.
+
+01:12.970 --> 01:13.490
+Second.
+
+01:14.210 --> 01:18.530
+Third log exceptions instead of printing error messages.
+
+01:18.810 --> 01:22.330
+Use Python building logging model to log exceptions.
+
+01:22.530 --> 01:27.170
+This allows you to easily track and debug errors in your code.
+
+01:28.330 --> 01:32.650
+We have Logger.debug Logger.info warning error.
+
+01:32.690 --> 01:38.130
+It depends in our case for use.
+
+01:38.130 --> 01:39.770
+Finally blocks for cleanup.
+
+01:40.210 --> 01:47.850
+If your code needs to perform some cleanup tasks such as closing files or database connections, use
+
+01:47.850 --> 01:52.930
+a finally block to ensure that the cleanup code is always executed.
+
+01:53.250 --> 02:00.090
+If you remember, the finally block will be executed regardless if there is an exception or not.
+
+02:01.210 --> 02:08.890
+I will add a lot of other best practices in another section with the name Python Tricks before your
+
+02:08.890 --> 02:09.450
+exam.
+
+02:10.250 --> 02:11.850
+And that's it for this video.

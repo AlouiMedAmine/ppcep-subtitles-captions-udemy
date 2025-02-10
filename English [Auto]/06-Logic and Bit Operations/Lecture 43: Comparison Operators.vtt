@@ -1,0 +1,61 @@
+WEBVTT
+
+00:00.170 --> 00:01.400
+Hi everyone!
+
+00:01.400 --> 00:05.030
+Today we will learn comparison operators in Python.
+
+00:05.690 --> 00:09.200
+Comparison operators are used to compare two values.
+
+00:10.160 --> 00:16.220
+We have equal not equal, greater than, less than, greater than or equal to.
+
+00:16.250 --> 00:17.900
+Less than or equal to.
+
+00:17.930 --> 00:19.610
+Let's do some examples.
+
+00:21.170 --> 00:24.290
+I execute the code via the debugger mode.
+
+00:24.290 --> 00:28.250
+I select the console to see the result x.
+
+00:28.250 --> 00:29.990
+Take the value five y.
+
+00:30.020 --> 00:34.700
+Take the value three x equal to y.
+
+00:34.820 --> 00:40.730
+It will return false five five is different to three.
+
+00:40.760 --> 00:42.260
+It will return true.
+
+00:43.550 --> 00:45.140
+Five is greater than three.
+
+00:45.170 --> 00:46.520
+It will return true.
+
+00:49.430 --> 00:52.790
+X is less than y.
+
+00:52.790 --> 00:54.350
+It will return false.
+
+00:55.160 --> 01:00.620
+X is greater than or equal to to the value three.
+
+01:00.650 --> 01:02.060
+It will return true.
+
+01:03.050 --> 01:09.140
+And finally x is less than or equal to y.
+
+01:09.140 --> 01:17.300
+It will return false because x take the value five and not less than or equal to three.

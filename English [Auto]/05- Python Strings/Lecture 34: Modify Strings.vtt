@@ -1,0 +1,121 @@
+WEBVTT
+
+00:00.230 --> 00:01.220
+Hi everyone!
+
+00:01.220 --> 00:04.280
+In this video we will learn how to modify strings.
+
+00:04.700 --> 00:08.750
+Python has a set of building methods that you can use on strings.
+
+00:08.870 --> 00:11.870
+The upper method returns the string in uppercase.
+
+00:11.870 --> 00:15.140
+The lower method returns the string in lowercase.
+
+00:15.140 --> 00:19.550
+The strip method removes any white space from the beginning or the end.
+
+00:19.580 --> 00:26.000
+The weight space is the space at the begin and at the end of any string.
+
+00:26.270 --> 00:31.130
+Here in this example, we have a space before and after the string.
+
+00:31.130 --> 00:31.970
+Hello world!
+
+00:32.000 --> 00:36.320
+After the executing of the method, the result it will be like that.
+
+00:36.350 --> 00:41.570
+The space will be removed from the beginning and the end of the string.
+
+00:42.680 --> 00:46.310
+The replace method replaces a string with another string.
+
+00:46.310 --> 00:51.470
+In this example, we will replace the first letter h by the letter j.
+
+00:53.270 --> 00:55.370
+Also, we have the split method.
+
+00:55.400 --> 00:58.820
+The split method splits the string into substring.
+
+00:58.850 --> 01:04.740
+If it finds an instance of the separator, we split the string by that in the separator?
+
+01:04.740 --> 01:07.380
+In this example the separator is the comma.
+
+01:07.410 --> 01:12.960
+The result here it will be two substrings hello and world.
+
+01:12.990 --> 01:16.590
+Let's go to PyCharm and execute some examples.
+
+01:18.330 --> 01:22.860
+The first method upper return string on uppercase.
+
+01:26.190 --> 01:28.260
+All the string in uppercase.
+
+01:28.680 --> 01:32.580
+The method lower return string on lowercase.
+
+01:34.440 --> 01:41.040
+We have also the method remove the weight space any space at the beginning and at the end of the word.
+
+01:43.920 --> 01:45.600
+At the end of the string.
+
+01:47.040 --> 01:50.610
+Here is a string without a weight space.
+
+01:52.980 --> 01:57.720
+We have the method replace also to replace a string by another string.
+
+01:57.750 --> 02:01.620
+Here we replace the first letter h by the letter j.
+
+02:04.950 --> 02:12.150
+We have the split method Use it to split the string based in a separator.
+
+02:12.780 --> 02:15.510
+In this example, the separator is the comma.
+
+02:15.900 --> 02:18.450
+The result it will be two substrings.
+
+02:18.480 --> 02:21.540
+For example, if we add another separator.
+
+02:23.580 --> 02:25.410
+Let's execute the code again.
+
+02:26.580 --> 02:32.700
+We have a list from four items for substring based in the separator.
+
+02:34.560 --> 02:42.150
+When execute the code in this example without any separator, the result it will be all the string.
+
+02:42.180 --> 02:43.080
+Hello world!
+
+02:46.290 --> 02:52.200
+We can make another separator like that.
+
+02:53.280 --> 02:55.170
+Let's execute the code again.
+
+02:56.430 --> 02:59.250
+The result it will be two substrings.
+
+03:00.150 --> 03:04.260
+The first hello and the second word.
+
+03:09.690 --> 03:11.370
+And that's it for this video.

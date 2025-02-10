@@ -1,0 +1,157 @@
+WEBVTT
+
+00:00.360 --> 00:01.440
+Hi everyone!
+
+00:01.560 --> 00:04.800
+This is a small demo for Python exceptions hierarchy.
+
+00:05.400 --> 00:09.720
+We said that Baz exception is the top level class for all exceptions.
+
+00:09.800 --> 00:17.040
+It has a subclasses generator exit Keyboardinterrupt system exit and exception.
+
+00:17.080 --> 00:25.040
+Exception also has a lot of subclasses like arithmetic error, name error, type error and runtime error
+
+00:25.040 --> 00:27.360
+and other.
+
+00:27.400 --> 00:36.920
+Some of these subclasses are also a base class for other subclasses like arithmetic error has subclasses,
+
+00:36.960 --> 00:41.640
+zero division error, floating point error, and also overflow error.
+
+00:41.680 --> 00:47.440
+If you remember, this is overflow error, a subclass of arithmetic error.
+
+00:47.480 --> 00:56.160
+We see that in the last chapter, and OS error also have subclasses like permission error and file not
+
+00:56.160 --> 00:57.200
+found error.
+
+00:57.240 --> 00:57.680
+Let's go!
+
+00:58.320 --> 01:00.360
+More Python exceptions hierarchy.
+
+01:01.840 --> 01:06.400
+Here we have a try except block for the exception arithmetic error.
+
+01:10.160 --> 01:12.240
+Go to implementation.
+
+01:14.240 --> 01:21.490
+Arithmetic error has a subclasses floating point error, overflow error and zero division error.
+
+01:24.730 --> 01:25.850
+Implementation.
+
+01:26.610 --> 01:28.490
+We have three subclasses.
+
+01:34.530 --> 01:35.730
+Super method.
+
+01:38.610 --> 01:39.690
+Arithmetic error.
+
+01:39.690 --> 01:41.170
+Inherit from exception.
+
+01:41.650 --> 01:42.290
+Exception.
+
+01:42.290 --> 01:45.850
+Inherit from base exception and base exception.
+
+01:45.850 --> 01:48.090
+Inherit from the class object.
+
+01:49.490 --> 01:53.290
+Base exception is the top class level for all exception.
+
+01:53.770 --> 01:55.810
+Let's go to the second example.
+
+01:57.250 --> 02:06.930
+We have a single except statement which contains two exceptions file not found error and permission
+
+02:06.930 --> 02:07.330
+error.
+
+02:07.370 --> 02:09.650
+Let's go to implementation.
+
+02:13.610 --> 02:14.410
+File not found.
+
+02:14.450 --> 02:16.450
+Error doesn't have subclasses.
+
+02:17.970 --> 02:19.810
+Let's go to the base class.
+
+02:24.130 --> 02:27.050
+Super method file not found.
+
+02:27.090 --> 02:27.410
+Error.
+
+02:27.410 --> 02:29.410
+Inherit from OS error.
+
+02:29.450 --> 02:30.210
+OS error.
+
+02:30.210 --> 02:34.510
+Inherit from exception and exception inherit from base exception.
+
+02:34.590 --> 02:37.510
+Let's go to the second exception.
+
+02:37.510 --> 02:38.510
+Permission error.
+
+02:40.150 --> 02:41.590
+Go to implementation.
+
+02:42.470 --> 02:47.470
+Permission error doesn't have subclasses.
+
+02:47.470 --> 02:48.430
+Permission error.
+
+02:48.430 --> 02:50.110
+Inherit from OS error.
+
+02:56.590 --> 02:57.430
+OS error.
+
+02:57.430 --> 02:59.470
+Inherit from exception.
+
+02:59.670 --> 03:00.230
+Exception.
+
+03:00.230 --> 03:02.150
+Inherit from base exception.
+
+03:08.950 --> 03:16.870
+Base exception is the top level class for all exception and exception is the base class for all exception.
+
+03:22.350 --> 03:29.350
+Exception is the base class for all exception, which means that any exception inherit from the class
+
+03:29.350 --> 03:30.150
+exception.
+
+03:30.590 --> 03:39.830
+When we define exception, we set that base class for all exceptions.
+
+03:45.750 --> 03:46.990
+That's it for this video.

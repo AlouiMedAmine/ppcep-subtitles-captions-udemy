@@ -1,0 +1,67 @@
+WEBVTT
+
+00:00.200 --> 00:01.340
+Hi everyone!
+
+00:01.340 --> 00:04.880
+In this video we will learn how to change dictionary items.
+
+00:04.880 --> 00:09.350
+You can change the value of a specific item by referring to its Qname.
+
+00:09.860 --> 00:13.850
+In this example we will change the value of the year to 2018.
+
+00:13.850 --> 00:16.280
+We will refer to the Qname year.
+
+00:19.310 --> 00:26.150
+We can also update a value in the dictionary using the method update.
+
+00:28.640 --> 00:33.140
+This method will update the dictionary with the items from the given argument.
+
+00:33.740 --> 00:38.750
+The argument must be a dictionary or an iterable object with a key value pair.
+
+00:40.610 --> 00:48.800
+Like in this example, we will update the year we give to the method update as argument a dictionary
+
+00:50.210 --> 00:52.850
+or an iterable object with a new value pair.
+
+00:54.440 --> 00:58.580
+Let's go to PyCharm and execute these two examples.
+
+01:01.790 --> 01:07.730
+The first example we will update the dictionary referring to the Qname.
+
+01:10.940 --> 01:12.830
+I execute the code.
+
+01:16.040 --> 01:17.960
+Let's print the result.
+
+01:19.280 --> 01:20.840
+What will be the new value?
+
+01:20.870 --> 01:23.540
+It will be year 2018.
+
+01:25.160 --> 01:28.580
+The second method we will use the method update.
+
+01:30.050 --> 01:35.930
+Just be sure to add as an argument a dictionary or any table with key value pair.
+
+01:36.890 --> 01:38.030
+Let's execute.
+
+01:40.850 --> 01:42.110
+This code.
+
+01:44.780 --> 01:46.160
+What will be the new result?
+
+01:46.160 --> 01:51.320
+It will be year 2020 and that's it for this video.

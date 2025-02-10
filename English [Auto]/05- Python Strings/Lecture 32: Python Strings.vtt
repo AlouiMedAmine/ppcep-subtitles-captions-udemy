@@ -1,0 +1,127 @@
+WEBVTT
+
+00:00.140 --> 00:01.190
+Hi everyone.
+
+00:01.190 --> 00:03.500
+Today we will learn Python strings.
+
+00:03.830 --> 00:08.960
+Strings in Python are surrounded by either single quotation marks or double quotation marks.
+
+00:08.960 --> 00:12.410
+You can display a string literal with the print function.
+
+00:14.210 --> 00:20.000
+You can use quotes inside a string as long as they don't match the quotes surrounding the string.
+
+00:20.000 --> 00:26.960
+Here, for example, this string was surrounded by double quotes, and we can use a single quote inside
+
+00:26.960 --> 00:27.740
+this string.
+
+00:28.190 --> 00:30.350
+We can assign a string to a variable.
+
+00:30.350 --> 00:32.240
+Like other data types.
+
+00:33.770 --> 00:40.580
+You can assign multi-line string to a variable by using three quotes, three double quotes, or three
+
+00:40.610 --> 00:41.540
+single quotes.
+
+00:41.540 --> 00:43.070
+There is no difference.
+
+00:43.850 --> 00:45.500
+Strings are arrays.
+
+00:45.590 --> 00:52.820
+Like many other popular programming languages, strings in Python are arrays of bytes representing Unicode
+
+00:52.820 --> 00:53.750
+characters.
+
+00:55.250 --> 00:58.190
+However, Python does not have a character data type.
+
+00:58.190 --> 01:02.960
+For example Java, we have a character data type.
+
+01:03.440 --> 01:08.420
+A single character in Python is simply a string with length of one.
+
+01:10.250 --> 01:16.600
+Here hello world, for example, when we print a one, the result will be E.
+
+01:16.630 --> 01:17.110
+Why?
+
+01:17.140 --> 01:21.520
+Because the first character has the position zero.
+
+01:22.300 --> 01:25.690
+We can loop through a string via a for loop.
+
+01:27.400 --> 01:36.160
+To know the string length, we use the function length and also we can use the keyword in or not in
+
+01:36.190 --> 01:40.000
+to check the existence of string inside other string.
+
+01:42.160 --> 01:45.700
+Let's try some example to understand more.
+
+01:49.930 --> 01:52.450
+Okay, execute via the debugger mode.
+
+01:53.770 --> 01:54.550
+Here.
+
+01:56.950 --> 02:00.100
+There is no difference between single quote or double quote.
+
+02:01.840 --> 02:06.670
+We can use single quote inside the string that surrounded by double quote.
+
+02:10.390 --> 02:13.690
+We can assign a string to to a variable.
+
+02:16.690 --> 02:22.190
+We can define multi-line string with three double quotes or three single quotes.
+
+02:27.590 --> 02:31.400
+We can loop through the string via for loop.
+
+02:41.750 --> 02:45.860
+The position from the string start from zero.
+
+02:49.550 --> 02:57.530
+This will print the first letter and a one will print the second letter.
+
+03:02.960 --> 03:05.150
+The length we use the function length.
+
+03:08.660 --> 03:14.990
+Also, we use the keyword in or not in to check the existence of a string inside another string.
+
+03:14.990 --> 03:15.230
+Here.
+
+03:15.230 --> 03:16.790
+For example, in this.
+
+03:16.940 --> 03:22.790
+In this string we have the word three and the result here it will be true three.
+
+03:22.820 --> 03:27.320
+In text it will be true three not in it will be false.
+
+03:29.960 --> 03:31.190
+In it will be true.
+
+03:31.220 --> 03:33.350
+Not in it will be false.

@@ -1,0 +1,259 @@
+WEBVTT
+
+00:00.280 --> 00:01.320
+Hi everyone.
+
+00:01.560 --> 00:04.920
+Always in the section 14 Python exceptions.
+
+00:05.320 --> 00:11.600
+First, let's understand together some keyword uses to try, except an exception in Python.
+
+00:12.040 --> 00:16.440
+The first keyword try lets you test the block of code for errors.
+
+00:16.880 --> 00:19.880
+The accept block lets you handle the exception.
+
+00:20.280 --> 00:24.040
+The else block lets you execute code when there is no exception.
+
+00:25.440 --> 00:31.680
+The finally block lets you execute code regardless of the result of the try and accept block.
+
+00:32.400 --> 00:36.600
+Finally, it will be executed if there are an exception or not.
+
+00:37.480 --> 00:39.040
+Second exception handling.
+
+00:39.440 --> 00:45.280
+When an error occurs or exception, as we call it, Python will normally stop and generate an error
+
+00:45.280 --> 00:45.800
+message.
+
+00:46.120 --> 00:49.560
+This exception can be handled using the try statement.
+
+00:49.720 --> 00:59.160
+Here in this example, the try block will generate an exception because x is not defined.
+
+00:59.200 --> 01:06.030
+Since the try block raises an error, the accept block will be executed without the try block, the
+
+01:06.030 --> 01:08.230
+program will crash and raise an error.
+
+01:08.270 --> 01:10.070
+This is the second example.
+
+01:10.150 --> 01:18.190
+This statement will raise an error because X is not defined and we don't have a try except block to
+
+01:18.230 --> 01:19.110
+catch the error.
+
+01:20.790 --> 01:21.150
+Three.
+
+01:21.190 --> 01:22.670
+Many exceptions.
+
+01:22.670 --> 01:26.070
+You can define as many exception blocks as you want.
+
+01:26.350 --> 01:30.870
+If you want to execute a special block of code for a special kind of error.
+
+01:31.390 --> 01:40.150
+Here we define two exceptions first name error and after that general exception for any other type of
+
+01:40.510 --> 01:41.270
+exception.
+
+01:42.110 --> 01:49.830
+The result it will be print one message if the try block raises a name error and another for other errors.
+
+01:50.150 --> 01:58.110
+Let's go to PyCharm and execute some examples.
+
+02:04.430 --> 02:08.910
+Here the try block will generate an exception because x is not defined.
+
+02:09.030 --> 02:11.540
+Let's execute the code and see the result.
+
+02:15.260 --> 02:15.940
+The message.
+
+02:16.300 --> 02:20.820
+An exception occurred because X is not defined.
+
+02:23.940 --> 02:27.180
+The program doesn't crash in the first example.
+
+02:27.700 --> 02:29.580
+Let's go to the second example.
+
+02:30.500 --> 02:33.860
+Always we print x and x is not defined.
+
+02:37.700 --> 02:39.340
+The program crash.
+
+02:41.020 --> 02:43.740
+Nameerror name x is not defined.
+
+02:44.900 --> 02:47.980
+This is the importance of the try except block.
+
+02:49.340 --> 02:58.300
+In the third example we define a specific exception name error and after that a general exception.
+
+02:58.340 --> 03:00.700
+Except the first output.
+
+03:01.100 --> 03:06.980
+If the type of exception is name error, the result it will be variable x is not defined.
+
+03:07.340 --> 03:12.260
+If another exception the output it will be something else went wrong.
+
+03:12.380 --> 03:16.890
+But like we see here the execution of the second example.
+
+03:16.890 --> 03:24.090
+The type of exception is named error, which means when execute this code, the result it will be variable
+
+03:24.090 --> 03:25.370
+x is not defined.
+
+03:25.970 --> 03:28.410
+Let's execute the code and see the result.
+
+03:32.290 --> 03:33.890
+The output is variable.
+
+03:33.890 --> 03:35.130
+X is not defined.
+
+03:35.850 --> 03:39.410
+Let's generate another exception and see the result.
+
+03:40.570 --> 03:50.770
+For example, we make x equal ten and here we will do a division by zero.
+
+03:52.770 --> 04:02.210
+The type of exception is zero division error, which means the block name error will not be executed.
+
+04:02.650 --> 04:06.210
+The output will be something else went wrong.
+
+04:06.210 --> 04:08.650
+Let's execute the code and see the result.
+
+04:11.690 --> 04:13.570
+Something else went wrong.
+
+04:14.130 --> 04:14.530
+Why?
+
+04:15.690 --> 04:26.790
+Because we define her a specific exception name error, but the try block throw the zero division exception.
+
+04:27.310 --> 04:34.870
+Let's continue with the same example and we try to add the exception zero division error and see the
+
+04:34.870 --> 04:35.550
+result.
+
+04:47.550 --> 04:53.470
+If the type of exception is name error the output it will be variable x is not defined.
+
+04:54.190 --> 04:59.030
+If the exception is zero division error the output will be division by zero.
+
+04:59.510 --> 05:01.310
+Else another exception.
+
+05:02.750 --> 05:07.590
+The output will be something else went wrong here.
+
+05:07.590 --> 05:16.430
+In our case the output will be division by zero because the try block throw a zero division error.
+
+05:16.470 --> 05:17.950
+Let's execute the code.
+
+05:20.990 --> 05:22.660
+Division by zero.
+
+05:25.300 --> 05:27.020
+Always with the same example.
+
+05:27.860 --> 05:30.540
+Let's change the order of the exception.
+
+05:32.580 --> 05:35.740
+We make the general exception in the first line.
+
+05:38.420 --> 05:43.780
+This is a syntax error default, except must be last.
+
+05:46.180 --> 05:53.780
+If we don't specify a specific exception, which means except can detect any type of exception should
+
+05:53.780 --> 05:59.220
+always be the last default, except must be last.
+
+05:59.220 --> 06:03.980
+But for example, if we add except exception.
+
+06:07.860 --> 06:14.780
+In this case, Python will accept this code, but this is not recommended.
+
+06:14.780 --> 06:15.540
+Why?
+
+06:15.540 --> 06:24.460
+Because if the try block generate exception, it will be captured in the first block of except which
+
+06:24.460 --> 06:32.930
+will be exception And we don't have a specific detail of the origin of the error here.
+
+06:32.930 --> 06:37.210
+When we execute the code, we don't have division by zero.
+
+06:37.330 --> 06:40.250
+The result it will be something else went wrong.
+
+06:40.290 --> 06:41.690
+Let's execute the code.
+
+06:50.930 --> 06:52.730
+Something else went wrong.
+
+06:55.130 --> 06:57.770
+When we use many exception.
+
+07:01.130 --> 07:04.850
+The recommended is to start by the specific exception.
+
+07:07.370 --> 07:07.930
+Enter.
+
+07:09.450 --> 07:16.610
+We start by the specific exception, and after that we make a general exception to detect any other
+
+07:16.610 --> 07:18.290
+type of error.
+
+07:19.570 --> 07:27.170
+This is not the purpose of our chapter, but we will talk about many exceptions and what is the recommended
+
+07:27.210 --> 07:29.650
+way in the upcoming chapters.
+
+07:29.890 --> 07:31.410
+And that's it for this video.

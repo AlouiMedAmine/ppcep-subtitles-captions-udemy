@@ -1,0 +1,46 @@
+WEBVTT
+
+00:00.170 --> 00:01.100
+Hi everyone!
+
+00:01.100 --> 00:04.430
+In this video we will learn how to loop through a set.
+
+00:04.460 --> 00:09.890
+You can loop through the set item by using a for loop and this is an example.
+
+00:09.890 --> 00:18.350
+We have our set for x in the set for x in each item print x y.
+
+00:18.350 --> 00:21.530
+We have only one method to loop through the set y.
+
+00:21.530 --> 00:23.540
+We don't have the same method.
+
+00:23.720 --> 00:32.960
+For example, like the tuple we see in the tuple, we can use the index number and also we can use the
+
+00:32.960 --> 00:33.890
+while loop.
+
+00:37.940 --> 00:46.280
+The problem here is that when we learn the definition of set, we just learn that set is unordered,
+
+00:46.400 --> 00:53.060
+which means items can appear in a different order every time you can use them, and cannot be referred
+
+00:53.060 --> 01:04.250
+to by index or q, and in this case, the only method to loop through the set is just use the for loop
+
+01:04.250 --> 01:06.500
+without using the index.
+
+01:06.830 --> 01:10.430
+Let's go to PyCharm and execute this example.
+
+01:13.790 --> 01:21.350
+This is our set and we can loop through the set via the for loop.
+
+01:23.150 --> 01:29.930
+And we have this output apple banana and cherry.

@@ -1,0 +1,181 @@
+WEBVTT
+
+00:00.260 --> 00:01.610
+Hi everyone!
+
+00:01.610 --> 00:04.220
+Today we will start a new section.
+
+00:04.220 --> 00:06.200
+Section nine lists.
+
+00:07.130 --> 00:09.890
+Let's learn together more about Python lists.
+
+00:10.070 --> 00:14.240
+Lists are used to store multiple items in a single variable.
+
+00:14.660 --> 00:19.910
+Lists are one of four built in data types in Python used to store collection of data.
+
+00:19.940 --> 00:23.000
+The other three are tuple, set, and dictionary.
+
+00:23.810 --> 00:26.780
+Lists are created using square brackets.
+
+00:30.020 --> 00:31.700
+List items are indexed.
+
+00:31.700 --> 00:41.600
+The first item has index zero, the second has the index one, etc. list items are ordered, changeable
+
+00:41.600 --> 00:43.580
+and a low duplicate value.
+
+00:44.030 --> 00:48.920
+Let's understand more about each word in this sentence.
+
+00:49.670 --> 00:50.960
+What is mean ordered?
+
+00:50.960 --> 00:56.690
+When we say that lists are ordered, it means that the item have a defined order and the order will
+
+00:56.690 --> 00:57.560
+not change.
+
+00:57.560 --> 01:02.720
+If you add new items to a list, the new items will be placed at the end of the list.
+
+01:04.340 --> 01:10.220
+There are some list methods that will change the order, but in general the order of the items will
+
+01:10.220 --> 01:11.270
+not change.
+
+01:11.420 --> 01:12.470
+Changeable.
+
+01:12.470 --> 01:19.250
+The list is tangible, meaning that we can change, add and remove items in a list after it has been
+
+01:19.250 --> 01:20.060
+created.
+
+01:20.750 --> 01:21.980
+Allow duplicates.
+
+01:21.980 --> 01:26.990
+Since lists are indexed, lists can have items with the same value here.
+
+01:26.990 --> 01:28.670
+In this example we have.
+
+01:29.570 --> 01:33.740
+Apple is duplicated and also cherry is duplicated.
+
+01:34.790 --> 01:38.990
+To know how many items a list has, we use the function length.
+
+01:41.660 --> 01:44.090
+List items can be of any data type.
+
+01:44.090 --> 01:45.860
+It can be a list of strings.
+
+01:45.890 --> 01:48.290
+It can be a list of integer.
+
+01:48.320 --> 01:55.730
+It can be a list of Boolean or in the same list we can have string, integer, and boolean.
+
+01:57.110 --> 02:02.300
+From Python perspective, lists are defined as objects with the data type list.
+
+02:02.630 --> 02:09.110
+When executing the function type in any list, we will have the result class list.
+
+02:09.140 --> 02:13.850
+Let's execute some of these examples to learn more about lists.
+
+02:16.610 --> 02:18.140
+Here we have a list.
+
+02:19.250 --> 02:20.030
+The output.
+
+02:20.030 --> 02:21.290
+It will be the same.
+
+02:26.750 --> 02:27.980
+Define it with.
+
+02:30.680 --> 02:33.980
+Contain three element list.
+
+02:34.010 --> 02:38.480
+We said that the list is indexed and start from the index zero.
+
+02:40.820 --> 02:44.870
+Here this list contain duplicate values.
+
+02:50.570 --> 02:51.380
+We have.
+
+02:51.410 --> 02:56.720
+Banana is duplicated, Apple is duplicated, and cherry is duplicated.
+
+02:57.170 --> 03:01.070
+To know how many items in the list, we use the function length.
+
+03:04.460 --> 03:06.200
+Here we have three items.
+
+03:07.280 --> 03:13.640
+The result it is three list items contain different data types.
+
+03:13.640 --> 03:20.450
+It can be a list of string, can be a list of integer, and also it can be a list of boolean.
+
+03:25.600 --> 03:28.570
+We can have different data types in the same list.
+
+03:28.600 --> 03:29.830
+This is list.
+
+03:29.860 --> 03:33.130
+This list contains string, integer and boolean.
+
+03:37.240 --> 03:45.580
+When execute the type function to a list, we will have that the list is of type class list.
+
+03:47.650 --> 03:48.940
+Class list.
+
+03:50.140 --> 03:51.010
+Next.
+
+03:53.470 --> 03:54.700
+The list constructor.
+
+03:54.700 --> 03:58.900
+It is also possible to use the list constructor when creating a new list.
+
+03:59.710 --> 04:01.780
+Here this is an example list.
+
+04:01.780 --> 04:08.290
+This is the constructor and we will add the value inside this constructor.
+
+04:08.680 --> 04:10.660
+Note the double round the brackets.
+
+04:10.660 --> 04:16.750
+The first is for the constructor list and the second is for the values.
+
+04:16.780 --> 04:19.030
+Let's execute this example.
+
+04:28.120 --> 04:32.200
+And we create our list from the constructor list.

@@ -1,0 +1,223 @@
+WEBVTT
+
+00:00.200 --> 00:01.160
+Hi everyone.
+
+00:01.240 --> 00:03.240
+This is Python Exceptions part two.
+
+00:04.000 --> 00:05.760
+Let's start by the else keyword.
+
+00:06.160 --> 00:10.120
+You can use the else keyword to define a block of code to be executed.
+
+00:10.120 --> 00:15.280
+If no errors were raised here in the try block, we just print.
+
+00:15.320 --> 00:17.160
+Hello, there is no exception.
+
+00:17.600 --> 00:22.320
+The block else will be executed and the output will be nothing went wrong.
+
+00:22.960 --> 00:24.200
+Second, the keyword.
+
+00:24.200 --> 00:31.000
+Finally the finally block, if specified, will be executed regardless if the try block raises an error
+
+00:31.000 --> 00:31.640
+or not.
+
+00:32.600 --> 00:37.240
+Finally will be always executed.
+
+00:37.240 --> 00:41.760
+The output here will be the try, except is finished.
+
+00:41.960 --> 00:47.320
+The finally block can be useful to close objects and clean up resources here.
+
+00:47.320 --> 00:54.840
+In the second example, we open our file to start writing inside the file in the block.
+
+00:54.840 --> 00:59.480
+Finally, we close our resources.
+
+00:59.480 --> 01:04.010
+In this case, the program can continue without leaving the file object.
+
+01:04.050 --> 01:04.610
+Open.
+
+01:06.290 --> 01:06.730
+Third.
+
+01:06.930 --> 01:08.130
+Raise an exception.
+
+01:08.890 --> 01:14.970
+As a Python developer, you can choose to throw an exception if a condition occurs to throw or raise
+
+01:14.970 --> 01:15.810
+an exception.
+
+01:15.930 --> 01:19.890
+Use the raise keyword here in this example.
+
+01:20.370 --> 01:24.610
+Raise an error and stop the program if x is lower than zero.
+
+01:26.770 --> 01:28.490
+This is the if statement.
+
+01:28.810 --> 01:32.090
+If x less than zero raise exception.
+
+01:32.450 --> 01:34.930
+Sorry, no numbers below zero.
+
+01:34.970 --> 01:41.730
+The raise keyword is used to raise an exception, and you can define what kind of error to raise and
+
+01:41.730 --> 01:43.570
+the text to print to the user.
+
+01:43.730 --> 01:48.410
+Let's go to PyCharm and execute each of this example.
+
+01:50.690 --> 01:52.570
+Let's start by the first section.
+
+01:52.570 --> 01:57.250
+Else in the try block we just print the string.
+
+01:57.250 --> 01:57.650
+Hello.
+
+01:57.690 --> 01:59.010
+There is no exception.
+
+01:59.650 --> 02:05.730
+And we see that when we don't have any exception the else block will execute.
+
+02:07.990 --> 02:16.870
+The output is the print of the string hello and also the block, else nothing went wrong.
+
+02:18.190 --> 02:20.710
+For the second section keyword.
+
+02:20.710 --> 02:25.990
+Finally, here in this example, x is not defined.
+
+02:26.190 --> 02:28.150
+Python will throw an exception.
+
+02:29.550 --> 02:39.190
+The output will be something went wrong and also the try accept is finished.
+
+02:40.070 --> 02:41.270
+Something went wrong.
+
+02:44.270 --> 02:46.870
+And also the try accept is finished.
+
+02:49.110 --> 02:52.630
+Let's define the variable x.
+
+02:53.310 --> 02:55.750
+X equal ten for example.
+
+02:57.390 --> 02:59.710
+We execute the code again.
+
+03:00.230 --> 03:03.310
+In this case we don't have any exception.
+
+03:04.270 --> 03:07.390
+We will print the variable x.
+
+03:12.040 --> 03:13.680
+The output is ten.
+
+03:15.520 --> 03:21.280
+The execution of the try block and also the finally block executed.
+
+03:21.440 --> 03:23.200
+The try accept is finished.
+
+03:24.240 --> 03:28.160
+We can use the finally block to close our resources.
+
+03:29.520 --> 03:35.840
+When we add the F.close in the final block, we are sure that the file will close it.
+
+03:36.200 --> 03:39.680
+If there are exceptions or not.
+
+03:39.680 --> 03:45.400
+But for example, if we change, we add the F.close in the try block.
+
+03:45.800 --> 03:51.200
+In case of exception, the file remain open.
+
+03:51.240 --> 03:53.440
+Third, raise an exception.
+
+03:53.520 --> 03:56.320
+The raise keyword is used to raise an exception.
+
+03:58.720 --> 04:01.120
+Here we define an exception.
+
+04:01.760 --> 04:05.920
+When x is less than zero, raise exception.
+
+04:05.920 --> 04:07.960
+Sorry, no number is below zero.
+
+04:08.200 --> 04:09.760
+Let's execute the code.
+
+04:13.340 --> 04:14.220
+Exception.
+
+04:14.220 --> 04:16.540
+Sorry, no numbers below zero.
+
+04:17.820 --> 04:26.620
+In the second example, we raise a type of error if x is not an integer x.
+
+04:29.340 --> 04:30.700
+Has the type string.
+
+04:31.900 --> 04:34.620
+Python in this case will throw an error.
+
+04:34.660 --> 04:36.700
+Only integers are allowed.
+
+04:40.620 --> 04:41.460
+Type error.
+
+04:42.300 --> 04:44.340
+Only integers are allowed.
+
+04:45.060 --> 04:48.140
+Let's do a small recap for this chapter.
+
+04:48.860 --> 04:52.180
+Else executed only when there is no exception.
+
+04:55.260 --> 05:02.380
+Second, finally will be executed regardless if the try block raises an error or not.
+
+05:04.060 --> 05:11.820
+Third, raise an exception and we can specify what kind of error to raise and the text to print to the
+
+05:11.820 --> 05:12.260
+user.
+
+05:13.020 --> 05:14.380
+That's it for this video.

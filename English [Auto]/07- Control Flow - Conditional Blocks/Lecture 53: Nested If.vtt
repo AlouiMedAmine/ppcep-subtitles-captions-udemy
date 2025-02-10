@@ -1,0 +1,64 @@
+WEBVTT
+
+00:00.140 --> 00:01.310
+Hi everyone!
+
+00:01.340 --> 00:04.370
+In Python we can have functions inside functions.
+
+00:04.370 --> 00:08.360
+This is called inner functions or also nested functions.
+
+00:08.360 --> 00:15.410
+We can have a for loops inside for loops and this is called nested for loops is the same for the if
+
+00:15.410 --> 00:16.190
+statement.
+
+00:16.220 --> 00:22.190
+We can have if statements inside if statements and this is called nested if statements.
+
+00:22.190 --> 00:27.740
+In this example we have the outer if and the second if is the inner if.
+
+00:27.740 --> 00:30.710
+Let's go to PyCharm and execute this example.
+
+00:38.270 --> 00:42.470
+The result is above ten and also above 20.
+
+00:43.130 --> 00:43.910
+For the outer.
+
+00:43.910 --> 00:49.130
+If x is greater than ten, we will print above ten for the inner.
+
+00:49.160 --> 00:53.630
+If x is greater than 20, we will print and also above 20.
+
+00:56.210 --> 00:59.270
+Just remember in if statement cannot be empty.
+
+00:59.270 --> 01:05.750
+But if you for some reason have an if statement with no content, put in the pass statement to avoid
+
+01:05.750 --> 01:11.510
+getting an error, an empty statement will throw an error.
+
+01:13.220 --> 01:14.840
+Let's execute this code.
+
+01:15.560 --> 01:20.660
+Python will throw indentation error because we have an empty.
+
+01:20.690 --> 01:26.150
+If the solution, it will be the pass statement.
+
+01:26.450 --> 01:31.370
+To avoid getting error, let's execute the code.
+
+01:33.200 --> 01:35.210
+Python will not throw an error.
+
+01:35.960 --> 01:37.340
+That's it for this video.

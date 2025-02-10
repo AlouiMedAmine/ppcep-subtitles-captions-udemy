@@ -1,0 +1,127 @@
+WEBVTT
+
+00:00.560 --> 00:01.600
+Hi everyone!
+
+00:01.600 --> 00:05.600
+In this video we will learn generic exceptions via building exceptions.
+
+00:06.200 --> 00:08.360
+Let's start by generic exceptions.
+
+00:08.360 --> 00:08.880
+Handling.
+
+00:09.520 --> 00:16.400
+In Python we can use the except keyword without specifying the type of exception to catch any type that
+
+00:16.400 --> 00:18.320
+may occur in our code.
+
+00:18.320 --> 00:23.280
+This called generic exception handler or a catch all exception handler.
+
+00:23.280 --> 00:26.720
+We have two blocks, the try block and the accept block.
+
+00:26.880 --> 00:30.800
+In the try block, we define the code that may raise an exception.
+
+00:30.800 --> 00:35.760
+In the accept block, we define the code to handle the exception.
+
+00:35.760 --> 00:42.440
+Using a generic exception handler can be useful when we are not sure about the type of exception that
+
+00:42.440 --> 00:47.040
+may occur, or when we want to catch all exception in one place.
+
+00:47.440 --> 00:54.520
+However, using a catch all exception handler can also make it harder to debug code, as we may not
+
+00:54.520 --> 00:58.120
+know exactly which type of exception occurred and why.
+
+00:58.160 --> 01:05.410
+For this reason, it's generally recommended to catch a specific exceptions whenever possible, as this
+
+01:05.410 --> 01:08.050
+make the code easier to read and maintain.
+
+01:09.370 --> 01:14.890
+Additionally, it's good practice to log exceptions instead of printing error messages.
+
+01:15.770 --> 01:21.210
+So we can get more information about the error and track down issues more easily.
+
+01:22.290 --> 01:26.290
+In the second part, we'll then exceptions in Python.
+
+01:26.330 --> 01:32.810
+In Python, there are many building exceptions that are commonly used to handle errors and exceptions
+
+01:32.810 --> 01:33.490
+in code.
+
+01:34.970 --> 01:38.250
+Here are some of the most popular building exceptions.
+
+01:39.450 --> 01:46.370
+First type error raised when an operation or function is applied to an object of inappropriate type.
+
+01:47.050 --> 01:53.610
+Value error raised when an operation or function is applied to an object with correct type, but with
+
+01:53.650 --> 01:59.330
+inappropriate value and x error raised when n and x is out of range.
+
+01:59.410 --> 02:03.930
+Key error raised when x is not found in a dictionary.
+
+02:04.370 --> 02:08.210
+Name error raised when a variable or name is not defined.
+
+02:08.650 --> 02:12.450
+Zero Division error when division by zero occurs.
+
+02:13.090 --> 02:14.050
+File not found.
+
+02:14.090 --> 02:18.050
+Error raised when a file or directory is not found.
+
+02:18.530 --> 02:21.490
+Assertion error when an assertion fails.
+
+02:22.010 --> 02:26.450
+Overflow error raised when a mathematical operation overflows.
+
+02:27.010 --> 02:30.530
+Syntax error when there is a syntax error in the code.
+
+02:31.090 --> 02:35.610
+Attribute error when an object does not have an expected attribute.
+
+02:35.970 --> 02:40.290
+Input output error when an input output operation fails.
+
+02:41.210 --> 02:45.090
+Import error raised when an import statement fails.
+
+02:45.570 --> 02:52.250
+And finally, runtime error is raised when an error that does not belong to any other category occurs.
+
+02:52.610 --> 02:58.170
+These exceptions can be caught and handled using try except blocks in Python.
+
+02:58.170 --> 03:05.290
+By catching and handling these exceptions, we can make our code more robust and prevent it from crashing
+
+03:05.330 --> 03:06.570
+due to errors.
+
+03:06.570 --> 03:11.890
+In the next chapter we will see together other some wielding exceptions in Python.
+
+03:12.450 --> 03:14.050
+And that's it for this video.

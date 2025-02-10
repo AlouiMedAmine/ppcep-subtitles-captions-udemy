@@ -1,0 +1,88 @@
+WEBVTT
+
+00:00.110 --> 00:01.190
+Hi everyone!
+
+00:01.220 --> 00:02.540
+Let's learn together.
+
+00:02.540 --> 00:07.730
+Python escape characters to insert characters that are illegal in a string.
+
+00:07.730 --> 00:09.440
+Use an escape character.
+
+00:09.440 --> 00:14.360
+An escape character is a backslash followed by the character you want to insert.
+
+00:14.390 --> 00:20.930
+An example of an illegal character is a double quote inside a string that is surrounded by double quotes.
+
+00:20.960 --> 00:25.040
+Here in this example, we have a string surrounded by double quotes.
+
+00:26.120 --> 00:29.270
+When insert inside this string a double quote.
+
+00:29.300 --> 00:31.340
+Python will throw a syntax error.
+
+00:31.340 --> 00:35.780
+To fix this problem, we use the escape character, a backslash.
+
+00:35.780 --> 00:37.670
+Before each double quote.
+
+00:37.670 --> 00:42.530
+It will be like that, and Python in this case will accept the syntax.
+
+00:43.490 --> 00:47.180
+The second example we add a backslash before a single quote.
+
+00:47.180 --> 00:55.730
+When the string is surrounded by single quotes, there are other escape characters, like a backslash,
+
+00:55.730 --> 00:58.940
+like a new line, a tab octal value.
+
+00:59.960 --> 01:02.960
+Let's go to PyCharm and execute some examples.
+
+01:04.070 --> 01:04.370
+here.
+
+01:04.370 --> 01:12.050
+In the first example, we said that Python doesn't accept a double quote inside a string surrounded
+
+01:12.050 --> 01:13.190
+by double quote.
+
+01:13.760 --> 01:14.450
+The solution?
+
+01:14.450 --> 01:18.590
+It will be with an escape character, a backslash.
+
+01:18.590 --> 01:22.400
+Before each double quote, let's execute the code.
+
+01:25.160 --> 01:29.120
+And we have the result a double quote inside the string.
+
+01:29.630 --> 01:36.470
+The second example a backslash before a single quote when the string is surrounded by a single quote.
+
+01:37.370 --> 01:41.990
+And also this is the output without any problem.
+
+01:42.260 --> 01:47.690
+There are other escape characters like her a backslash n for a new line.
+
+01:51.830 --> 01:52.850
+For it.
+
+01:58.130 --> 02:03.920
+And also there are other escape characters used by Python string.
+
+02:04.430 --> 02:05.990
+And that's it for this video.

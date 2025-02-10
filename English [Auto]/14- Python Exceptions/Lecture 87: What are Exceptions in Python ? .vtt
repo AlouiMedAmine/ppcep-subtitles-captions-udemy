@@ -1,0 +1,217 @@
+WEBVTT
+
+00:00.560 --> 00:01.760
+Hi everyone!
+
+00:02.360 --> 00:06.760
+This is a small introduction for the section 14 Python exceptions.
+
+00:07.440 --> 00:14.080
+Python is a high level programming language that allows developers to write code in a clear and concise
+
+00:14.080 --> 00:14.560
+manner.
+
+00:15.200 --> 00:22.520
+However, even the best written code can still result in errors or exceptions that can crash your program.
+
+00:22.920 --> 00:26.400
+This is where Python's exception handling comes in.
+
+00:27.080 --> 00:34.040
+In the section 14, we will cover what exceptions are, how to handle them in Python, and the best
+
+00:34.040 --> 00:35.440
+practices to follow.
+
+00:36.040 --> 00:38.840
+First, what are exceptions in Python?
+
+00:39.200 --> 00:46.000
+In Python, exceptions are events that occur during the execution of a program that disrupt the normal
+
+00:46.000 --> 00:47.400
+flow of instruction.
+
+00:47.920 --> 00:54.600
+When an exception occurs, Python raises an error message that indicates the type of exception and the
+
+00:54.600 --> 00:57.120
+line number where the exceptions occurred.
+
+00:57.640 --> 01:03.350
+The error message allows you to identify the problem and make corrections to your code.
+
+01:03.750 --> 01:13.270
+This is an example of function divide, which takes as argument two variables x and y.
+
+01:15.150 --> 01:19.950
+We will try to do the division between these two numbers and see the result.
+
+01:20.270 --> 01:25.590
+Let's start by the first example x take two and y take zero.
+
+01:27.350 --> 01:34.630
+Here Python will throw an error y because Python does not allow division by zero.
+
+01:35.350 --> 01:39.710
+The first output is division by zero.
+
+01:39.750 --> 01:45.150
+The block finally is always executed, even there are an exception or not.
+
+01:45.190 --> 01:48.030
+The second output will be executing.
+
+01:48.070 --> 01:49.070
+Finally, close.
+
+01:49.910 --> 01:54.590
+In the second example x take two and y take two.
+
+01:54.630 --> 01:56.350
+The result is float.
+
+01:59.230 --> 02:00.670
+1.0.
+
+02:01.990 --> 02:06.190
+The block executed is the block, Else the block.
+
+02:06.230 --> 02:06.630
+Else.
+
+02:06.950 --> 02:09.790
+Execute when there is no exception.
+
+02:10.110 --> 02:12.430
+The block finally executed.
+
+02:12.510 --> 02:16.310
+Also the second output is executing.
+
+02:16.510 --> 02:17.550
+Finally close.
+
+02:19.310 --> 02:22.270
+This is a small recap for the first example.
+
+02:23.110 --> 02:30.790
+In the first example, we define a function divide that takes two arguments x and y and returns the
+
+02:30.790 --> 02:31.390
+question.
+
+02:31.750 --> 02:39.630
+However, when we call the function with x equal to and y equals zero, a zero division occurs and Python
+
+02:39.630 --> 02:44.470
+raise an error message indicating that division by zero is not allowed.
+
+02:46.910 --> 02:49.550
+Let's go to PyCharm and understand more.
+
+02:49.590 --> 02:51.670
+The first and the second example.
+
+02:55.590 --> 02:59.670
+Here this is the function divide which takes two argument x and y.
+
+03:00.510 --> 03:04.790
+In the first example x take two and y take zero.
+
+03:04.830 --> 03:07.620
+Let's execute the code and see the result.
+
+03:11.740 --> 03:18.020
+The first output is division by zero because Python throws this exception.
+
+03:18.180 --> 03:19.500
+Zero Division error.
+
+03:20.300 --> 03:22.420
+Division by zero is not allowed.
+
+03:23.140 --> 03:26.260
+The first output is division by zero.
+
+03:26.300 --> 03:29.420
+The second output is the execution of the block.
+
+03:29.420 --> 03:29.980
+Finally.
+
+03:30.220 --> 03:32.580
+The block finally always executed.
+
+03:32.620 --> 03:34.780
+Even there are an exception or not.
+
+03:35.980 --> 03:37.060
+The second output.
+
+03:37.100 --> 03:37.940
+Executing.
+
+03:37.980 --> 03:38.340
+Finally.
+
+03:38.340 --> 03:38.980
+Close.
+
+03:39.420 --> 03:41.460
+Let's do the second example.
+
+03:47.500 --> 03:49.420
+X take two and y take two.
+
+03:50.020 --> 03:51.700
+What will be the result?
+
+03:52.860 --> 03:55.300
+Result is 1.0.
+
+03:57.420 --> 03:59.940
+Here the first output is from the block.
+
+03:59.940 --> 04:02.980
+Else because there is no exception.
+
+04:02.980 --> 04:08.900
+When we don't have exception, the block else is executed and always the block.
+
+04:08.900 --> 04:11.380
+Finally executing.
+
+04:12.220 --> 04:13.300
+Finally close.
+
+04:20.060 --> 04:23.020
+We will talk about different types of exception.
+
+04:23.500 --> 04:24.700
+What are the else?
+
+04:24.700 --> 04:32.140
+And finally keywords and some specific of exception handling in Python in the upcoming chapters.
+
+04:32.140 --> 04:38.460
+In the second part, also a small introduction how to handle exceptions in Python.
+
+04:39.020 --> 04:45.100
+Python provides a way to handle exceptions through the use of the try and accept statements.
+
+04:45.620 --> 04:51.900
+The try statement includes a block of code that may raise an exception, while the accept statement
+
+04:51.940 --> 04:57.540
+catches the exceptions and allows the program to continue executing the block.
+
+04:57.580 --> 05:06.300
+Try code block that may raise an exception and in the block, accept code block to handle the exception.
+
+05:06.980 --> 05:09.980
+And that's it for this small introduction to Python.
+
+05:09.980 --> 05:10.740
+Exceptions.

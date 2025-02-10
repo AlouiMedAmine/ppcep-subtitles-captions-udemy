@@ -1,0 +1,33 @@
+WEBVTT
+
+1
+00:00.080 --> 00:00.950
+Hi everyone!
+
+2
+00:00.950 --> 00:07.160
+This is a Python course for beginners and for people who like to pass the certified entry level programmer.
+
+3
+00:07.160 --> 00:09.410
+We will start by introductions.
+
+4
+00:09.410 --> 00:17.660
+Python characteristics and use cases local setup install Python and PyCharm IDE learning data types
+
+5
+00:17.660 --> 00:21.680
+and variables, Python strings, logic and bit operations.
+
+6
+00:22.640 --> 00:28.160
+After that we will learn conditional blocks, control flow loops, collection.
+
+7
+00:28.160 --> 00:32.240
+Starting by lists, sets two plus dictionaries.
+
+8
+00:33.080 --> 00:40.190
+We will learn also functions, exceptions, and finally some mock exams to prepare to the certification.

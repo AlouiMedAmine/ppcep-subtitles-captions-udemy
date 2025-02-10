@@ -1,0 +1,265 @@
+WEBVTT
+
+00:00.110 --> 00:01.100
+Hi everyone!
+
+00:01.100 --> 00:04.550
+We will continue with Python for loops part two.
+
+00:04.580 --> 00:05.900
+First section.
+
+00:05.900 --> 00:09.230
+Else block the else keyword in a for loop.
+
+00:09.230 --> 00:13.850
+Specify a block of code to be executed when the loop is finished.
+
+00:14.690 --> 00:17.960
+When the loop is finished, we will execute the else block.
+
+00:17.990 --> 00:21.890
+In this example, we will print all numbers from 0 to 5.
+
+00:21.920 --> 00:24.950
+After that we will print finally finished.
+
+00:25.310 --> 00:32.120
+Just to note, the else block will not be executed if the loop is stopped by a break statement.
+
+00:32.120 --> 00:39.650
+In the second example, when x equal three, we will break from the for loop, and in this case the
+
+00:39.650 --> 00:41.750
+else block will not be executed.
+
+00:41.780 --> 00:45.890
+Let's go to PyCharm and execute the first and the second example.
+
+00:48.620 --> 00:55.400
+In the first example, we said that the else block will be executed when the for loop is finished.
+
+01:00.500 --> 01:08.080
+Here the result it will be an output from 0 to 5.
+
+01:09.130 --> 01:10.960
+After that, we will print.
+
+01:11.140 --> 01:12.490
+Finally finish it.
+
+01:12.520 --> 01:15.130
+This is the execution of the else block.
+
+01:16.390 --> 01:25.330
+In case of a break statement, when x equal to three, we will break from the for loop.
+
+01:25.330 --> 01:28.660
+In this case we will not execute the else block.
+
+01:29.320 --> 01:30.580
+Let's see the result.
+
+01:31.600 --> 01:33.940
+We print the value 012.
+
+01:33.970 --> 01:37.600
+When x equal to three we will break from the for loop.
+
+01:37.600 --> 01:42.250
+We will not print the value three and we will not execute the else block.
+
+01:43.570 --> 01:47.020
+In the second part we will see the nested loops.
+
+01:47.320 --> 01:49.870
+A nested loop is a loop inside a loop.
+
+01:49.870 --> 01:55.390
+In Python we have also nested function function inside function or a nested if statement.
+
+01:55.390 --> 02:02.320
+When we have an if statement inside an if statement, the inner loop will be executed one time for each
+
+02:02.350 --> 02:04.180
+iteration of the outer loop.
+
+02:04.900 --> 02:09.660
+Here we will start the first iteration for the outer loop here.
+
+02:09.660 --> 02:12.210
+In this example, I take the value one.
+
+02:12.240 --> 02:14.370
+We will execute the inner loop.
+
+02:14.400 --> 02:20.370
+After that, we will pass to the second iteration of the outer loop, and we will continue until we
+
+02:20.370 --> 02:22.560
+finish all the outer iterations.
+
+02:25.020 --> 02:28.530
+Let's understand more with this example.
+
+02:29.430 --> 02:31.710
+Here x take the value red.
+
+02:35.160 --> 02:37.230
+We will execute the inner loop.
+
+02:38.160 --> 02:39.840
+Y will take the value apple.
+
+02:39.870 --> 02:44.010
+After that take the value banana and the value cherry.
+
+02:44.550 --> 02:49.020
+The result it will be red apple, red banana and red cherry.
+
+02:49.050 --> 02:50.460
+The second iteration.
+
+02:50.460 --> 02:54.180
+When x take the value big, we will execute the inner loop.
+
+02:54.210 --> 02:59.970
+The result will be Big apple, big banana, big cherry until we finish all the iteration.
+
+03:00.570 --> 03:04.110
+The second example is so easy.
+
+03:04.890 --> 03:07.080
+Here I take the value one.
+
+03:08.370 --> 03:10.260
+We will execute the inner loop.
+
+03:10.260 --> 03:10.930
+The result?
+
+03:10.930 --> 03:15.100
+It will be one for one, five for the second iteration.
+
+03:15.100 --> 03:16.210
+For the outer loop.
+
+03:16.210 --> 03:19.000
+The result it will be 242, five.
+
+03:19.960 --> 03:22.810
+Let's go to PyCharm and execute these two examples.
+
+03:22.840 --> 03:24.670
+X take the value red.
+
+03:28.480 --> 03:30.640
+Y will take the value Apple.
+
+03:33.550 --> 03:35.500
+The result it will be red.
+
+03:35.530 --> 03:36.160
+Apple.
+
+03:37.090 --> 03:38.560
+Select the console.
+
+03:39.640 --> 03:40.630
+Red apple.
+
+03:41.830 --> 03:44.170
+After that it will be red banana.
+
+03:46.240 --> 03:48.070
+And red cherry.
+
+03:50.710 --> 03:53.650
+The second iteration will pass to the outer loop.
+
+03:54.520 --> 03:55.990
+In this case x.
+
+03:55.990 --> 03:57.340
+Take the value big.
+
+04:02.500 --> 04:06.220
+X take the value big and y will take the value Apple.
+
+04:08.410 --> 04:15.780
+In the console the result it will be Big Apple After that big banana.
+
+04:18.780 --> 04:19.560
+Big cherry.
+
+04:20.430 --> 04:25.890
+And we will continue to the third iteration in the outer loop.
+
+04:30.270 --> 04:31.890
+X take the value test.
+
+04:35.910 --> 04:39.060
+And y will take the value apple after that value banana.
+
+04:39.060 --> 04:40.890
+And after that value cherry.
+
+04:41.910 --> 04:47.520
+The result it will be tasty apple, tasty banana and tasty cherry.
+
+04:49.680 --> 04:51.480
+Let's go to the second example.
+
+04:53.130 --> 04:54.900
+I will take the value one.
+
+05:02.070 --> 05:04.110
+G will take the value for.
+
+05:06.510 --> 05:09.240
+The first output it will be one for.
+
+05:12.540 --> 05:15.000
+The second output it will be one five.
+
+05:19.450 --> 05:21.910
+We will pass to the second iteration.
+
+05:21.910 --> 05:30.730
+For the outer loop I take will take the value two, G will take the value for the result.
+
+05:30.730 --> 05:33.460
+It will be two for and after that two, five.
+
+05:35.800 --> 05:36.700
+Two, four.
+
+05:38.680 --> 05:40.510
+And after that two five.
+
+05:48.010 --> 05:49.120
+Third section.
+
+05:49.330 --> 05:52.150
+The pass statement for loops cannot be empty.
+
+05:52.150 --> 05:57.460
+But if you for some reason have a for loop with no content, put in the pass statement.
+
+05:57.460 --> 06:02.740
+To avoid getting an error, go to PyCharm and execute this example.
+
+06:05.380 --> 06:07.060
+A for loop cannot be empty.
+
+06:07.330 --> 06:09.640
+Python will throw a syntax error.
+
+06:09.970 --> 06:12.640
+We have indentation error.
+
+06:13.060 --> 06:18.220
+In this case, we need to add the pass statement to avoid getting an error.
+
+06:19.450 --> 06:21.040
+And that's it for this video.

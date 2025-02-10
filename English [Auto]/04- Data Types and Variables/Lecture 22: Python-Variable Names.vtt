@@ -1,0 +1,145 @@
+WEBVTT
+
+00:00.230 --> 00:02.780
+Python variable names in Python.
+
+00:02.780 --> 00:06.080
+You can name your variables almost anything you like.
+
+00:06.110 --> 00:13.400
+It can have a short name like x and y, or a more descriptive name like age, car name, total volume.
+
+00:13.400 --> 00:15.800
+But there are some rules we need to follow.
+
+00:15.830 --> 00:21.560
+Rule number one A variable name must start with the letter or the underscore character.
+
+00:21.680 --> 00:25.370
+Rule number two A variable name cannot start with a number.
+
+00:25.520 --> 00:31.940
+Rule number three A variable name can only contain alphanumeric characters and underscores.
+
+00:32.120 --> 00:36.620
+A to z 0 to 9 and underscore.
+
+00:37.580 --> 00:38.690
+Rule number four.
+
+00:38.720 --> 00:42.470
+Variable names are case sensitive and her age.
+
+00:42.470 --> 00:45.860
+Lowercase and uppercase are different variables.
+
+00:46.220 --> 00:54.740
+And finally, rule number five a variable name cannot be any of the Python keywords like if else while
+
+00:54.770 --> 00:58.250
+pass continue because there are a Python reserved words.
+
+00:58.430 --> 01:02.960
+Let's see some legal and illegal variable names.
+
+01:05.330 --> 01:05.570
+Here.
+
+01:05.600 --> 01:08.660
+The first variable contains just a letter.
+
+01:08.690 --> 01:11.870
+The second contain an underscore at the middle.
+
+01:11.900 --> 01:12.860
+the third.
+
+01:12.860 --> 01:15.170
+It can start with the underscore.
+
+01:15.950 --> 01:20.660
+The fourth variable contain lowercase and uppercase.
+
+01:21.530 --> 01:24.920
+The five variable just uppercase.
+
+01:25.430 --> 01:30.380
+And here the last variable contain a number at the end and at the middle.
+
+01:32.180 --> 01:39.830
+Let's see some illegal variable names first, because start with the number variable cannot start with
+
+01:39.830 --> 01:43.010
+a number, but it can start with the underscore.
+
+01:44.330 --> 01:53.150
+The second because contain a hyphen and it's considered by Python like an operator, like a multiplication
+
+01:53.150 --> 01:55.820
+or a plus operator.
+
+01:56.900 --> 01:59.450
+And the third because contain space.
+
+02:03.410 --> 02:06.290
+Remember that variable names are case sensitive.
+
+02:06.290 --> 02:13.580
+And here age with lowercase and uppercase are a different variable.
+
+02:13.730 --> 02:19.070
+Let's see that I execute only this part of code via PyCharm.
+
+02:19.490 --> 02:23.410
+I select the part of code which I Executed.
+
+02:24.550 --> 02:27.430
+Execute selection in Python console.
+
+02:28.630 --> 02:33.850
+Here there are three variables and each variable contains a different value.
+
+02:35.980 --> 02:37.750
+Ten, 11 and 12.
+
+02:39.850 --> 02:42.610
+Next multi words.
+
+02:42.760 --> 02:43.870
+Multi words.
+
+02:43.870 --> 02:45.160
+Variable names.
+
+02:45.190 --> 02:49.150
+Variable names with more than one word can be difficult to read.
+
+02:49.180 --> 02:53.260
+There are several techniques you can use to make them more readable.
+
+02:53.290 --> 02:55.270
+First camel case.
+
+02:55.300 --> 03:00.550
+Each word except the first start with a capital letter, except the first.
+
+03:01.060 --> 03:04.210
+Each word starts with a capital letter.
+
+03:04.930 --> 03:08.530
+The second each word starts with a capital letter.
+
+03:08.530 --> 03:14.080
+Even the first and third snake case.
+
+03:14.110 --> 03:17.890
+Each word is separated by an underscore character.
+
+03:18.130 --> 03:26.410
+Here we have three words, and between each word we add an underscore character.
+
+03:27.190 --> 03:30.550
+Now you know how to name your variables in Python.
+
+03:30.550 --> 03:34.900
+And in the next video we will see how assign multiple value.

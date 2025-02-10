@@ -1,0 +1,184 @@
+WEBVTT
+
+00:00.280 --> 00:01.400
+Hi everyone!
+
+00:01.880 --> 00:05.280
+In this video we will learn how to add items in list.
+
+00:06.040 --> 00:09.160
+Let's start by the first section Append Items.
+
+00:09.600 --> 00:13.680
+To add an item to the end of the list, use the append method.
+
+00:14.880 --> 00:20.560
+Here we have a list which contains three items.
+
+00:20.560 --> 00:22.800
+This list append orange.
+
+00:22.840 --> 00:26.120
+Orange will be added at the end of the list.
+
+00:26.720 --> 00:33.840
+Second, insert items to insert a list item at a specific index, use the insert method.
+
+00:34.640 --> 00:37.600
+Here we have our list which contains three items.
+
+00:38.080 --> 00:40.640
+We insert orange at the index one.
+
+00:41.920 --> 00:49.640
+The new list will contain apple orange, which is inserted at the index one banana and cherry.
+
+00:49.680 --> 00:54.920
+The list will now contain four items Apple, orange, banana, and cherry.
+
+00:55.680 --> 01:02.780
+Section three extend list to append elements from another list to the current list, use the extend
+
+01:02.780 --> 01:03.340
+method.
+
+01:03.740 --> 01:13.660
+Here we define two Python lists and we will extend the first list which have the name this list with
+
+01:13.780 --> 01:15.540
+the second list tropical.
+
+01:15.900 --> 01:16.820
+The code is.
+
+01:16.940 --> 01:18.900
+This list extend tropical.
+
+01:19.020 --> 01:25.780
+The result will be apple, banana, cherry and after that the items of the second list.
+
+01:26.100 --> 01:29.260
+The length of the new list will be six.
+
+01:29.420 --> 01:34.140
+Section four add an iterable, always with the method extend.
+
+01:34.940 --> 01:43.540
+Here in the third section, we use extend with two lists, but it can be used also for any iterable
+
+01:43.540 --> 01:47.060
+object like tuples, sets, or dictionaries.
+
+01:47.580 --> 01:51.620
+Here we will add a tuple to our initial list.
+
+01:52.260 --> 01:56.180
+The result will be apple, banana, cherry, kiwi and orange.
+
+01:56.420 --> 01:59.380
+A new list with five items.
+
+02:00.540 --> 02:03.840
+Let's go to PyCharm and do some This is.
+
+02:07.640 --> 02:11.120
+First append items we use the method append.
+
+02:11.360 --> 02:14.000
+Let's execute the code and see the result.
+
+02:17.800 --> 02:25.440
+The new list contain four items and orange is added at the end of the list.
+
+02:29.040 --> 02:30.840
+Second insert items.
+
+02:31.240 --> 02:37.920
+We use the method insert, referring to the index number to add a new item to the list.
+
+02:38.440 --> 02:41.680
+Here we add orange at the index one.
+
+02:42.480 --> 02:47.360
+The new list will contain apple, orange, banana, and cherry.
+
+02:48.200 --> 02:50.560
+The length of the list will be four.
+
+02:51.400 --> 02:52.880
+Let's execute the code.
+
+02:56.280 --> 03:03.680
+The result is Apple orange, which is inserted at the index one after that, banana and
+
+03:06.500 --> 03:08.100
+Third extend list.
+
+03:08.420 --> 03:15.300
+We will extend our initial list by adding items from another list.
+
+03:16.180 --> 03:24.340
+Here the result it will be all items for the initial list and after that the items of the second list.
+
+03:24.820 --> 03:27.420
+Let's execute the code and see the result.
+
+03:31.460 --> 03:41.020
+The list now contain six items, three items for the initial list and after that the items of the second
+
+03:41.060 --> 03:41.620
+list.
+
+03:41.900 --> 03:48.660
+Mango and the other items always with the extend method.
+
+03:49.780 --> 03:58.140
+Here in the third section we use extend with two lists, but extend it can be used for any iterable.
+
+03:58.660 --> 04:00.460
+It can be sets.
+
+04:00.500 --> 04:03.020
+It can be tuple or others.
+
+04:03.780 --> 04:09.040
+Here in this example we will extend our initial list by a tuple.
+
+04:09.640 --> 04:10.280
+The result?
+
+04:10.280 --> 04:16.840
+It will be apple, banana, cherry and at the end the new two items Kiwi and orange.
+
+04:17.280 --> 04:19.920
+Let's execute the code and see the result.
+
+04:26.480 --> 04:36.440
+We have a new list which contain five items, three from the initial list and the last two items from
+
+04:36.440 --> 04:37.160
+the tuple.
+
+04:37.520 --> 04:39.160
+Let's do a small recap.
+
+04:39.640 --> 04:42.520
+We have three methods to add item in list.
+
+04:43.000 --> 04:45.800
+Two of them always.
+
+04:45.920 --> 04:53.760
+We add items at the end of the list via the method append and the method extend.
+
+04:54.400 --> 04:55.000
+Extend.
+
+04:55.000 --> 04:59.680
+It can be used for lists or any iterable like tuples dictionaries.
+
+05:01.120 --> 05:04.120
+The third method insert items.
+
+05:04.680 --> 05:10.000
+We insert item refer to the index number and that's it for this video.

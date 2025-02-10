@@ -1,0 +1,148 @@
+WEBVTT
+
+00:00.170 --> 00:01.280
+Hi everyone.
+
+00:01.280 --> 00:04.640
+In programming, data type is an important concept.
+
+00:04.850 --> 00:10.100
+Variables can store data of different types and different types can do different things.
+
+00:10.790 --> 00:16.160
+Python has the following data type built in by default in this categories.
+
+00:16.640 --> 00:24.260
+Text type is an str numeric types like int float, complex sequence types like list, tuple, range
+
+00:24.290 --> 00:29.270
+mapping type, dictionary set, types set, and frozenset.
+
+00:29.420 --> 00:33.560
+Here what is the difference between set and Frozenset set?
+
+00:34.160 --> 00:38.990
+It can be modified by adding or removing some element.
+
+00:38.990 --> 00:43.310
+Frozenset is immutable and cannot be changed after creation.
+
+00:44.120 --> 00:45.110
+Boolean type.
+
+00:45.140 --> 00:47.630
+Binary type and known type.
+
+00:48.200 --> 00:51.800
+To get the data type, we use the function type.
+
+00:54.680 --> 00:58.880
+In Python, the data type is set when you assign a value to a variable.
+
+00:58.910 --> 01:08.750
+Because like we said, Python is a dynamically programming language x take the value hello world.
+
+01:08.750 --> 01:16.790
+That mean x is the type S tier x, take the value 20 x is an int, and there are a lot of examples.
+
+01:18.200 --> 01:19.970
+X is a dictionary.
+
+01:20.000 --> 01:23.090
+Here X is a set.
+
+01:23.870 --> 01:26.030
+Here x takes the value true.
+
+01:26.060 --> 01:28.280
+That's mean x is a boolean.
+
+01:30.440 --> 01:38.630
+In some of these variables, we need to require to use a constructor to define the variable like byte
+
+01:38.660 --> 01:40.700
+array or memory view.
+
+01:42.560 --> 01:48.200
+But in the other case like str int float complex list, we can assign.
+
+01:48.260 --> 01:51.590
+The data type is set when you assign a value to a variable.
+
+01:51.620 --> 01:57.590
+But also we can use a constructor like in the fourth section.
+
+01:58.610 --> 02:02.870
+If you want to specify the data type, you can use the following constructor function.
+
+02:02.900 --> 02:03.800
+Functions.
+
+02:03.800 --> 02:06.980
+Here, to define an str, we use the constructor.
+
+02:07.010 --> 02:13.790
+STR str hello world constructor int for int float complex list tuple range.
+
+02:15.110 --> 02:17.030
+And there are a lot of examples.
+
+02:17.030 --> 02:20.480
+Let's try some of these examples.
+
+02:22.010 --> 02:23.510
+I go to the PyCharm.
+
+02:28.540 --> 02:31.390
+The section Python Data types.
+
+02:34.060 --> 02:39.100
+We have a lot of examples here x take hello world and we print the type of x.
+
+02:39.100 --> 02:40.660
+It will be s tier x.
+
+02:40.660 --> 02:44.320
+Take the value 20 and the type it will be class int.
+
+02:45.040 --> 02:46.570
+Let's execute the code.
+
+02:49.150 --> 02:53.110
+Here for example x take apple banana cherry and the type.
+
+02:53.110 --> 02:55.120
+It will be a set.
+
+02:59.140 --> 03:00.370
+It will be a tuple.
+
+03:06.460 --> 03:07.930
+This is the dictionary.
+
+03:12.610 --> 03:14.050
+And this is the set.
+
+03:16.450 --> 03:18.340
+Define it with curly bracket.
+
+03:19.750 --> 03:20.080
+Cherry.
+
+03:20.080 --> 03:20.500
+Banana.
+
+03:20.530 --> 03:21.220
+Apple.
+
+03:22.270 --> 03:22.810
+True.
+
+03:22.840 --> 03:23.890
+It's a boolean.
+
+03:25.420 --> 03:33.250
+And also we can use constructor to define our variable like str int float and float.
+
+03:33.280 --> 03:35.320
+We have a lot of examples.

@@ -1,0 +1,112 @@
+WEBVTT
+
+00:00.140 --> 00:02.480
+How to install Python three on ubuntu.
+
+00:02.510 --> 00:03.740
+There are three methods.
+
+00:03.770 --> 00:05.270
+First method via apt.
+
+00:05.570 --> 00:12.140
+The second method via personal package, and the third method via source code will use the first method.
+
+00:12.800 --> 00:15.770
+First step will update the package repository.
+
+00:15.800 --> 00:21.350
+After that we will install Python three and in the third step we will verify the installation.
+
+00:21.500 --> 00:27.380
+For me, I just run the first two command and we will verify together if Python three was successfully
+
+00:27.380 --> 00:28.250
+installed.
+
+00:28.820 --> 00:31.520
+Okay I have the latest version of Python three.
+
+00:31.550 --> 00:33.830
+After that we will install pip.
+
+00:33.860 --> 00:37.340
+Pip is used to manage software package for Python.
+
+00:39.710 --> 00:45.440
+I will execute again this command to install pip three.
+
+00:46.730 --> 00:50.930
+And let's do an example to understand how to work with pip three.
+
+00:52.010 --> 00:55.640
+To install a new package we run pip three install package name.
+
+00:55.670 --> 01:02.720
+To uninstall a package, we run pip three, install package name and to verify if this package was installed
+
+01:02.720 --> 01:03.200
+or not.
+
+01:03.230 --> 01:05.690
+We run pip three show package name.
+
+01:05.720 --> 01:12.820
+Let's do an example with Django before we will verify if Django was installed or no.
+
+01:14.920 --> 01:17.380
+Pip three show Django.
+
+01:22.180 --> 01:24.370
+There is no package with this name.
+
+01:25.750 --> 01:27.190
+We will install Django.
+
+01:27.220 --> 01:28.330
+Pip three.
+
+01:28.450 --> 01:29.530
+Install.
+
+01:32.590 --> 01:33.070
+Django.
+
+01:35.890 --> 01:39.070
+Okay, Django was successfully installed.
+
+01:39.970 --> 01:41.380
+Let's verify again.
+
+01:42.250 --> 01:43.270
+Pip3 show.
+
+01:43.300 --> 01:43.960
+Django.
+
+01:45.700 --> 01:49.930
+And this designation show that Django was installed.
+
+01:49.930 --> 01:51.490
+And the version of Django.
+
+01:51.490 --> 01:55.210
+And if we like to install Django for example.
+
+01:57.490 --> 02:00.910
+We will execute the command.
+
+02:02.980 --> 02:04.000
+And install.
+
+02:06.820 --> 02:07.510
+Yes.
+
+02:09.640 --> 02:12.070
+Django was successfully installed.
+
+02:12.100 --> 02:13.420
+Let's verify again.
+
+02:16.000 --> 02:18.070
+There is no package with the name Django.

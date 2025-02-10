@@ -1,0 +1,124 @@
+WEBVTT
+
+00:00.140 --> 00:01.130
+Hi everyone.
+
+00:01.130 --> 00:03.380
+In this video we will learn the shorthand.
+
+00:03.410 --> 00:03.980
+If.
+
+00:04.550 --> 00:12.110
+If you have only one statement to execute, you can put it on the same line as the if statement like
+
+00:12.110 --> 00:13.130
+in this example.
+
+00:13.160 --> 00:16.580
+Also, we have a shorthand for if else statement.
+
+00:17.000 --> 00:23.180
+If you have only one statement to execute, one for if and one for else, you can put it all on the
+
+00:23.180 --> 00:24.050
+same line.
+
+00:25.280 --> 00:28.520
+Print A if A is greater than b else, print b.
+
+00:29.300 --> 00:34.160
+This technique is known as ternary operators or conditional expression.
+
+00:35.540 --> 00:40.490
+You can also have multiple else statements on the same line, like in this example.
+
+00:41.390 --> 00:43.820
+Let's execute some code.
+
+00:44.150 --> 00:47.150
+The first example is the shorthand of if.
+
+00:54.140 --> 00:59.360
+If A is greater than B, print this line.
+
+01:00.290 --> 01:02.820
+There is no thing in the console.
+
+01:02.820 --> 01:03.060
+Why?
+
+01:03.090 --> 01:06.090
+Because A is not greater than B.
+
+01:08.850 --> 01:13.290
+In the second example, we have a shorthand for the if else statement.
+
+01:15.210 --> 01:16.710
+Let's execute the code.
+
+01:19.200 --> 01:20.280
+The result is.
+
+01:20.310 --> 01:25.740
+B print a if a is greater than b else print b.
+
+01:29.190 --> 01:32.730
+Like we said, this technique is known as ternary operators.
+
+01:33.660 --> 01:36.450
+And let's let's execute the last example.
+
+01:37.080 --> 01:38.760
+We have three conditions.
+
+01:39.120 --> 01:42.690
+The first if A is greater than B will print a.
+
+01:43.260 --> 01:46.590
+Else we will print equal.
+
+01:46.590 --> 01:49.290
+If a equal b, else we will print b.
+
+01:56.370 --> 01:58.230
+Why this is the result.
+
+02:00.060 --> 02:02.890
+Let's understand this expression.
+
+02:02.890 --> 02:10.900
+If A is greater than B, in this case A is not greater than B, we cannot print A, we will pass to
+
+02:12.490 --> 02:13.720
+the second part.
+
+02:15.010 --> 02:20.140
+If A is equal to b, we will print equal and this is not the case.
+
+02:21.190 --> 02:22.360
+What will be the result?
+
+02:22.360 --> 02:27.370
+It will be b and this is the output.
+
+02:28.690 --> 02:31.300
+Let's update the code and execute again.
+
+02:31.450 --> 02:33.850
+We will make a equal b.
+
+02:40.420 --> 02:42.730
+In this case the result it will be equal.
+
+02:44.500 --> 02:46.210
+A is not greater than b.
+
+02:47.230 --> 02:50.050
+We cannot print a else.
+
+02:50.170 --> 02:58.330
+If a equal to b print equal, else we will print b, in this case a equal to b, because a and b have
+
+02:58.330 --> 03:04.450
+the same value, and we will print the equal in this case.

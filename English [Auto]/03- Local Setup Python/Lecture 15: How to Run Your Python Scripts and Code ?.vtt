@@ -1,0 +1,217 @@
+WEBVTT
+
+00:00.200 --> 00:02.810
+How to run your Python scripts and code.
+
+00:02.810 --> 00:05.390
+We will see together some methods to run Python.
+
+00:05.390 --> 00:13.340
+Let's start by the first method a run Python scripts from your operating system, command line or terminal.
+
+00:13.340 --> 00:16.640
+First, using the Python command we will create a file.
+
+00:16.670 --> 00:17.870
+Hello Greg.
+
+00:18.950 --> 00:22.880
+We will write first line print hello world.
+
+00:22.880 --> 00:26.270
+After that we will use Python to execute our file.
+
+00:26.300 --> 00:27.920
+Let's do the first example.
+
+00:28.340 --> 00:30.260
+We will create the file hello world.
+
+00:31.790 --> 00:32.330
+The file.
+
+00:32.360 --> 00:33.410
+Hello Greg.
+
+00:36.950 --> 00:39.410
+We will write print hello world.
+
+00:46.490 --> 00:49.820
+And we will execute that via Python command.
+
+00:51.350 --> 00:55.400
+For me I use Python three okay.
+
+00:55.400 --> 00:58.430
+And this is the execution after that.
+
+00:59.750 --> 01:06.860
+Second using the scripts file name directly on Linux and Mac, you can also run your scripts directly.
+
+01:08.150 --> 01:10.760
+Let's do this test.
+
+01:14.240 --> 01:16.190
+Because I'm working on ubuntu.
+
+01:18.650 --> 01:19.520
+Permission denied.
+
+01:19.550 --> 01:19.850
+Why?
+
+01:20.840 --> 01:23.540
+First of all, this file is not executable.
+
+01:24.140 --> 01:25.520
+Let's verify that.
+
+01:32.270 --> 01:32.810
+Okay.
+
+01:32.840 --> 01:38.000
+There is permission of read write but not executable.
+
+01:38.900 --> 01:40.160
+We will update.
+
+01:46.580 --> 01:49.190
+And adding the execution mode.
+
+01:57.110 --> 01:57.620
+Okay.
+
+01:57.650 --> 01:59.480
+The execution mode is added.
+
+02:01.610 --> 02:03.470
+Let's execute the file again.
+
+02:08.600 --> 02:11.570
+There is another problem.
+
+02:11.570 --> 02:12.470
+Why?
+
+02:15.670 --> 02:19.990
+After running this command cash mode, your help file will be executable.
+
+02:20.020 --> 02:23.020
+However, that's not enough for the script to run properly.
+
+02:23.050 --> 02:23.740
+Why?
+
+02:23.770 --> 02:29.650
+The problem is that your operating system for ubuntu doesn't know which program to use for running your
+
+02:29.650 --> 02:33.280
+script, and it's trying to run it with the shell itself.
+
+02:35.410 --> 02:43.390
+This is a Python program, and we can not run a Python program via shell, but via Python.
+
+02:44.290 --> 02:46.690
+To fix this problem, we will add this line.
+
+02:48.850 --> 02:50.110
+In our script.
+
+03:15.460 --> 03:17.860
+Let's try again.
+
+03:18.970 --> 03:19.360
+Okay.
+
+03:19.360 --> 03:20.230
+It works.
+
+03:28.600 --> 03:29.410
+Third method.
+
+03:29.410 --> 03:32.290
+Running models with the flag M.
+
+03:32.320 --> 03:33.490
+Flag m.
+
+03:33.490 --> 03:34.420
+That's mean.
+
+03:34.450 --> 03:34.930
+Hello.
+
+03:34.960 --> 03:35.320
+It.
+
+03:35.680 --> 03:38.500
+It will be considered as a model.
+
+03:38.650 --> 03:40.150
+Let's do the test.
+
+03:44.410 --> 03:47.590
+Python 3-M.
+
+03:48.400 --> 03:49.000
+Hello.
+
+03:50.770 --> 03:51.400
+Okay.
+
+03:54.370 --> 03:59.710
+After that, we execute Python code and the script is in interactive mode.
+
+04:03.700 --> 04:08.440
+Let's do an example with interactive mode.
+
+04:08.470 --> 04:09.310
+Python three.
+
+04:10.060 --> 04:10.570
+Okay.
+
+04:14.290 --> 04:14.800
+Print.
+
+04:14.800 --> 04:15.490
+Hello, world.
+
+04:22.390 --> 04:23.050
+Okay.
+
+04:27.090 --> 04:29.580
+This is the interactive mode.
+
+04:38.250 --> 04:48.030
+Next, using online editor, you can use online editor to do some test for Python.
+
+04:49.050 --> 04:51.570
+There are a lot of online editor.
+
+04:51.750 --> 04:54.600
+This is one of this editor.
+
+04:54.630 --> 04:55.440
+Print.
+
+05:03.600 --> 05:05.130
+After that we execute.
+
+05:07.050 --> 05:07.380
+Print.
+
+05:07.380 --> 05:08.160
+Hello, world.
+
+05:09.210 --> 05:11.160
+There are a lot a lot of.
+
+05:13.710 --> 05:14.820
+Online editor.
+
+05:15.900 --> 05:20.040
+And you can use it to do some tests with Python.
+
+05:23.910 --> 05:32.820
+D you can use any code editor to run your Python script, and you will see that on the next video.

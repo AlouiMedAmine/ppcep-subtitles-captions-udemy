@@ -1,0 +1,229 @@
+WEBVTT
+
+00:00.400 --> 00:01.520
+Hi everyone!
+
+00:01.680 --> 00:05.800
+In this video we will learn some other building exceptions in Python.
+
+00:06.360 --> 00:13.960
+It's not required to know each of these exceptions, but it's still recommended because exception is
+
+00:13.960 --> 00:23.440
+one of the most important topic to learn Python to pass the certification, and also to be a good developer
+
+00:23.920 --> 00:28.640
+to make our code more robust and prevent it from crashing due to errors.
+
+00:29.120 --> 00:37.080
+Let's start by the first exception arithmetic error raised when an error occurs in numeric calculation.
+
+00:37.080 --> 00:44.040
+If you remember, we just see arithmetic error and we said that this exception has two subclasses.
+
+00:45.760 --> 00:47.280
+Let's remember together.
+
+00:49.440 --> 00:55.560
+Arithmetic error has two subclasses overflow error and zero division error.
+
+00:55.600 --> 00:57.040
+Zero division error.
+
+00:57.040 --> 01:04.400
+When we have a division by zero overflow error when a result of numeric calculation is too large.
+
+01:05.480 --> 01:13.330
+Also, arithmetic error Order is a subclass of exception, and exception is a subclass of base exceptions.
+
+01:16.050 --> 01:19.490
+Let's go back to other exceptions.
+
+01:19.530 --> 01:25.010
+Assertion error raised when an assert statement fails.
+
+01:25.050 --> 01:30.250
+Attribute error raised when attribute reference or assignment fails.
+
+01:30.290 --> 01:39.330
+Exception base class for all exception index error raised when an index of a sequence does not exist.
+
+01:39.690 --> 01:43.610
+Error raised when EQ does not exist in a dictionary.
+
+01:44.130 --> 01:51.850
+We have also value error raised when there is a wrong value in a specified data type.
+
+01:53.210 --> 02:02.490
+Unicode error and Unicode encode error or decode error raised when we have problems with encoding and
+
+02:02.490 --> 02:03.210
+decoding.
+
+02:05.610 --> 02:06.890
+Zero division error.
+
+02:06.890 --> 02:13.810
+We just see that memory error raised when a program runs out of memory.
+
+02:14.340 --> 02:17.940
+Name error raised when a variable does not exist.
+
+02:20.860 --> 02:21.540
+Overflow.
+
+02:21.540 --> 02:21.900
+Error.
+
+02:22.460 --> 02:27.860
+It's one of the subclass of arithmetic error.
+
+02:31.260 --> 02:32.300
+Runtime error.
+
+02:32.340 --> 02:36.940
+Raised when an error occurs that does not belong to any specific exceptions.
+
+02:37.820 --> 02:38.780
+Syntax error.
+
+02:38.820 --> 02:42.060
+Raised when syntax error occurs.
+
+02:42.100 --> 02:42.900
+Type error.
+
+02:42.940 --> 02:45.820
+Raised when two different types are combined.
+
+02:46.860 --> 02:51.100
+For example, we do a concatenation between integer and string.
+
+02:52.140 --> 02:52.700
+Inbound.
+
+02:52.700 --> 02:53.740
+Local error.
+
+02:53.780 --> 02:57.700
+Raised when a local variable is referenced before assignment.
+
+02:58.700 --> 03:03.300
+Let's go to PyCharm and starting by this example inbound local error.
+
+03:06.300 --> 03:11.100
+We have exceptions when a local variable is referenced before assignment.
+
+03:13.780 --> 03:15.540
+This is the example.
+
+03:15.820 --> 03:17.180
+We have a function.
+
+03:17.580 --> 03:22.590
+We try to use the variable x but before assignment.
+
+03:24.310 --> 03:26.790
+In this case, Python will raise the exception.
+
+03:26.790 --> 03:28.110
+Inbound local error.
+
+03:31.750 --> 03:37.830
+Inbound local error cannot access local variable X where it is not associated with a value.
+
+03:38.590 --> 03:46.110
+We need to assign a value to this local variable and after that we can use it.
+
+03:47.990 --> 03:48.350
+Like.
+
+03:48.350 --> 03:58.110
+In this example, we assign the value ten to the local variable x, and after that we can print it.
+
+03:59.310 --> 04:00.750
+Let's execute the code.
+
+04:04.790 --> 04:06.150
+The result is ten.
+
+04:06.190 --> 04:08.950
+Print this variable in the console.
+
+04:10.310 --> 04:12.670
+Second example arithmetic error.
+
+04:12.710 --> 04:19.390
+We just learned about arithmetic error in the example for assertion error.
+
+04:21.190 --> 04:24.150
+Let's go back to the definition of assertion error.
+
+04:28.160 --> 04:31.640
+Assertion error raised when an assert statement fails.
+
+04:34.000 --> 04:38.040
+We define assert statement with the keyword assert.
+
+04:38.720 --> 04:45.600
+If this condition is not true, we will raise an assertion error and print the message.
+
+04:45.600 --> 04:47.720
+Division by zero is not allowed.
+
+04:52.320 --> 04:54.600
+Let's do the first example.
+
+04:56.200 --> 05:01.080
+We call our function divide, which takes two parameters a and b.
+
+05:01.160 --> 05:08.560
+We pass ten to the variable e and two to the variable b.
+
+05:08.600 --> 05:12.240
+Two is not equal to zero.
+
+05:12.240 --> 05:21.280
+In this case the function will be executed without any problem.
+
+05:23.440 --> 05:25.440
+The result is 5.0.
+
+05:28.560 --> 05:30.320
+Because the condition is true.
+
+05:31.240 --> 05:40.570
+We don't have assertion error, but if this condition is not true, Python in this case will raise the
+
+05:40.570 --> 05:42.890
+assertion error and print the message.
+
+05:43.210 --> 05:45.410
+Division by zero is not allowed.
+
+05:46.650 --> 05:48.890
+Let's go back to the second example.
+
+05:57.130 --> 06:00.330
+A take then and B take zero.
+
+06:04.610 --> 06:06.090
+Let's execute the code.
+
+06:09.410 --> 06:11.490
+The result is assertion error.
+
+06:12.170 --> 06:17.850
+Division by zero is not allowed because the condition return false.
+
+06:19.610 --> 06:23.410
+In this example, the assert statement checks that B is not zero.
+
+06:23.770 --> 06:30.650
+If B is zero, the code will raise an assertion error with the message division by zero is not allowed.
+
+06:31.690 --> 06:40.210
+For the other examples, we will see and do other cases in the upcoming chapters.
+
+06:40.810 --> 06:42.290
+That's it for this video.

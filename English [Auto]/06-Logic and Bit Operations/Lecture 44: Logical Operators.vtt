@@ -1,0 +1,76 @@
+WEBVTT
+
+00:00.170 --> 00:01.250
+Hi everyone!
+
+00:01.250 --> 00:04.910
+In this video we will learn logical operators in Python.
+
+00:04.940 --> 00:09.020
+Logical operators are used to combine conditional statements.
+
+00:09.020 --> 00:17.480
+We have three operators and returns true if both statements are true or returns true if one of the statements
+
+00:17.480 --> 00:23.240
+is true and not reverse the result and returns false if the result is true.
+
+00:23.270 --> 00:26.060
+Let's execute some examples in PyCharm.
+
+00:27.380 --> 00:27.980
+Here x.
+
+00:27.980 --> 00:31.220
+Take the value five is greater than three and less than ten.
+
+00:31.250 --> 00:32.330
+True and true.
+
+00:32.360 --> 00:34.010
+The result it will be true.
+
+00:39.440 --> 00:43.490
+X is greater than three but is not less than four.
+
+00:43.700 --> 00:46.370
+We have the first statement return true.
+
+00:46.400 --> 00:48.050
+The result it will be true.
+
+00:51.680 --> 00:58.370
+Just when statement returns true, the final result it will be true and not here in this example it
+
+00:58.370 --> 00:59.330
+will return.
+
+00:59.330 --> 01:01.640
+We will return false.
+
+01:01.640 --> 01:02.240
+Why?
+
+01:02.270 --> 01:11.030
+Because the expression the first expression returns true, and with the not operator it will return
+
+01:11.030 --> 01:11.660
+false.
+
+01:16.400 --> 01:17.720
+Result is false.
+
+01:19.670 --> 01:22.310
+Five is greater than three and less than ten.
+
+01:22.850 --> 01:23.810
+True and true.
+
+01:23.840 --> 01:26.630
+It will be true with the operator.
+
+01:26.660 --> 01:28.370
+Not we will have the result.
+
+01:28.370 --> 01:28.970
+False.

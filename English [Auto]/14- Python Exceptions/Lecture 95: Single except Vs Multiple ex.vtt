@@ -1,0 +1,442 @@
+WEBVTT
+
+00:00.560 --> 00:01.640
+Hi everyone.
+
+00:01.800 --> 00:06.600
+In this video we will learn single accept statement via multiple accept statement.
+
+00:06.800 --> 00:11.600
+Let's start by handling multiple exception with a single accept statement.
+
+00:11.600 --> 00:17.680
+To handle multiple exceptions with a single accept statement, you can specify a tuple of exception
+
+00:17.680 --> 00:20.040
+types to catch like.
+
+00:20.040 --> 00:27.480
+In this example, we have the try block, the code that can raise an exception, and in the accept block
+
+00:28.760 --> 00:31.640
+we specify a tuple of exception.
+
+00:33.400 --> 00:36.440
+In this example, this tuple contains two exception.
+
+00:36.600 --> 00:39.720
+Exception type one and exception type two.
+
+00:39.760 --> 00:47.320
+To handle the exception in this example, both exception type one and exception type two are exceptions
+
+00:47.320 --> 00:48.520
+that you want to catch.
+
+00:49.640 --> 00:55.400
+If the code in the try block raises an instance of either of these exceptions, the code in the accept
+
+00:55.400 --> 01:04.500
+block will execute the try block, and in the accept block we add the tuple of exceptions, type error
+
+01:04.500 --> 01:07.500
+and value error to handle the exception.
+
+01:07.820 --> 01:14.540
+In this example, if the code in the try block raises either a type error or a value error, the code
+
+01:14.540 --> 01:16.740
+in the accept block will execute.
+
+01:17.580 --> 01:24.620
+Second handling multiple exception with multiple except statements.
+
+01:24.660 --> 01:29.460
+Alternatively, you can handle multiple exception with multiple accept statements.
+
+01:29.780 --> 01:34.420
+In this case, each accept statement handles a different exception type.
+
+01:34.780 --> 01:36.020
+We have the try block.
+
+01:36.940 --> 01:42.300
+The code that can raise an exception and we have multiple accept statement.
+
+01:42.340 --> 01:47.060
+The first accept type error to handle the type error.
+
+01:47.100 --> 01:50.700
+Second, accept value error to handle the value error.
+
+01:51.260 --> 02:00.060
+In this example, if the code in the try block raises a type error, the code in the first accept block
+
+02:00.060 --> 02:04.560
+will execute if the code raises a value error.
+
+02:05.960 --> 02:09.040
+The code in the second accept block will execute.
+
+02:10.360 --> 02:17.000
+Just remember and be sure that when using multiple accept statements, it's important to respect the
+
+02:17.000 --> 02:19.080
+exception hierarchy in Python.
+
+02:19.640 --> 02:26.480
+This means that if you catch a base exception class such as exception, you should catch more specific
+
+02:26.480 --> 02:27.920
+exceptions before it.
+
+02:27.960 --> 02:34.400
+If you write an accept statement of a more specific class after the base class, the block won't be
+
+02:34.400 --> 02:35.320
+executed.
+
+02:37.200 --> 02:46.280
+Here, for example, if we start at the first accept except exception or base exception, the second
+
+02:46.280 --> 02:54.000
+and the third block will never, ever executed because any exception will be captured in the first level.
+
+02:54.560 --> 03:01.400
+Let's go to PyCharm and do a lot of examples to understand more the difference between single accept
+
+03:01.400 --> 03:04.520
+statements and multiple accept statements.
+
+03:05.540 --> 03:11.020
+First, let's start by handling multiple exception with a single accept statement.
+
+03:11.380 --> 03:15.460
+Example one handling zero division error and value error.
+
+03:16.500 --> 03:18.780
+In the try block we have two line of code.
+
+03:19.260 --> 03:22.620
+The first line arithmetic operation.
+
+03:22.660 --> 03:24.260
+A division between two number.
+
+03:25.060 --> 03:28.500
+The second line convert a string to integer.
+
+03:30.140 --> 03:33.100
+The first line can raise a zero division error.
+
+03:33.380 --> 03:36.740
+When the second integer is zero.
+
+03:39.180 --> 03:41.580
+The second line can raise a value error.
+
+03:41.900 --> 03:45.740
+If the variable we need to convert is not base of ten.
+
+03:46.820 --> 03:49.660
+Let's start by the first case.
+
+03:50.300 --> 03:52.700
+Let's do a division by zero.
+
+03:54.540 --> 03:56.860
+And we see the result.
+
+03:58.860 --> 03:59.940
+An error occurred.
+
+03:59.980 --> 04:04.900
+Division by zero in the accept block which cuts to exception.
+
+04:05.620 --> 04:07.580
+We cut zero Division error.
+
+04:09.200 --> 04:10.960
+Let's pass to the second case.
+
+04:15.800 --> 04:17.000
+We add a string.
+
+04:19.520 --> 04:21.840
+Value that is not base of ten.
+
+04:25.040 --> 04:26.400
+An error occurred.
+
+04:26.440 --> 04:29.600
+Invalid literal for int with base ten.
+
+04:29.640 --> 04:35.000
+This time we catch a value error in the second example.
+
+04:35.400 --> 04:40.760
+Handling file not found error and permission error in the try block.
+
+04:41.720 --> 04:45.640
+We try to open the file with the mod read.
+
+04:48.520 --> 04:54.080
+After that, we try to print the content of the file in the console.
+
+04:54.960 --> 04:58.680
+In the except block, we have file not found.
+
+04:58.720 --> 05:04.720
+Error and permission error file not found error when we don't have this file.
+
+05:08.160 --> 05:12.140
+Permission An error when we don't have permission to read the file.
+
+05:12.860 --> 05:14.820
+Let's start by the first case.
+
+05:15.020 --> 05:16.340
+File not found error.
+
+05:18.540 --> 05:22.820
+I just create a file in the directory.
+
+05:23.220 --> 05:25.900
+The name of the file is example two.
+
+05:26.340 --> 05:27.100
+TXT.
+
+05:27.700 --> 05:29.820
+This file contains hello world!
+
+05:35.380 --> 05:41.020
+Let's update the path of this file and execute the code.
+
+05:46.740 --> 05:52.060
+File error no such file or directory in this path.
+
+05:52.100 --> 05:54.300
+Error we handle the first exception.
+
+05:54.340 --> 05:55.260
+File not found.
+
+05:55.300 --> 05:55.700
+Error.
+
+05:56.700 --> 05:58.740
+Let's fix the path of the file.
+
+06:04.980 --> 06:06.060
+For the second case.
+
+06:06.060 --> 06:06.740
+Permission.
+
+06:06.740 --> 06:07.380
+Error.
+
+06:07.420 --> 06:10.940
+Let's see together the permission in this file.
+
+06:11.470 --> 06:12.470
+in the terminal.
+
+06:19.790 --> 06:21.710
+We have the permission read.
+
+06:22.070 --> 06:23.790
+Let's update this permission.
+
+06:27.590 --> 06:28.870
+Only to write.
+
+06:42.190 --> 06:46.710
+At this moment we have only the permission write in this file.
+
+06:47.870 --> 06:50.230
+We don't have the permission read.
+
+06:50.950 --> 06:52.470
+Let's execute the code.
+
+06:54.830 --> 06:56.710
+And see what will be the result.
+
+06:59.150 --> 07:00.030
+File error.
+
+07:00.270 --> 07:01.510
+Permission denied.
+
+07:02.550 --> 07:04.390
+This is the second exception.
+
+07:04.390 --> 07:08.990
+Permission error.
+
+07:08.990 --> 07:10.110
+We catch the two.
+
+07:10.150 --> 07:13.090
+Exception file not found error and permission.
+
+07:13.090 --> 07:13.490
+Error.
+
+07:13.690 --> 07:15.330
+In the same accept block.
+
+07:19.210 --> 07:22.210
+Let's update add read mode.
+
+07:34.890 --> 07:39.010
+We have the permission read for the file.
+
+07:39.010 --> 07:41.810
+We have three permission mode.
+
+07:41.810 --> 07:44.370
+Read when we have for.
+
+07:47.050 --> 07:48.810
+Write when we have two.
+
+07:51.810 --> 07:56.890
+And executable mode when we have one.
+
+08:01.090 --> 08:03.090
+Let's execute the code again.
+
+08:09.770 --> 08:18.230
+In this case we don't have any problem and Print the content of the file in the console.
+
+08:21.750 --> 08:25.910
+In the example three handling type error and index error.
+
+08:25.950 --> 08:29.230
+In function calls, we have this function.
+
+08:30.950 --> 08:32.430
+It takes a list.
+
+08:33.350 --> 08:36.310
+We have two lines of code that can raise exception.
+
+08:37.150 --> 08:39.590
+The first can raise index error.
+
+08:40.510 --> 08:44.430
+The second can raise type error if the item is not a string.
+
+08:44.590 --> 08:47.830
+We cannot concatenate integer and string.
+
+08:49.150 --> 08:51.710
+Let's execute the first case.
+
+08:52.630 --> 08:57.670
+In the first case, we pass a list that contain only three items, which means.
+
+08:58.070 --> 09:00.310
+Here we will have index error.
+
+09:00.830 --> 09:02.750
+Let's see the result.
+
+09:05.750 --> 09:06.110
+Error.
+
+09:06.150 --> 09:07.870
+List index out of range.
+
+09:08.670 --> 09:11.990
+We catch the index error in the except block.
+
+09:12.670 --> 09:14.110
+In the second example.
+
+09:19.570 --> 09:23.850
+We will pass a list that contains five items.
+
+09:29.170 --> 09:30.130
+Five items.
+
+09:30.130 --> 09:36.130
+Because the list starts from zero, data for it will be five.
+
+09:37.090 --> 09:39.850
+We try to concatenate five and string.
+
+09:40.530 --> 09:42.530
+Python will throw a type error.
+
+09:45.490 --> 09:50.970
+Unsupported operand type for plus operator int and str.
+
+09:52.410 --> 09:57.170
+In this case we catch the type error like we see here.
+
+09:57.850 --> 10:02.450
+We can catch type error or index error in the same except block.
+
+10:03.090 --> 10:07.730
+Let's execute the third case.
+
+10:07.730 --> 10:09.530
+In this case we pass a string.
+
+10:13.850 --> 10:16.490
+And the result is hello world.
+
+10:16.970 --> 10:18.830
+Let's go to the second part.
+
+10:19.310 --> 10:23.030
+Handling multiple exceptions with multiple except statement.
+
+10:23.830 --> 10:25.790
+Let's start by the first example.
+
+10:26.270 --> 10:29.910
+We have a try block which contains two line of code.
+
+10:30.750 --> 10:33.830
+The first line can raise a value error.
+
+10:34.030 --> 10:37.070
+The second line can raise a zero division error.
+
+10:37.550 --> 10:42.590
+We define multiple accept statement to handle this block of code.
+
+10:43.190 --> 10:45.750
+First accept is value error.
+
+10:45.790 --> 10:50.790
+The second is zero division error and the third exception.
+
+10:52.390 --> 10:56.430
+When we pass zero as input, we handle the exception.
+
+10:56.470 --> 10:57.750
+Zero division error.
+
+10:59.230 --> 11:00.030
+Print error.
+
+11:00.110 --> 11:02.350
+You can divide by zero.
+
+11:03.550 --> 11:09.630
+Like we said, when using multiple accept statements, it's important to respect the exception hierarchy
+
+11:09.630 --> 11:10.430
+in Python.
+
+11:13.150 --> 11:17.190
+This part we will explain with more details in the next chapter.
+
+11:17.590 --> 11:19.310
+And that's it for this video.

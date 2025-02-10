@@ -1,0 +1,235 @@
+WEBVTT
+
+00:00.140 --> 00:03.380
+In this video we were exploring Python variables.
+
+00:03.380 --> 00:08.180
+Think of variables as containers for storing data values in Python.
+
+00:08.180 --> 00:12.170
+Creating a variable is simple as assigning a value to it.
+
+00:12.200 --> 00:13.580
+Here is an example.
+
+00:13.580 --> 00:20.690
+In this code, x is a variable that holds the number five, which is an integer, and y is a variable
+
+00:20.690 --> 00:23.960
+that holds textjoin, which is a string.
+
+00:24.380 --> 00:26.330
+Let's execute the first example.
+
+00:26.360 --> 00:28.310
+I use the debugger mode.
+
+00:28.640 --> 00:30.140
+I add a breakpoint.
+
+00:31.820 --> 00:37.820
+We can see the result in console, and we can see the variable via this window.
+
+00:40.550 --> 00:46.790
+X is a variable that holds the number five, which is an integer.
+
+00:49.400 --> 00:59.510
+Y is a variable that holds Joan, which is an austere I print x.
+
+00:59.510 --> 01:07.030
+Print y in the console x five and y is zone.
+
+01:08.530 --> 01:11.470
+Python doesn't need especially command to declare a.
+
+01:11.470 --> 01:12.400
+Variables.
+
+01:12.430 --> 01:14.890
+Variables in Python are dynamic.
+
+01:14.920 --> 01:20.590
+They don't need to be a specific type and can change type even after being set.
+
+01:21.070 --> 01:25.180
+Here x starts as an integer with value four.
+
+01:25.420 --> 01:28.570
+Then change to a string with the value Charlie.
+
+01:29.620 --> 01:31.960
+Let's try this example x.
+
+01:31.960 --> 01:34.270
+Take the the value for.
+
+01:38.830 --> 01:40.420
+X take the value four.
+
+01:41.350 --> 01:42.940
+I print the result.
+
+01:45.070 --> 01:49.480
+After that x take Sally as an str.
+
+01:51.820 --> 01:54.610
+Let's see the variable x.
+
+01:55.390 --> 02:03.400
+X take the value sally which is an str and we print the result in the console.
+
+02:05.620 --> 02:08.350
+Which is next.
+
+02:08.380 --> 02:14.050
+If you want to specify the data type of a variable, this can be done with with casting.
+
+02:16.030 --> 02:23.110
+Here x is defined as str, y is defined as int and z is defined as float.
+
+02:23.470 --> 02:25.300
+Let's execute this example.
+
+02:26.620 --> 02:30.190
+Here x it will be in str.
+
+02:32.350 --> 02:33.430
+Variables.
+
+02:36.310 --> 02:39.070
+X str three.
+
+02:39.100 --> 02:41.890
+Next y it will be int.
+
+02:45.220 --> 02:46.840
+And z it will be float.
+
+02:49.210 --> 02:50.950
+And you can see the result here.
+
+02:54.580 --> 03:02.470
+X is an estimate y is an int and z is a float.
+
+03:03.010 --> 03:07.420
+If you want to know the type of a variable, use the type function.
+
+03:07.420 --> 03:07.560
+Sanction.
+
+03:09.090 --> 03:11.250
+We will continue with the same example.
+
+03:13.680 --> 03:16.050
+Here x take a next year.
+
+03:16.050 --> 03:20.010
+Y take an int and z take a float.
+
+03:20.490 --> 03:23.490
+Let's verify the type of each variable.
+
+03:27.690 --> 03:30.570
+I select the the window variables.
+
+03:41.520 --> 03:48.060
+X its class str y its class int and z.
+
+03:48.060 --> 03:49.650
+It will be class float.
+
+03:51.570 --> 03:53.370
+There is another example x.
+
+03:53.370 --> 04:00.000
+Take five as an integer and y take a zone as a.
+
+04:00.030 --> 04:06.270
+Next year, let's see together the type of these two variables.
+
+04:09.240 --> 04:14.300
+X it will be class int and y it will be class str.
+
+04:20.630 --> 04:25.730
+String variables can be declared either by using single or double quotes.
+
+04:26.180 --> 04:35.360
+Here x is defined with double quotes, and here x is defined with a single quote and there is no difference
+
+04:35.360 --> 04:37.340
+between these two syntax.
+
+04:37.790 --> 04:39.230
+Let's try that.
+
+04:40.550 --> 04:43.760
+Here we have x defined with double quote.
+
+04:47.600 --> 04:47.930
+Five.
+
+04:47.960 --> 04:50.480
+Single or double quote.
+
+04:51.740 --> 04:55.070
+Section five x defined with double quote.
+
+04:57.380 --> 04:59.990
+The type of x is str.
+
+05:01.100 --> 05:03.740
+Next x is defined with single quote.
+
+05:06.320 --> 05:08.420
+And the same type str.
+
+05:16.100 --> 05:16.730
+Six.
+
+05:16.730 --> 05:20.900
+Remember that variable's name in Python are case sensitive.
+
+05:20.930 --> 05:21.620
+That's mean.
+
+05:21.620 --> 05:25.190
+Lowercase and uppercase are different variables.
+
+05:25.940 --> 05:35.750
+In this example, lowercase a holds the integer four and the uppercase A holds the string sally, and
+
+05:35.780 --> 05:39.050
+the uppercase will not override the lowercase.
+
+05:39.050 --> 05:41.450
+Let's execute this example.
+
+05:43.160 --> 05:53.450
+Six case sensitive A takes lowercase, a takes the number four and the uppercase take the number.
+
+05:54.950 --> 05:56.000
+Take the steer.
+
+05:56.030 --> 05:56.630
+Sally.
+
+05:56.900 --> 05:58.460
+Let's print the two result.
+
+06:02.180 --> 06:03.230
+Lowercase a.
+
+06:03.830 --> 06:06.800
+Take the value four and the uppercase A.
+
+06:06.950 --> 06:08.990
+Take the steer.
+
+06:09.020 --> 06:09.530
+Sally.
+
+06:09.950 --> 06:11.900
+There are two variables.
+
+06:11.960 --> 06:13.820
+Two different variables.

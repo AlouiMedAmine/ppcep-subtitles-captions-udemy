@@ -1,0 +1,442 @@
+WEBVTT
+
+00:00.280 --> 00:01.320
+Hi everyone!
+
+00:01.600 --> 00:06.720
+Always in the section Python lists and how to access to list items.
+
+00:06.960 --> 00:11.800
+List items are indexed and you can access them by referring to the index number.
+
+00:12.080 --> 00:13.840
+You have a list with three items.
+
+00:14.800 --> 00:17.200
+The first item has index zero.
+
+00:17.480 --> 00:23.440
+In this example, we will print the second item which indexed by one second.
+
+00:23.440 --> 00:24.680
+Negative indexing.
+
+00:25.040 --> 00:27.920
+Negative indexing means start from the end.
+
+00:28.320 --> 00:33.400
+Minus one refers to the last item, minus two refer to the second last item.
+
+00:33.800 --> 00:42.960
+In this example, we will print the last item cherry and the last second item indexed by minus two,
+
+00:43.000 --> 00:44.720
+which is banana.
+
+00:44.720 --> 00:51.560
+In the third section range of indexes, you can specify a range of indexes by specifying where to start
+
+00:51.560 --> 00:53.040
+and where to end the range.
+
+00:53.360 --> 01:01.410
+When specifying a range, the return value will be a new list with the specified items In this example,
+
+01:01.490 --> 01:05.850
+the start value is two and the end value is five.
+
+01:07.610 --> 01:08.890
+Just start from zero.
+
+01:08.930 --> 01:10.850
+We have zero, one and two.
+
+01:11.970 --> 01:13.530
+Chitty has the index two.
+
+01:14.890 --> 01:16.490
+After that orange three.
+
+01:16.730 --> 01:19.090
+Kiwi 4 million.
+
+01:19.090 --> 01:23.610
+It will be five but end value not included.
+
+01:25.810 --> 01:26.970
+The final result?
+
+01:26.970 --> 01:29.650
+It will be cherry, orange and kiwi.
+
+01:29.690 --> 01:30.890
+Only three items.
+
+01:31.010 --> 01:32.330
+What will be the result?
+
+01:32.370 --> 01:37.090
+By leaving out the start value here we don't mention a start value.
+
+01:37.850 --> 01:42.210
+In this case, the range will start at the first item.
+
+01:42.210 --> 01:45.050
+We will start by the first item Apple.
+
+01:45.730 --> 01:46.370
+Banana.
+
+01:46.410 --> 01:48.170
+Cherry which have index two.
+
+01:48.210 --> 01:49.890
+Orange index three.
+
+01:49.930 --> 01:54.730
+Kiwi have the index four, but always the end value is not included.
+
+01:54.970 --> 01:59.950
+The final result it will be only apple, banana, cherry and orange.
+
+02:01.670 --> 02:02.750
+What will be the result?
+
+02:02.790 --> 02:06.390
+By leaving out the end, value is the same.
+
+02:06.910 --> 02:10.430
+The range will go on to the end of the list.
+
+02:10.590 --> 02:19.910
+We will start by the index two, which is cherry until the end of the list for range of negative indexes.
+
+02:20.190 --> 02:25.350
+Specify negative indexes if you want to start the search from the end of the list.
+
+02:25.670 --> 02:29.310
+In this example minus one, it will be the last item.
+
+02:29.390 --> 02:36.470
+Minus four it will be in this case orange minus one, minus two, minus three and minus four.
+
+02:36.630 --> 02:46.070
+We will start by orange until the end of the list, but always the end value is not included.
+
+02:46.230 --> 02:50.230
+The result it will be orange, kiwi and melon.
+
+02:50.270 --> 02:52.550
+Three items.
+
+02:52.590 --> 02:59.320
+Five check if item exists to determine if a if specified, item is present in a list.
+
+02:59.360 --> 03:00.880
+We use the in keyword.
+
+03:01.240 --> 03:05.760
+If you remember, we just see the in keyword in the operator.
+
+03:07.120 --> 03:09.240
+Python membership operators.
+
+03:09.240 --> 03:16.640
+Membership operators are used to test if a sequence is presented in an object in return.
+
+03:16.640 --> 03:23.640
+True if a sequence with the specified value is present in the object and return false if not the case.
+
+03:24.040 --> 03:26.640
+Let's go back to the Python list.
+
+03:32.360 --> 03:34.320
+Apple is in the list.
+
+03:34.800 --> 03:36.040
+The result it will be.
+
+03:36.040 --> 03:38.400
+Yes, Apple is in the fruits list.
+
+03:38.720 --> 03:42.400
+Let's go to PyCharm and execute each of this example.
+
+03:42.960 --> 03:48.600
+To understand more about access to list items.
+
+03:48.600 --> 03:53.120
+We just said that lists start from the index zero.
+
+03:53.160 --> 03:57.650
+We'll print the second item banana, which indexed by one.
+
+03:57.810 --> 03:59.290
+Let's execute the code.
+
+04:03.490 --> 04:06.170
+The result is the second item.
+
+04:06.330 --> 04:07.010
+Banana.
+
+04:08.610 --> 04:09.130
+Let's.
+
+04:11.530 --> 04:12.170
+Print.
+
+04:14.490 --> 04:19.370
+The third item, which will be indexed by two.
+
+04:24.610 --> 04:30.850
+The third item cherry indexed by two, and the first item indexed by zero.
+
+04:44.930 --> 04:47.890
+The first item indexed by zero.
+
+04:47.890 --> 04:48.330
+Apple.
+
+04:49.170 --> 04:50.570
+Let's go to the second.
+
+04:51.170 --> 04:53.250
+Negative indexing.
+
+04:53.250 --> 04:57.590
+Negative indexing means start search from the end of the list.
+
+04:57.950 --> 04:58.790
+Minus one.
+
+04:58.790 --> 05:00.230
+Refer to the last item.
+
+05:00.510 --> 05:01.950
+Let's execute the code.
+
+05:03.270 --> 05:05.990
+The result is cherry banana.
+
+05:05.990 --> 05:07.190
+It will be minus two.
+
+05:21.750 --> 05:23.790
+And apple it will be minus three.
+
+05:38.870 --> 05:42.510
+Range of indexes in range of indexes.
+
+05:43.350 --> 05:43.910
+We.
+
+05:43.910 --> 05:48.350
+We need to add a start value and add value.
+
+05:48.390 --> 05:54.720
+Remember that always the end value is excluded is not included to the new list.
+
+05:56.160 --> 05:57.560
+The start value is two.
+
+05:57.600 --> 06:06.480
+The end value is five, which is not included, and x two means the item cherry orange three.
+
+06:06.760 --> 06:10.360
+Kiwi 4 million is five but is not included.
+
+06:10.480 --> 06:14.600
+The result it will be three items cherry, orange and Kiwi.
+
+06:14.640 --> 06:17.200
+Let's execute the code and see the result.
+
+06:18.880 --> 06:22.360
+We have the three item and melon which have the index.
+
+06:22.360 --> 06:23.880
+Five is not included.
+
+06:25.680 --> 06:30.680
+When we delete the start value, we don't mention a start value.
+
+06:30.680 --> 06:34.440
+Python will start from the beginning of the list.
+
+06:34.960 --> 06:36.880
+In this example, the result.
+
+06:36.880 --> 06:44.680
+It will be started from the index 012345 not included.
+
+06:44.680 --> 06:48.880
+It will be only five items from apple to kiwi.
+
+06:48.920 --> 06:50.320
+Let's execute the code.
+
+06:55.690 --> 06:59.130
+Five items apple, banana, cherry, orange and kiwi.
+
+07:00.330 --> 07:09.450
+The same if we don't specify the end value, Python will start from the start value until the end of
+
+07:09.450 --> 07:11.090
+the list.
+
+07:11.130 --> 07:14.970
+Item two, which means cherry until the end of the list.
+
+07:15.090 --> 07:21.090
+Let's execute the code and of the list is mango.
+
+07:24.970 --> 07:31.810
+Here we don't mention the start value and Python will start from the beginning of the list.
+
+07:32.050 --> 07:39.730
+In this example, we don't mention the end value and Python will start from the start value until the
+
+07:39.730 --> 07:40.810
+end of the list.
+
+07:41.010 --> 07:49.450
+What will be the result if we don't mention the start value and the end value, which means like that
+
+07:50.270 --> 07:50.870
+Print.
+
+07:54.310 --> 07:55.150
+My list.
+
+07:56.070 --> 07:56.510
+Three.
+
+07:58.790 --> 08:02.670
+We don't mention the start value and the end value.
+
+08:03.190 --> 08:10.830
+In this case, Python will start from the beginning of the list until the end of the list.
+
+08:10.830 --> 08:17.790
+In this case, it's one of the method which can use it to copy the list.
+
+08:17.790 --> 08:18.350
+The result?
+
+08:18.350 --> 08:24.510
+It will be all the items.
+
+08:24.510 --> 08:25.950
+Let's execute the code.
+
+08:30.630 --> 08:40.550
+Here we have all items of the list starting from the first item Apple until the end item mango.
+
+08:42.630 --> 08:50.320
+This is one of three methods used to copy a list in Python, and we'll see that more in details in the
+
+08:50.320 --> 08:52.680
+chapter copy lists in Python.
+
+08:54.920 --> 08:57.280
+For range of negative indexes.
+
+08:57.840 --> 09:05.240
+We can also create a new list with the range of negative indexes, starting the search by the end of
+
+09:05.240 --> 09:05.880
+the list.
+
+09:06.400 --> 09:13.560
+Here we have the last item minus one, the second last item minus two, minus three and orange.
+
+09:13.560 --> 09:14.800
+It will be minus four.
+
+09:15.280 --> 09:19.200
+We will start from minus four until minus one.
+
+09:19.400 --> 09:23.920
+And always remember that the end value is not included.
+
+09:24.360 --> 09:27.040
+Let's execute the code and see the result.
+
+09:28.520 --> 09:34.320
+We have the three items starting by minus four orange, kiwi and melon.
+
+09:35.760 --> 09:39.040
+For example, we update the start value.
+
+09:39.080 --> 09:41.960
+We will start from the index minus five.
+
+09:42.880 --> 09:47.160
+In this case it will be from cherry, not orange.
+
+09:54.050 --> 10:00.490
+Let's do another example minus seven, which is the length of the list.
+
+10:02.490 --> 10:08.410
+It will be from the first item Apple in negative index.
+
+10:08.410 --> 10:11.610
+The first item it will be minus length.
+
+10:16.850 --> 10:20.850
+Minus length of my list.
+
+10:22.650 --> 10:28.570
+Let's execute the code again.
+
+10:30.690 --> 10:34.210
+And the same result five.
+
+10:34.250 --> 10:37.050
+Check if item exists in the list.
+
+10:38.050 --> 10:41.690
+Here we'll check if the item Apple is in the list.
+
+10:41.970 --> 10:45.690
+We use the membership operator in.
+
+10:45.730 --> 10:46.750
+Use the code?
+
+10:48.670 --> 10:49.150
+Yes.
+
+10:49.190 --> 10:50.670
+Apple is in the fruit slit.
+
+10:50.710 --> 10:53.230
+Let's do a small recap for this video.
+
+10:53.470 --> 10:58.750
+List items are indexed and you can access them by referring to the index number.
+
+10:59.350 --> 11:04.510
+We can use negative indexing to start search from the end of the list.
+
+11:04.550 --> 11:10.910
+We can create a new list with the range of indexes in specifying the start value and the end value.
+
+11:11.350 --> 11:16.390
+If we don't specify the start value, Python will start from the beginning of the list.
+
+11:16.630 --> 11:21.550
+If we not specify the end value, Python, go until the end of the list.
+
+11:22.630 --> 11:28.990
+In case we don't specify the start and the end value, Python will do a copy of the list.
+
+11:30.950 --> 11:40.270
+Also, we can create a range or a new list with a negative indexes, and we can check the existing of
+
+11:40.270 --> 11:43.430
+items via the membership operator in.
+
+11:44.070 --> 11:45.750
+And that's it for this video.

@@ -1,0 +1,169 @@
+WEBVTT
+
+00:00.260 --> 00:01.310
+Hi everyone.
+
+00:01.310 --> 00:05.720
+In this video we will see how to assign multiple values in Python.
+
+00:06.200 --> 00:11.570
+First, we will start by assigning many values to multiple variables in the same line.
+
+00:12.290 --> 00:15.890
+Here we have three variables and three values.
+
+00:15.920 --> 00:20.150
+Each variable take values in the same order.
+
+00:20.180 --> 00:25.100
+X will take the orange, and z will take the last value.
+
+00:25.130 --> 00:27.050
+Let's execute this example.
+
+00:29.720 --> 00:34.790
+I execute this part of code execute selection.
+
+00:37.070 --> 00:43.610
+Here we have three variables x, y, and z, and each variable take a value.
+
+00:48.350 --> 00:54.230
+Here make sure the number of variables match the number of values or Python will throw an error.
+
+00:54.260 --> 00:55.850
+Let's try that.
+
+00:55.880 --> 01:02.450
+If, for example, I have just two variables, Let's execute the code.
+
+01:04.220 --> 01:05.930
+Python will throw an error.
+
+01:05.960 --> 01:07.700
+Too many values to unpack.
+
+01:07.730 --> 01:08.780
+Expected two.
+
+01:09.590 --> 01:14.330
+Because here we have three values, but only for two variables.
+
+01:17.990 --> 01:22.100
+The same when I have more variables.
+
+01:22.490 --> 01:25.160
+For example, I add another variables.
+
+01:28.280 --> 01:29.660
+I execute the code.
+
+01:35.030 --> 01:36.860
+Not enough value to unpack.
+
+01:36.890 --> 01:37.880
+Expected four.
+
+01:37.910 --> 01:38.690
+Got three.
+
+01:40.970 --> 01:41.870
+Expected four.
+
+01:41.900 --> 01:48.740
+That mean I expected four values because I have four variables.
+
+01:52.430 --> 01:58.160
+Remember to be sure that the number of variables match the number of values.
+
+01:58.610 --> 02:04.160
+Next How to assign one value to multiple variables.
+
+02:04.790 --> 02:08.780
+You can assign the same value to multiple variables in one line.
+
+02:09.230 --> 02:11.600
+Here, for example, we have three variables.
+
+02:11.630 --> 02:14.090
+Assign it to only one values.
+
+02:14.120 --> 02:16.040
+Let's execute this example.
+
+02:23.330 --> 02:27.290
+Here x, y, and z are all.
+
+02:27.290 --> 02:30.890
+The variable has the same value orange.
+
+02:34.610 --> 02:36.800
+Third, we will see how to unpack a collection.
+
+02:36.830 --> 02:41.870
+A collection it can be a list a set a tuple a dictionary.
+
+02:41.900 --> 02:46.370
+Python allows you to extract the value into variables.
+
+02:47.540 --> 02:49.790
+Let's try this example.
+
+02:51.890 --> 02:56.120
+Here we have a list with three elements and we have three variables.
+
+03:02.620 --> 03:10.450
+Here each variable take values x, take an apple, Y take banana and Zetec cherry.
+
+03:11.080 --> 03:11.470
+Same.
+
+03:11.470 --> 03:13.150
+If for example, we have.
+
+03:15.220 --> 03:24.940
+Four variables that mean the number of variables it's bigger than the number of list.
+
+03:26.650 --> 03:28.660
+Let's execute this part of code.
+
+03:33.100 --> 03:34.750
+Python will throw an error.
+
+03:34.780 --> 03:36.640
+Not enough value to unpack.
+
+03:36.670 --> 03:37.630
+Expected four.
+
+03:37.660 --> 03:47.650
+Good three because we have four variables and in the list we have just three elements.
+
+03:49.840 --> 03:58.000
+Thus mean the number of variable must be the same the number of the list of or the dictionary.
+
+03:58.840 --> 04:03.760
+In this example we use the list, but it can be a tuple.
+
+04:08.740 --> 04:10.420
+We will have the same result.
+
+04:17.740 --> 04:23.410
+Each variable take a value and also it can be a set or a dictionary.
+
+04:33.460 --> 04:34.810
+The same result.
+
+04:38.770 --> 04:42.550
+We will see more detail about collection in other videos.
+
+04:42.550 --> 04:50.170
+We will see more detail about lists, tuples, sets and dictionaries with a lot of examples.
+
+04:50.440 --> 04:51.970
+Just a short summary.
+
+04:52.000 --> 04:58.420
+In this video we just see how to assign multiple variables, how to assign single value to multiple
+
+04:58.420 --> 05:01.900
+variables, and third, how to unpack a collection.

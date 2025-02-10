@@ -1,0 +1,127 @@
+WEBVTT
+
+00:00.080 --> 00:02.360
+Hi everyone, let's learn together.
+
+00:02.360 --> 00:04.460
+Python identity operators.
+
+00:04.520 --> 00:10.760
+Identity operators are used to compare the objects, not the are equal, but they are actually the same
+
+00:10.790 --> 00:13.040
+object with the same memory location.
+
+00:13.040 --> 00:17.150
+We have two operators is and is not is.
+
+00:17.150 --> 00:20.690
+Returns true if both variables are the same object.
+
+00:20.720 --> 00:21.440
+Is not.
+
+00:21.440 --> 00:25.010
+Returns true if both variables are not the same object.
+
+00:25.010 --> 00:28.310
+Let's go to PyCharm and execute some examples.
+
+00:29.000 --> 00:33.920
+Here we have two lists x and y with the same content.
+
+00:34.850 --> 00:38.330
+A third variable, z is assigned to variable x.
+
+00:38.750 --> 00:41.180
+Let's execute the code via debugger mode.
+
+00:47.840 --> 00:50.450
+The result here it will be true.
+
+00:50.480 --> 00:50.870
+Why?
+
+00:50.900 --> 00:54.590
+Because z and x are the same object.
+
+00:58.790 --> 01:01.370
+X is y.
+
+01:02.330 --> 01:02.990
+The result?
+
+01:02.990 --> 01:07.850
+It will be false because x and y are different objects.
+
+01:11.870 --> 01:13.550
+X equal to y.
+
+01:14.060 --> 01:14.780
+The result.
+
+01:14.780 --> 01:17.090
+It will be true because equal.
+
+01:17.840 --> 01:20.810
+Compare the content of two variables.
+
+01:20.810 --> 01:22.640
+Here we have the same content.
+
+01:22.640 --> 01:24.320
+The result it will be true.
+
+01:26.480 --> 01:37.550
+Like we see here, the difference between equal and is is compare between objects and reference and
+
+01:37.550 --> 01:38.180
+equal.
+
+01:38.180 --> 01:42.380
+Use it to compare between content of two variables.
+
+01:43.430 --> 01:45.830
+Let's continue this example.
+
+01:48.080 --> 01:51.050
+X is not z, it will return false.
+
+01:51.050 --> 01:51.380
+Why?
+
+01:51.410 --> 01:54.620
+Because there are same object.
+
+01:57.770 --> 01:59.120
+X is not y.
+
+01:59.150 --> 02:05.570
+It will return true because x and y are different objects.
+
+02:12.080 --> 02:15.020
+X is not y, it will return true.
+
+02:15.050 --> 02:15.710
+Why?
+
+02:16.160 --> 02:19.850
+Because x is not the same object as y.
+
+02:23.120 --> 02:27.080
+In this code, x is not equal to y.
+
+02:27.080 --> 02:32.120
+It will return false because x and y have the same content.
+
+02:33.950 --> 02:44.210
+Just remember that is is not the same like equal is used to compare between memory location and object
+
+02:44.480 --> 02:45.020
+equal.
+
+02:45.020 --> 02:47.120
+Use it to compare between content.
+
+02:47.450 --> 02:48.860
+And that's it for this video.

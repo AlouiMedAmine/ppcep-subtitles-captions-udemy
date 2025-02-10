@@ -1,0 +1,163 @@
+WEBVTT
+
+00:00.110 --> 00:02.570
+Hi everyone, let's learn together!
+
+00:02.570 --> 00:04.220
+Python format strings.
+
+00:04.220 --> 00:09.530
+As we learned in Python Variables chapter, we cannot combine strings and numbers like this with the
+
+00:09.530 --> 00:12.650
+plus operator because Python will throw an error.
+
+00:12.650 --> 00:18.020
+But we can combine strings and number by using f strings or the format method.
+
+00:18.650 --> 00:25.070
+F string was introduced in Python 3.6, and is now the preferred way of formatting strings.
+
+00:25.190 --> 00:33.770
+To specify a string as an f string, simply put an F in front of the string literal and add a curly
+
+00:33.770 --> 00:39.110
+brackets as a placeholder for variables and other operations.
+
+00:39.770 --> 00:45.650
+A placeholder can contain variables, operations, functions, and modifiers to format the value.
+
+00:46.040 --> 00:50.570
+Let's start by the first example a placeholder which contains a variable.
+
+00:50.570 --> 00:55.970
+We define our variable price and we make the price inside the placeholder.
+
+00:56.600 --> 00:58.790
+We can also add a modifier.
+
+00:59.120 --> 01:07.490
+We add a colon after the variable, followed by illegal formatting type like point to f, which means
+
+01:07.490 --> 01:09.650
+fixed point number with two decimals.
+
+01:09.680 --> 01:13.670
+A placeholder can contain Python code like math operations.
+
+01:14.000 --> 01:19.820
+Here an addition between two integers A placeholder can contain also a function.
+
+01:19.910 --> 01:25.490
+We define our function sum and after that we call the function inside the placeholder.
+
+01:25.520 --> 01:28.400
+Let's go to PyCharm and execute some code.
+
+01:29.420 --> 01:35.480
+Here in the first example, we just said that we cannot concatenate integer and string with the plus
+
+01:35.480 --> 01:38.690
+operator because Python will throw an error.
+
+01:40.040 --> 01:41.600
+Let's see the result.
+
+01:43.850 --> 01:47.660
+Can only concatenate str to s tier, not int.
+
+01:48.230 --> 01:49.070
+The solution.
+
+01:49.070 --> 01:55.250
+It will be f strings to concatenate a string with an integer.
+
+01:56.450 --> 01:58.730
+We define our f string by.
+
+01:58.760 --> 02:01.400
+Put an f in front of the string literal.
+
+02:01.430 --> 02:06.680
+After that, we add the placeholder and the placeholder can contain variables.
+
+02:06.680 --> 02:11.120
+Can contain modifiers, operations, and functions.
+
+02:11.870 --> 02:13.610
+Let's execute this example.
+
+02:18.410 --> 02:19.520
+The result.
+
+02:19.520 --> 02:27.620
+It's like the first example concatenation between integer and string, but with f string, not with
+
+02:27.620 --> 02:28.880
+the plus operator.
+
+02:30.920 --> 02:34.560
+Like we said, the placeholder can contain a variable.
+
+02:35.040 --> 02:36.600
+Can contain a modifier.
+
+02:36.630 --> 02:38.220
+Let's execute the code.
+
+02:40.890 --> 02:43.980
+We add our variable after the variable.
+
+02:45.180 --> 02:46.170
+Illegal formatting.
+
+02:46.200 --> 02:52.200
+Type point to f, which means display only two decimals.
+
+02:53.520 --> 02:58.200
+The result is the price is $59.
+
+02:58.230 --> 02:59.820
+Only two decimals.
+
+03:02.820 --> 03:07.260
+The placeholder can contain a math operation like addition or multiplication.
+
+03:07.590 --> 03:09.090
+Let's execute this code.
+
+03:11.130 --> 03:11.850
+And the result?
+
+03:11.850 --> 03:13.170
+It will be like that.
+
+03:13.650 --> 03:19.140
+Here we have the result of multiplication between two and the final example.
+
+03:19.140 --> 03:21.090
+It will be a function.
+
+03:21.210 --> 03:23.970
+We call the function inside the placeholder.
+
+03:24.480 --> 03:25.980
+Let's execute the code.
+
+03:29.370 --> 03:30.240
+The f string.
+
+03:30.240 --> 03:34.440
+It will be your solution to concatenate string and integer.
+
+03:35.910 --> 03:39.180
+Remember to put an f in front of the string literal.
+
+03:39.210 --> 03:47.040
+After that, inside a placeholder, we can make a variable, a function, a modifiers, and also a mathematical
+
+03:47.040 --> 03:47.970
+operations.
+
+03:48.480 --> 03:50.010
+And that's it for this video.

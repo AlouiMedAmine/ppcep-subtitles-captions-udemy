@@ -1,0 +1,61 @@
+WEBVTT
+
+00:00.260 --> 00:01.280
+Hi everyone!
+
+00:01.280 --> 00:05.060
+In this video we will learn how to join lists in Python.
+
+00:05.060 --> 00:09.770
+There are several ways to join or concatenate two or more lists in Python.
+
+00:09.770 --> 00:15.590
+One of the easiest ways are by using the plus operator like here.
+
+00:15.590 --> 00:20.840
+In this example, with the plus operator, we concatenate list one to list two.
+
+00:21.410 --> 00:28.640
+Another way to join two lists is by appending all the items from list two into list one one by one.
+
+00:29.510 --> 00:38.630
+Here we iterate all elements in the list two, and we append each element to the list one.
+
+00:39.980 --> 00:46.460
+Or you can use the extend method, where the purpose is to add elements from one list to another list,
+
+00:47.480 --> 00:55.010
+like in this example, use the extend method to add list two at the end of list one, let's run some
+
+00:55.010 --> 00:55.670
+code.
+
+00:58.040 --> 01:01.370
+This is the first example using the plus operator.
+
+01:06.020 --> 01:12.320
+And we have the concatenation and the join of the list one and list two.
+
+01:12.350 --> 01:15.770
+The same operator using to concatenate string.
+
+01:20.030 --> 01:25.070
+The second example is to append each element from the list two to the list one.
+
+01:28.760 --> 01:29.870
+One by one.
+
+01:33.290 --> 01:38.570
+We iterate all elements from list two, and we add each element to the list one.
+
+01:38.570 --> 01:39.680
+One by one.
+
+01:40.520 --> 01:46.160
+We have the same result and the last method via the extend method.
+
+01:49.610 --> 01:51.110
+Let's execute that.
+
+01:54.710 --> 01:56.810
+Also, we have the same result.

@@ -1,0 +1,352 @@
+WEBVTT
+
+00:00.320 --> 00:01.360
+Hi everyone.
+
+00:01.600 --> 00:07.200
+In this video we will learn the importance of exceptions hierarchy for multiple accept statements.
+
+00:07.880 --> 00:13.840
+When using multiple accept statements, it's important to respect the exception hierarchy in Python.
+
+00:15.480 --> 00:21.320
+This means that if you catch a base exception class such as exception, you should catch more specific
+
+00:21.320 --> 00:22.880
+exceptions before it.
+
+00:23.000 --> 00:29.000
+If you write an accept statement of a more specific class after the base class, the block won't be
+
+00:29.000 --> 00:29.840
+executed.
+
+00:30.760 --> 00:31.080
+Here.
+
+00:31.080 --> 00:33.960
+In this example, we have the try block.
+
+00:34.120 --> 00:41.920
+After that, in the first level we define value error and in the second level we define exception first
+
+00:41.920 --> 00:45.640
+level value error which is more specific exception.
+
+00:46.880 --> 00:53.640
+And after that exception which is the base of all exceptions.
+
+00:53.640 --> 00:57.320
+In this example, the value error exception is called first.
+
+00:57.640 --> 01:03.940
+If this code raises any other exception that is derived from exception the code in the second accept
+
+01:03.940 --> 01:05.220
+block will execute.
+
+01:07.620 --> 01:09.060
+We have another example.
+
+01:10.100 --> 01:12.940
+We have the try block and three accept block.
+
+01:12.980 --> 01:18.180
+The first we define type error which is a specific class exception.
+
+01:18.740 --> 01:23.060
+Second value error which is also a specific exception.
+
+01:23.060 --> 01:30.580
+And after that a general exception the base of all exception which is more general.
+
+01:31.540 --> 01:37.820
+In this example, if the code in the try block raises a type error, the accept block type error will
+
+01:37.820 --> 01:38.820
+be executed.
+
+01:40.300 --> 01:49.260
+If the code in the try block raise a value error, the second accept block will be executed, and if
+
+01:49.260 --> 01:55.700
+the code raises any other exception that is derived from exception, the code in the third accept block
+
+01:55.700 --> 01:56.740
+will execute.
+
+01:58.540 --> 02:00.220
+Let's go to the example two.
+
+02:00.620 --> 02:07.840
+If we place the base exception as the first accept the block, it will prevent the rest from being ever
+
+02:07.880 --> 02:08.720
+executed.
+
+02:09.440 --> 02:15.520
+In this example, any exception raised in the try block will be catched in the first level.
+
+02:16.040 --> 02:19.840
+The second and the third level will never, ever execute it.
+
+02:21.480 --> 02:25.040
+Always in the output we have the first message.
+
+02:26.080 --> 02:27.240
+An error occurred.
+
+02:28.000 --> 02:30.120
+The message from the first accept.
+
+02:30.640 --> 02:37.280
+Let's go to PyCharm and execute some examples.
+
+02:37.600 --> 02:39.600
+Let's start by the example one.
+
+02:39.760 --> 02:47.440
+We have the try block which can raise two types of exception value error and zero division error.
+
+02:47.480 --> 02:54.680
+When we define our accept block, we start by the most specific exception, which is value error and
+
+02:54.680 --> 03:01.480
+zero division error, and after that the class exception which is more general.
+
+03:01.680 --> 03:03.360
+The base of all exceptions.
+
+03:03.800 --> 03:05.390
+Let's execute the code.
+
+03:07.790 --> 03:09.390
+And raise a value error.
+
+03:17.390 --> 03:26.750
+In the input I will add a literal which cannot be converted to an integer because it's not a base ten
+
+03:26.870 --> 03:29.910
+exception is captured in the first level.
+
+03:30.750 --> 03:35.830
+Oops, that was not a valid number because we raise a value error.
+
+03:38.550 --> 03:40.270
+Let's go to the second case.
+
+03:44.230 --> 03:46.950
+In the input I add zero.
+
+03:52.230 --> 03:54.390
+Zero Division error is raised.
+
+03:56.070 --> 03:57.750
+We catch the exception.
+
+03:57.750 --> 04:03.670
+In the second accept block error you can divide by zero.
+
+04:04.110 --> 04:12.690
+Division by zero In the first case, we catch the exception in the value error when we cannot convert
+
+04:12.730 --> 04:13.890
+a literal to end.
+
+04:14.410 --> 04:22.250
+In the second case, we raise zero division error and we catch this exception in the second except block.
+
+04:23.330 --> 04:26.570
+Let's go and do a third case.
+
+04:26.930 --> 04:31.330
+For example, I try to concatenate the float with a string.
+
+04:33.930 --> 04:41.810
+In this case we will raise a type error, which means it not be captured in the first block and not
+
+04:41.850 --> 04:43.410
+even in the second block.
+
+04:44.410 --> 04:48.610
+It will be captured in the exception block in the third except block.
+
+04:49.250 --> 04:52.730
+Let's execute the code and see the result.
+
+04:58.170 --> 05:00.850
+Let's add as input ten.
+
+05:02.810 --> 05:07.570
+The exception here it captured in the third except block.
+
+05:07.610 --> 05:15.550
+An expected error occurred in supported operand type plus operator float and steer.
+
+05:16.070 --> 05:19.310
+The result here is 1.0.
+
+05:19.350 --> 05:21.390
+We cannot concatenate with a string.
+
+05:21.990 --> 05:23.390
+It throws a type error.
+
+05:24.670 --> 05:33.230
+To get more information about the origin of error in case of value error, the message it will be that
+
+05:33.230 --> 05:34.670
+was not a valid number.
+
+05:35.270 --> 05:37.830
+In case of zero division error, it will be.
+
+05:37.830 --> 05:45.670
+You can divide by zero, but if the try block raise any other exception, it will be captured in the
+
+05:45.670 --> 05:46.590
+last level.
+
+05:49.270 --> 05:53.590
+The general exception which is the base of all exception.
+
+05:53.590 --> 06:01.070
+But for example, let's update the code and start by the class exception.
+
+06:02.870 --> 06:08.710
+Let's execute the three cases from the begin.
+
+06:08.710 --> 06:11.370
+Again.
+
+06:11.370 --> 06:17.130
+In the first case I add literal, which cannot be converted to end.
+
+06:23.330 --> 06:29.610
+The first case raise a value error, but it is captured in the first level.
+
+06:29.850 --> 06:32.130
+In an expected error occurred.
+
+06:34.570 --> 06:36.330
+An invalid literal for int.
+
+06:37.570 --> 06:42.210
+We don't have more specific details for this exception.
+
+06:42.410 --> 06:45.530
+Only the first accept block was executed.
+
+06:46.290 --> 06:49.810
+In the second case, we try to raise zero division error.
+
+06:51.970 --> 06:53.970
+In the input I add zero.
+
+06:56.650 --> 06:59.130
+Always it's captured in the first level.
+
+06:59.410 --> 07:03.090
+In expected error occurred division by zero.
+
+07:04.490 --> 07:13.430
+The third accept zero division error will never ever executed Because this exception is captured in
+
+07:13.430 --> 07:14.270
+the first level.
+
+07:17.030 --> 07:19.110
+Let's do the third case.
+
+07:21.790 --> 07:23.990
+I add as input.
+
+07:24.030 --> 07:34.470
+Then the result it will be 1.0 plus the string, which raise a type error, unsupported operand type,
+
+07:34.710 --> 07:36.150
+float and str.
+
+07:36.750 --> 07:41.950
+Any exception will be raised in the try block will be captured in the first level.
+
+07:43.790 --> 07:45.670
+Let's go to the second example.
+
+07:48.590 --> 07:55.190
+In the second example, we have a default exception except which is at the last level.
+
+07:55.830 --> 08:00.230
+Let's try to change as the first level.
+
+08:04.950 --> 08:05.430
+Python.
+
+08:05.430 --> 08:08.350
+In this case throw a syntax error.
+
+08:08.390 --> 08:08.830
+Why?
+
+08:09.950 --> 08:19.340
+Because default accept It must be last default, except will be always in the last level.
+
+08:21.300 --> 08:27.460
+We start by specific exception and after that we add the default except.
+
+08:30.980 --> 08:39.260
+You need to remember that because it will have some question in the certification like that they will
+
+08:39.260 --> 08:44.580
+add except at the first level.
+
+08:46.860 --> 08:49.180
+What will be the result in this example.
+
+08:50.100 --> 08:51.740
+It will be a syntax error.
+
+08:53.020 --> 08:57.780
+But when we have for example except exception.
+
+09:00.260 --> 09:04.500
+This is not recommended but it's not through a syntax error.
+
+09:05.660 --> 09:11.980
+Be sure and remember the difference between general exception and default exception.
+
+09:12.620 --> 09:18.640
+When we start By a general exception, it's not recommended because any exception will be captured in
+
+09:18.640 --> 09:19.440
+the first level.
+
+09:19.960 --> 09:28.840
+But when we start by the default except block, this will throw a syntax error, except should be always
+
+09:29.920 --> 09:30.720
+at the end.
+
+09:33.720 --> 09:38.080
+And in the last of all other except block.
+
+09:38.120 --> 09:45.120
+Let's go to the example three to remember the else and the finally block else will be executed when
+
+09:45.120 --> 09:52.320
+we don't have any exception, and the finally block will be executed regardless if there is an exception
+
+09:52.320 --> 09:53.040
+or not.
+
+09:54.200 --> 09:56.840
+You can try that alone with different cases.
+
+09:56.840 --> 10:04.080
+For example, in the first case try to raise exception and in the second case try to execute the code
+
+10:04.080 --> 10:11.840
+without any exception to see the else and the finally block how will be executed.
+
+10:13.320 --> 10:15.040
+And that's it for this video.

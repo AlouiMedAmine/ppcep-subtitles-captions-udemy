@@ -1,0 +1,205 @@
+WEBVTT
+
+00:00.110 --> 00:01.370
+Hi everyone!
+
+00:01.400 --> 00:03.830
+Today we will learn Python booleans.
+
+00:03.920 --> 00:07.310
+Booleans represent one of two values true or false.
+
+00:07.790 --> 00:12.140
+You can evaluate any expression in Python and get one of two answers.
+
+00:13.820 --> 00:19.700
+When you compare two values, the expression is evaluated and Python returns the boolean answer here.
+
+00:19.700 --> 00:27.380
+For example, print ten is greater than nine will return true, then equal to nine return false and
+
+00:27.380 --> 00:29.750
+ten less than nine return false.
+
+00:29.780 --> 00:31.700
+This is another example.
+
+00:32.540 --> 00:35.930
+The result it will be B is not greater than A.
+
+00:37.400 --> 00:41.210
+We can evaluate values and variables via the function bool.
+
+00:42.440 --> 00:51.770
+For example, here we evaluate the string hello with the function bool and the result will be true also
+
+00:51.770 --> 00:53.990
+for the second, it will be true.
+
+00:56.570 --> 00:58.070
+Most values are true.
+
+00:58.100 --> 01:03.860
+Almost any value is evaluated to true if it has some sort of content.
+
+01:03.860 --> 01:06.380
+Any string is true except empty strings.
+
+01:06.380 --> 01:08.510
+Any number is true except zero.
+
+01:08.540 --> 01:13.070
+Any list, tuple, set, and dictionaries are true except empty one.
+
+01:14.240 --> 01:16.280
+Here the following will return true.
+
+01:16.910 --> 01:18.710
+Some values are false.
+
+01:18.770 --> 01:25.310
+In fact, there are not many values that evaluate to false except empty values such as empty list,
+
+01:25.340 --> 01:27.260
+empty dictionary, and empty set.
+
+01:27.290 --> 01:30.890
+The number zero also and the value are known.
+
+01:33.020 --> 01:39.200
+Here we will execute all this example and all will return false.
+
+01:40.670 --> 01:43.250
+We can also evaluate an object.
+
+01:43.250 --> 01:47.870
+When evaluate an object, we will see the result of the magic function length.
+
+01:47.900 --> 01:55.730
+If it return zero or false, the result of bool Myobject it will return false.
+
+01:57.440 --> 02:05.850
+In Python, we can create a function that return a boolean and also we can use this function in an if
+
+02:05.850 --> 02:06.660
+statement here.
+
+02:06.660 --> 02:13.110
+For example, if my function returns true, I print yes or else I print no.
+
+02:13.530 --> 02:23.130
+There are a lot of other functions that return boolean like is instance, which can be used to determine
+
+02:23.130 --> 02:25.980
+if an object is of a certain data type.
+
+02:26.010 --> 02:33.330
+Here, for example, is instance x is and x is 200 and the result will be true.
+
+02:33.900 --> 02:36.780
+Let's execute some of this example in PyCharm.
+
+02:37.380 --> 02:44.730
+I use the debugger mode and let's do line by line.
+
+02:44.730 --> 02:46.830
+Here the result will be true.
+
+02:50.640 --> 02:55.710
+The second it will be false and then less than nine it will be false.
+
+02:57.240 --> 03:00.990
+Here the result will be B is not greater than A.
+
+03:03.870 --> 03:06.330
+The result of print bool.
+
+03:06.360 --> 03:06.690
+Hello.
+
+03:06.690 --> 03:07.140
+Return.
+
+03:07.170 --> 03:07.530
+True.
+
+03:07.560 --> 03:13.170
+Because this string is not empty and also this line will return true.
+
+03:17.730 --> 03:19.590
+The result of three line of code.
+
+03:19.590 --> 03:25.590
+It will be return true, not empty string and not empty list.
+
+03:27.900 --> 03:31.380
+Some values are false like the boolean.
+
+03:31.410 --> 03:33.270
+The the value false.
+
+03:33.270 --> 03:34.320
+No zero.
+
+03:34.350 --> 03:35.190
+Empty string.
+
+03:35.220 --> 03:36.120
+Empty list.
+
+03:36.450 --> 03:37.980
+All value are false.
+
+03:39.960 --> 03:51.030
+Like we said, when try to evaluate an object, we will see the result of the magic magic function length.
+
+03:51.480 --> 03:55.560
+If it returns zero or false, the result will be false.
+
+03:55.800 --> 04:01.770
+Here in this case the return zero, and here the result will be false.
+
+04:08.620 --> 04:12.670
+Like we said in Python, we can create a function that returns a boolean.
+
+04:13.480 --> 04:15.460
+Here this function returns true.
+
+04:17.710 --> 04:18.190
+Result.
+
+04:18.190 --> 04:19.090
+It will be true.
+
+04:19.120 --> 04:20.170
+We can.
+
+04:22.600 --> 04:26.620
+Test this function in an if statement like in this example.
+
+04:26.650 --> 04:30.670
+Here my function returns true and the result will be yes.
+
+04:32.260 --> 04:32.590
+Print.
+
+04:32.590 --> 04:33.190
+Yes.
+
+04:35.500 --> 04:37.840
+There are a lot of functions that return boolean.
+
+04:37.840 --> 04:39.370
+When of this function.
+
+04:39.370 --> 04:41.260
+The function is instance.
+
+04:41.380 --> 04:46.480
+To verify if x have the type int or no.
+
+04:47.020 --> 04:52.660
+In this case x, take the value 200 and the result will be true.
+
+04:56.170 --> 05:02.890
+Congratulations, you just learn Python booleans and just judge it for this video.

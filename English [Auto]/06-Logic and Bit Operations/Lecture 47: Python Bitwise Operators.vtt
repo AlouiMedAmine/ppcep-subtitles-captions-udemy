@@ -1,0 +1,397 @@
+WEBVTT
+
+00:00.140 --> 00:02.600
+Hi everyone, let's learn together.
+
+00:02.600 --> 00:03.020
+Python.
+
+00:03.020 --> 00:04.490
+Bitwise operators.
+
+00:04.490 --> 00:08.600
+Bitwise operators are used to compare binary number.
+
+00:08.600 --> 00:12.380
+We have the bitwise and bitwise or xor.
+
+00:12.410 --> 00:15.200
+The bitwise not inverts all the bits.
+
+00:15.650 --> 00:19.700
+We have also the bitwise left shift and the bitwise right shift.
+
+00:19.730 --> 00:23.420
+Let's go to PyCharm and understand each operator.
+
+00:27.110 --> 00:31.340
+In the first example we have the bitwise and operator.
+
+00:31.670 --> 00:39.170
+The bitwise and operator compares each bit and set it to one if both are one, otherwise it's set to
+
+00:39.200 --> 00:39.710
+zero.
+
+00:39.740 --> 00:44.780
+If both are one, it returns one, otherwise it returns zero.
+
+00:44.810 --> 00:48.260
+The result in this example it will be two.
+
+00:49.310 --> 00:52.040
+Let's see the result.
+
+00:53.510 --> 00:54.710
+The result is two.
+
+00:54.740 --> 00:57.890
+The second operator, the bitwise or.
+
+00:58.370 --> 01:07.440
+The bitwise Or operator compares each bit and set it to one if one or both is one if one or both is
+
+01:07.440 --> 01:07.800
+one.
+
+01:07.830 --> 01:11.340
+Return one, otherwise it return zero.
+
+01:11.370 --> 01:14.010
+In this case, the result it will be seven.
+
+01:16.890 --> 01:18.600
+Let's execute the code.
+
+01:19.110 --> 01:20.670
+The result is seven.
+
+01:21.390 --> 01:26.670
+The bitwise XOR operator compares each bit and set it to one.
+
+01:26.700 --> 01:28.350
+If only one is one.
+
+01:28.710 --> 01:31.230
+If only one is one, it returns one.
+
+01:33.150 --> 01:37.080
+Otherwise one XOR one.
+
+01:37.110 --> 01:39.540
+It returns zero, zero, or zero.
+
+01:39.540 --> 01:40.740
+It returns zero.
+
+01:40.980 --> 01:43.650
+The result in this case it will be five.
+
+01:44.970 --> 01:46.560
+Let's execute the code.
+
+01:47.880 --> 01:49.530
+The result is five.
+
+01:50.610 --> 01:53.340
+The fourth operator bitwise not.
+
+01:53.460 --> 01:56.700
+The bitwise not operator, inverts each bit.
+
+01:56.730 --> 01:59.550
+Zero becomes one and one becomes zero.
+
+01:59.580 --> 02:04.830
+In this example, zero becomes one and one becomes zero.
+
+02:05.400 --> 02:10.900
+The bitwise not Five it will return.
+
+02:12.670 --> 02:14.170
+This example is three.
+
+02:15.880 --> 02:17.410
+The bitwise not three.
+
+02:17.440 --> 02:19.390
+It will return minus four.
+
+02:19.900 --> 02:21.460
+Let's execute the code.
+
+02:27.700 --> 02:29.410
+The result is minus four.
+
+02:29.440 --> 02:33.640
+There are also other rules to get a quick result.
+
+02:35.200 --> 02:39.580
+The bitwise not x is the result of minus x minus one.
+
+02:39.580 --> 02:42.100
+Let's execute in this example.
+
+02:42.670 --> 02:44.470
+X in this case is three.
+
+02:44.500 --> 02:46.750
+The result here it will be minus three.
+
+02:46.750 --> 02:47.410
+Minus one.
+
+02:47.410 --> 02:48.880
+It will be minus four.
+
+02:49.840 --> 02:53.110
+The case of four.
+
+02:53.140 --> 02:55.870
+In this case x take the value four.
+
+02:56.890 --> 02:59.740
+The result it will be minus four.
+
+02:59.740 --> 03:02.170
+Minus one it will be minus five.
+
+03:03.160 --> 03:06.550
+When execute the code the result it will be minus five.
+
+03:07.720 --> 03:09.400
+The result is minus five.
+
+03:10.240 --> 03:11.890
+Let's do another example.
+
+03:13.520 --> 03:23.510
+If we have bitwise not of five, the result it will be minus five minus one it will be minus six.
+
+03:29.360 --> 03:31.370
+The result is minus six.
+
+03:33.380 --> 03:36.950
+Let's go to the bitwise left shift.
+
+03:37.610 --> 03:39.590
+The bitwise left shift operator.
+
+03:39.590 --> 03:44.030
+Insert the specified number of zero in this case is two.
+
+03:44.060 --> 03:47.570
+It can be 3 or 4 from the right.
+
+03:47.570 --> 03:56.510
+There are rules to get a quick result of left shift here x left shift y is the same that x.
+
+03:56.510 --> 04:01.880
+Multiply it by two exponentiation y.
+
+04:02.450 --> 04:10.100
+In this example, let's practice this rule to our example.
+
+04:11.120 --> 04:18.710
+It will be three multiplication by two Exponentiation to.
+
+04:20.990 --> 04:24.860
+It will be three multiplied by four.
+
+04:24.920 --> 04:25.760
+The result?
+
+04:25.760 --> 04:26.900
+It will be 12.
+
+04:30.710 --> 04:32.720
+Like we see, the result is 12.
+
+04:32.750 --> 04:34.550
+Let's do another example.
+
+04:35.420 --> 04:43.400
+If we have three left shift three here it will be three three multiplied by two.
+
+04:43.430 --> 04:46.460
+Exponentiation three.
+
+04:49.550 --> 04:49.790
+Two.
+
+04:49.820 --> 04:52.340
+Exponentiation three is eight.
+
+04:53.180 --> 04:55.490
+Three multiplied by eight.
+
+04:55.520 --> 04:58.040
+It will be 24.
+
+04:58.070 --> 05:01.250
+The result in this example it will be 24.
+
+05:03.350 --> 05:05.240
+Let's do another example.
+
+05:06.440 --> 05:08.720
+In case of the value four.
+
+05:11.930 --> 05:14.480
+Three will be multiplied by two.
+
+05:14.510 --> 05:21.750
+Exponentiation four three multiplied by 16.
+
+05:22.650 --> 05:23.250
+The result?
+
+05:23.250 --> 05:26.010
+It will be 48.
+
+05:30.750 --> 05:33.480
+The bitwise right shift operator.
+
+05:34.530 --> 05:41.130
+The bitwise right shift operator moves each bit to the specified number of times to the right specified
+
+05:41.160 --> 05:43.500
+number of times.
+
+05:44.400 --> 05:45.690
+In this example is two.
+
+05:45.720 --> 05:47.430
+It can be three four.
+
+05:48.150 --> 05:55.740
+If you move each bit two times because we have two in this example, two times to the right eight becomes
+
+05:55.740 --> 05:56.250
+two.
+
+05:57.240 --> 05:58.380
+In this example.
+
+06:00.390 --> 06:02.940
+Move each bit two times on the right.
+
+06:02.970 --> 06:04.560
+The result it will be two.
+
+06:07.110 --> 06:08.940
+Let's execute the code.
+
+06:09.330 --> 06:10.650
+The result is two.
+
+06:11.790 --> 06:16.350
+We have also a rules to get a quick result for the right shift.
+
+06:17.160 --> 06:24.480
+If we have x right shift y it will be the result of x floor Division two.
+
+06:24.520 --> 06:26.680
+exponentiation y.
+
+06:27.820 --> 06:29.290
+Let's do an example.
+
+06:30.880 --> 06:32.140
+We have eight.
+
+06:32.140 --> 06:32.620
+Right.
+
+06:32.620 --> 06:34.210
+Shift two.
+
+06:34.720 --> 06:36.100
+What will be the result?
+
+06:36.130 --> 06:40.330
+It will be the floor division between 8 and 2.
+
+06:40.360 --> 06:42.070
+Exponentiation two.
+
+06:43.270 --> 06:47.020
+The floor division between 8 and 4.
+
+06:49.300 --> 06:50.350
+Is two.
+
+06:50.890 --> 06:51.490
+And this is.
+
+06:51.490 --> 06:52.690
+The result is two.
+
+06:52.720 --> 06:54.520
+Let's do another example.
+
+06:54.550 --> 07:00.490
+If we have three, it will be a floor division between 8 and 2.
+
+07:00.520 --> 07:02.110
+Exponentiation three.
+
+07:02.140 --> 07:06.910
+If lower division between 8 and 8, the result should be one.
+
+07:07.390 --> 07:10.960
+Or also when move eight bits three times.
+
+07:10.960 --> 07:13.390
+In this example it will be like that.
+
+07:16.840 --> 07:18.220
+The result is one.
+
+07:30.440 --> 07:31.700
+The result is one.
+
+07:31.700 --> 07:33.200
+Let's execute the code.
+
+07:35.360 --> 07:36.560
+The result is one.
+
+07:37.670 --> 07:39.350
+Let's do another example.
+
+07:39.350 --> 07:41.720
+We add four in this case.
+
+07:46.760 --> 07:51.530
+What will be the result if you move each bit four times?
+
+07:52.370 --> 07:54.620
+In this case the result it will be zero.
+
+07:55.970 --> 08:01.070
+Let's execute with these rules eight right.
+
+08:01.070 --> 08:01.970
+Shift four.
+
+08:03.890 --> 08:05.420
+What will be the result?
+
+08:05.450 --> 08:09.140
+Eight floor Division two exponentiation.
+
+08:12.620 --> 08:19.130
+Four is the floor division between 8 and 16.
+
+08:20.420 --> 08:23.210
+And the result it will be zero.
+
+08:23.660 --> 08:25.160
+Let's execute the code.
+
+08:27.200 --> 08:29.300
+And the result is zero.
+
+08:31.970 --> 08:33.410
+And that's it for this video.

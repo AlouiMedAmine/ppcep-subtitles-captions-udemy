@@ -1,0 +1,106 @@
+WEBVTT
+
+00:00.200 --> 00:00.830
+Python.
+
+00:00.830 --> 00:01.580
+Comments.
+
+00:01.610 --> 00:07.640
+Comments can be used to explain Python code to make the code more readable, or to prevent execution
+
+00:07.640 --> 00:08.930
+when testing code.
+
+00:09.410 --> 00:11.240
+First creating a comment.
+
+00:11.510 --> 00:14.870
+Comments starts with the hashtag and Python will ignore them.
+
+00:15.500 --> 00:20.330
+Comments can be placed at the end of line and Python will ignore the rest of line.
+
+00:20.360 --> 00:22.850
+Let's try the first and the second example.
+
+00:22.850 --> 00:28.490
+I add a break point in the first line of code I execute via the debugger mode.
+
+00:28.520 --> 00:30.170
+I select the console.
+
+00:31.040 --> 00:33.620
+Python will ignore the first line because it's a comment.
+
+00:33.650 --> 00:37.370
+It can be used to make the code more readable or to explain the code.
+
+00:39.290 --> 00:44.480
+In the second example, Python will execute the first part, but ignore the rest of line.
+
+00:45.740 --> 00:50.990
+In the third example, comment is used to prevent Python from executing code.
+
+00:51.380 --> 00:56.720
+Because print is a Python code, you can use comment to prevent execution of code.
+
+00:56.720 --> 00:58.700
+For example, to do some test.
+
+01:00.680 --> 01:04.100
+In the second part we will see how to define a multi-line comments.
+
+01:04.100 --> 01:10.910
+There are a lot of programming languages which have a multi-line comments like Java, JavaScript, but
+
+01:10.940 --> 01:14.480
+Python does not really have a syntax for multi-line comments.
+
+01:14.870 --> 01:19.120
+To add a multi-line comment, you could insert a hash tag for each line.
+
+01:19.660 --> 01:24.130
+Like in this example, there are three lines on each line.
+
+01:24.130 --> 01:25.270
+We add a hash tag.
+
+01:25.270 --> 01:29.020
+Python will ignore all or all three lines.
+
+01:29.200 --> 01:31.900
+They consider them as a multi-line comment.
+
+01:31.900 --> 01:33.640
+When executing the code.
+
+01:33.820 --> 01:42.100
+Python will execute only print Hello World three and ignore all the first three lines, which consider
+
+01:42.130 --> 01:43.930
+it as a multi-line comment.
+
+01:44.260 --> 01:48.160
+There are a second method to define a multi-line comment via a string.
+
+01:48.160 --> 01:54.160
+Since Python will ignore string literals that are not assigned to a variable, you can add a multi-line
+
+01:54.160 --> 01:58.810
+string in the code and place the comment inside it.
+
+01:59.740 --> 02:00.940
+Let's try that.
+
+02:01.120 --> 02:07.840
+This is multi-line string that are not assigned to a variable like that.
+
+02:07.840 --> 02:16.390
+For example, we define our comment inside the multi-line string.
+
+02:16.420 --> 02:24.310
+Python will ignore the execution of this part of code, and we can use it at multi-line comment.
+
+02:24.700 --> 02:32.380
+Let's execute that and Python will ignore this part and execute only the last line.

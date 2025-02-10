@@ -1,0 +1,208 @@
+WEBVTT
+
+00:00.290 --> 00:01.220
+Hi everyone!
+
+00:01.220 --> 00:04.100
+Today we will start learning Python for loops.
+
+00:04.100 --> 00:07.610
+A for loop is used for iterating over a sequence.
+
+00:07.610 --> 00:10.700
+It can be a tuple dictionary, a set, or a string.
+
+00:10.700 --> 00:18.380
+With the for loop, we can execute a set of statements once for each item in a list, tuple, set and
+
+00:18.380 --> 00:19.190
+others.
+
+00:19.580 --> 00:20.960
+This is an example.
+
+00:20.960 --> 00:26.660
+We have a list and we use the for loop to iterate this list.
+
+00:27.770 --> 00:34.760
+Here, just note the for loop does not require an indexing variable to set beforehand, and this is
+
+00:34.760 --> 00:36.470
+not the case for the while loop.
+
+00:36.470 --> 00:43.460
+Just remember that we need to increment in indexing, else the loop will continue forever for the for
+
+00:43.460 --> 00:44.420
+the while loops.
+
+00:44.690 --> 00:48.500
+And this is the main difference between while loops and for loops.
+
+00:48.500 --> 00:50.000
+Let's continue with a.
+
+00:50.000 --> 00:55.940
+For loops, we can loop through a string like in this example.
+
+00:58.070 --> 01:01.350
+The brick statement used to exit from the loop here.
+
+01:01.350 --> 01:07.170
+For example, when x equal banana, we will exit the for loop.
+
+01:08.010 --> 01:09.720
+This is a second example.
+
+01:10.380 --> 01:16.080
+With the continue statement, we can stop the current iteration of the loop and continue with the next.
+
+01:16.440 --> 01:24.900
+Here, for example, when x equal banana, we will not print the element banana and we will continue
+
+01:24.930 --> 01:26.460
+to the next iteration.
+
+01:27.090 --> 01:32.250
+Before doing the section five, let's do some examples in PyCharm.
+
+01:34.320 --> 01:36.330
+Here this is the first example.
+
+01:38.580 --> 01:42.840
+We use the for loop to iterate the list.
+
+01:43.710 --> 01:46.110
+This is the three element of the list.
+
+01:46.620 --> 01:50.580
+We can use the for loop to iterate a string.
+
+01:57.160 --> 02:01.720
+The break statement used to exit from the for loop.
+
+02:06.400 --> 02:09.160
+In this case, we just print the first two elements.
+
+02:09.190 --> 02:09.610
+Why?
+
+02:09.640 --> 02:18.550
+Because when x equal banana, we will exit from the for loop and we will not print the third element.
+
+02:19.180 --> 02:21.340
+This is a second example.
+
+02:21.670 --> 02:25.120
+The difference between this example and this.
+
+02:25.120 --> 02:30.160
+The second example is that the print it will be after the condition.
+
+02:30.970 --> 02:38.500
+In this case we will print only the first element y because when x equal banana, we will not print
+
+02:38.500 --> 02:43.420
+like the first example and we will exit from the for loop.
+
+02:45.400 --> 02:48.910
+We will print only one element apple.
+
+02:50.770 --> 02:58.270
+The continue statement used to stop the current Iteration and we will pass to the next iteration.
+
+02:59.530 --> 03:02.020
+Here in this example, we will not print banana.
+
+03:02.050 --> 03:06.880
+We will just print the first and the third element.
+
+03:10.450 --> 03:13.570
+Just the first and the third element.
+
+03:14.770 --> 03:18.190
+Let's continue to the section five the range function.
+
+03:20.560 --> 03:26.770
+To loop through a set of code a specified number of times, we can use the range function.
+
+03:26.770 --> 03:33.520
+The range function returns a sequence of numbers starting from zero by default, and increments by one
+
+03:33.520 --> 03:38.170
+by default, and ends at a specified number.
+
+03:38.200 --> 03:48.130
+Here, for example, for x in range six, we will start by default by zero, and we will increment by
+
+03:48.130 --> 03:48.730
+one.
+
+03:51.910 --> 03:56.930
+The range six is not the value of 0 to 6, but the value 0 to 5.
+
+03:56.960 --> 03:59.750
+Here this number, it will not.
+
+03:59.780 --> 04:02.540
+It will not included in the list.
+
+04:07.280 --> 04:10.310
+The range function defaults to increment the sequence by one.
+
+04:10.340 --> 04:17.000
+However, it is possible to specify the increment value by adding a third parameter like here in this
+
+04:17.000 --> 04:17.780
+example.
+
+04:18.260 --> 04:19.550
+In this example, we.
+
+04:19.580 --> 04:28.040
+We add a start index start and also the value of the increment.
+
+04:28.070 --> 04:38.210
+Here we will start from two and we will add every time the value three until 29.
+
+04:38.720 --> 04:45.590
+Let's execute this example to understand more the function range here.
+
+04:45.620 --> 04:49.580
+In this example range will start from 0 to 5.
+
+04:51.780 --> 04:55.170
+And by default we add one every time.
+
+04:58.830 --> 05:00.540
+From 0 to 5.
+
+05:02.130 --> 05:04.050
+And the default step is one.
+
+05:04.890 --> 05:07.320
+The second example we will start from two.
+
+05:12.060 --> 05:17.520
+The last element always is not included from 2 to 5.
+
+05:20.220 --> 05:25.230
+Where we will update the step from 1 to 3.
+
+05:25.800 --> 05:29.130
+And we will continue from 2 to 29.
+
+05:29.160 --> 05:34.770
+And we will add three every time in every iteration.
+
+05:41.790 --> 05:43.200
+We will start from two.
+
+05:43.650 --> 05:45.300
+2 to 5 we add three.
+
+05:45.330 --> 05:48.870
+5 to 8 we add three until 29.
+
+05:49.080 --> 05:50.790
+And that's it for this video.

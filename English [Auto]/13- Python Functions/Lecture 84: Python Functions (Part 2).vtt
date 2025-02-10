@@ -1,0 +1,205 @@
+WEBVTT
+
+00:00.520 --> 00:01.520
+Hi everyone.
+
+00:01.760 --> 00:04.080
+Let's continue with Python functions part two.
+
+00:04.400 --> 00:07.240
+What is the difference between parameters and arguments?
+
+00:07.560 --> 00:11.040
+The terms parameter and argument can be used for the same thing.
+
+00:11.320 --> 00:15.880
+Information that are passed into a function from a function's perspective.
+
+00:16.280 --> 00:21.040
+The parameter is the variable listed inside the parenthesis in the function definition.
+
+00:22.560 --> 00:28.040
+Here in this example, this is the definition of a function and this is called parameter.
+
+00:29.640 --> 00:33.360
+An argument is the value that is sent to the function when it's called.
+
+00:33.680 --> 00:33.880
+Here.
+
+00:33.880 --> 00:43.080
+When we call our function, we pass arguments and this is the difference between parameters and arguments
+
+00:43.080 --> 00:43.800
+by default.
+
+00:43.840 --> 00:49.200
+A function must be called with the correct number of arguments, meaning that if your function expects
+
+00:49.200 --> 00:54.000
+two arguments, you have to call the function with two arguments, not more and not less.
+
+00:54.840 --> 01:01.000
+Here in this example, this function expects two arguments, and when we call the function, we pass
+
+01:01.000 --> 01:08.840
+two arguments in case when we call the function with 1 or 3 arguments, Python will throw an error.
+
+01:08.880 --> 01:12.240
+Let's go to PyCharm and execute this two examples.
+
+01:14.240 --> 01:19.720
+In the first example, we define our function which expects two argument.
+
+01:20.160 --> 01:25.320
+When we call the function, we pass the exactly number of argument to argument.
+
+01:29.800 --> 01:31.640
+The result is first name.
+
+01:31.640 --> 01:32.400
+Last name.
+
+01:32.560 --> 01:39.600
+We don't have any problem in case when we call the function with one argument, what will be the result?
+
+01:43.400 --> 01:45.760
+Python throw an error.
+
+01:45.800 --> 01:48.880
+Let's try the case with three arguments.
+
+01:54.600 --> 01:56.320
+I execute the code again.
+
+01:58.960 --> 02:00.880
+Python also threw an error.
+
+02:01.520 --> 02:07.600
+My function takes two positional argument, but three were given.
+
+02:13.800 --> 02:15.360
+To avoid getting an error.
+
+02:15.560 --> 02:20.240
+We need to pass the number of arguments defined in the function.
+
+02:20.240 --> 02:24.920
+If the function expects two arguments, we need to pass only two arguments.
+
+02:25.040 --> 02:33.240
+When we don't have any idea about the number of arguments, what will be the solution in this case?
+
+02:33.440 --> 02:38.560
+In this case, we used the arbitrary arguments asterisk arg s.
+
+02:38.880 --> 02:44.440
+If you do not know how many arguments that will be passed into your function, add an asterisk before
+
+02:44.440 --> 02:47.560
+the parameter name in the function definition.
+
+02:48.000 --> 02:53.440
+This way, the function will receive a tuple of arguments and can access the item accordingly.
+
+02:53.560 --> 03:01.320
+If the number of argument is unknown, we add an asterisk before the parameter name, like in this example.
+
+03:01.440 --> 03:02.800
+It's become a tuple.
+
+03:03.160 --> 03:07.480
+After that we can access to the argument via this tuple.
+
+03:07.960 --> 03:13.160
+Let's go to PyCharm and understand more about arbitrary arguments.
+
+03:20.080 --> 03:23.360
+In this function, we add an asterisk before the parameter name.
+
+03:25.600 --> 03:28.200
+This kids it become a tuple.
+
+03:28.240 --> 03:33.120
+After that we can access to the argument via this tuple.
+
+03:33.160 --> 03:36.480
+Here we will access to the third item.
+
+03:37.240 --> 03:40.200
+Third argument there and x2.
+
+03:43.120 --> 03:51.200
+Because all collection like tuple list or set start from the index zero.
+
+03:51.240 --> 03:54.520
+The result is the youngest child is zero seven.
+
+03:55.000 --> 04:05.000
+And like we see here kids is a tuple contain three items first, second, and the last argument.
+
+04:07.680 --> 04:13.000
+We can access to the second argument via the index one.
+
+04:15.440 --> 04:17.120
+Let's execute the code again.
+
+04:17.920 --> 04:19.600
+Here the result will be.
+
+04:19.600 --> 04:21.240
+The youngest child is Nelson.
+
+04:23.120 --> 04:27.840
+When we use arbitrary argument, be sure about the index.
+
+04:28.160 --> 04:35.600
+For example, we cannot use the index 4 or 5 because the tuple doesn't contain four items.
+
+04:36.120 --> 04:39.960
+In this case, when we execute the code, Python will throw an index error.
+
+04:41.200 --> 04:45.320
+Tuple index out of range because there is no item four.
+
+04:47.320 --> 04:49.080
+Let's go to the second example.
+
+04:50.720 --> 04:58.640
+Here we will print kids number r length of kids and we call the function with no argument, with one,
+
+04:58.640 --> 05:02.320
+argument with two and more to see what will be the result.
+
+05:02.560 --> 05:03.920
+Let's execute the code.
+
+05:07.920 --> 05:09.840
+The first with no argument.
+
+05:10.720 --> 05:12.160
+The tuple is empty.
+
+05:12.640 --> 05:14.000
+Kids number are zero.
+
+05:14.040 --> 05:18.560
+When we pass one argument, the result is kids number are one.
+
+05:18.600 --> 05:20.640
+The length of our tuple is one.
+
+05:21.320 --> 05:31.840
+When we pass two arguments, the length of the tuple is two and the same for the other case three and
+
+05:31.840 --> 05:32.120
+four.
+
+05:35.240 --> 05:44.280
+Just remember here that arguments are often shortened to args in Python documentation, and for the
+
+05:44.280 --> 05:51.440
+case of arbitrary arguments are often shortened to asterisk args in Python documentation.
+
+05:51.640 --> 05:53.160
+And that's it for this video.

@@ -1,0 +1,169 @@
+WEBVTT
+
+00:00.320 --> 00:02.360
+Python output variables.
+
+00:03.590 --> 00:06.500
+The print function can be used to output variables.
+
+00:06.530 --> 00:08.810
+Let's take a look at this example.
+
+00:08.840 --> 00:10.100
+X is an str.
+
+00:10.130 --> 00:12.890
+We use print to output this variable.
+
+00:12.890 --> 00:17.510
+In case of multiple variables we need to separate them by a comma.
+
+00:18.110 --> 00:20.900
+Like here we have three variables.
+
+00:20.900 --> 00:23.210
+Between each variable we add a comma.
+
+00:23.240 --> 00:26.660
+Let's execute the first and the second example in PyCharm.
+
+00:27.410 --> 00:30.950
+First example I execute the select code.
+
+00:31.460 --> 00:34.340
+This is the output of the variable x.
+
+00:34.370 --> 00:39.080
+In the second example, just I delete this part.
+
+00:40.580 --> 00:48.860
+In the second example, this is the output of three variables between each variable there are in space.
+
+00:48.860 --> 00:49.550
+Why?
+
+00:49.580 --> 00:57.470
+Because in the definition of the print function, in case of multiple values, there are space a default
+
+00:57.470 --> 00:59.330
+space between each variable.
+
+00:59.510 --> 01:02.330
+Separate string inserted between values.
+
+01:02.350 --> 01:03.670
+Default space.
+
+01:03.670 --> 01:05.920
+We can update this behavior.
+
+01:08.860 --> 01:11.470
+For example, I add more than one space.
+
+01:13.150 --> 01:14.860
+I execute again.
+
+01:18.850 --> 01:25.030
+And this is the difference between the first output and the second output.
+
+01:25.060 --> 01:27.520
+Here there are more one space.
+
+01:28.660 --> 01:33.340
+Just I delete this separator.
+
+01:33.730 --> 01:38.290
+I execute again I will continue with the default behavior.
+
+01:39.790 --> 01:45.970
+Another way to output multiple variable is by using the plus operator.
+
+01:46.840 --> 01:52.450
+Here the plus operator is used to output these three variables.
+
+01:52.450 --> 01:55.630
+And let's try to execute this example.
+
+02:07.110 --> 02:10.080
+This is the output, but all the variable.
+
+02:10.080 --> 02:11.850
+There is no space between each variable.
+
+02:11.850 --> 02:12.240
+Why?
+
+02:12.270 --> 02:22.470
+Because in because print function considered this three variable as a first as only one variable, and
+
+02:22.470 --> 02:25.440
+there is no space between each variable.
+
+02:25.440 --> 02:33.150
+In case of one variable, we need to add some space for the first and the second variable to have the
+
+02:33.150 --> 02:39.510
+same result as the standard function print, like we see here.
+
+02:39.540 --> 02:44.130
+This is the output via the plus operator, but in the.
+
+02:44.160 --> 02:46.950
+In this case, all the variable are string.
+
+02:46.950 --> 02:51.360
+In case of the variable are numbers like int float.
+
+02:52.230 --> 02:52.980
+The result.
+
+02:52.980 --> 02:57.240
+It will be different because the plus operator operator.
+
+02:57.240 --> 03:00.810
+It will work as a mathematical operator.
+
+03:00.810 --> 03:07.290
+And here in this example the result it will be the sum of these two variables.
+
+03:08.760 --> 03:10.020
+Here we have x.
+
+03:10.500 --> 03:16.020
+Take the value five, y take ten and the sum is 15.
+
+03:17.850 --> 03:23.760
+What will be the result if I use the plus operator with two different variables?
+
+03:23.760 --> 03:28.230
+For example, x is an integer and y is a string.
+
+03:28.230 --> 03:30.360
+Let's execute that.
+
+03:36.270 --> 03:37.020
+Oops.
+
+03:37.560 --> 03:38.940
+Python give an error.
+
+03:38.970 --> 03:39.300
+Why?
+
+03:39.330 --> 03:41.280
+Because the plus operator.
+
+03:41.310 --> 03:43.860
+It doesn't work with different data type.
+
+03:43.860 --> 03:48.120
+What will be the the solution for this case?
+
+03:48.150 --> 03:50.430
+Just I comment the code.
+
+03:53.490 --> 03:59.070
+In this case we need to use print and separate the two variable with a commas.
+
+04:01.890 --> 04:06.690
+And this is the the good result with no any problems.

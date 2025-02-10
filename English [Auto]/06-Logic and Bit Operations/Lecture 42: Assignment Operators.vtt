@@ -1,0 +1,55 @@
+WEBVTT
+
+00:00.140 --> 00:01.220
+Hi everyone.
+
+00:01.220 --> 00:04.790
+Today we will learn assignment operators in Python.
+
+00:04.880 --> 00:10.700
+Assignment operators are used to assign values to variables equal.
+
+00:10.700 --> 00:15.320
+That mean we will assign a value to this variable plus equal.
+
+00:15.380 --> 00:21.530
+It's like x equal x plus three minus equal or multiplication equal.
+
+00:21.860 --> 00:25.910
+There are a lot of operator assignment operators.
+
+00:25.940 --> 00:27.590
+Let's do some examples.
+
+00:29.810 --> 00:31.850
+I use the debugger mode.
+
+00:37.370 --> 00:37.940
+Equal.
+
+00:37.940 --> 00:48.230
+That mean we will assign the value five to the variable x addition plus equal subtraction.
+
+00:48.230 --> 00:49.520
+Multiplication.
+
+00:51.050 --> 00:51.980
+Division.
+
+00:55.160 --> 00:56.210
+Modulus.
+
+00:57.830 --> 00:59.060
+Floor division.
+
+01:02.990 --> 01:03.860
+Floor division.
+
+01:03.860 --> 01:11.030
+That mean without decimal and division, we will return a decimal.
+
+01:11.450 --> 01:14.480
+This is the difference between division and floor division.
+
+01:14.750 --> 01:16.010
+Exponentiation.

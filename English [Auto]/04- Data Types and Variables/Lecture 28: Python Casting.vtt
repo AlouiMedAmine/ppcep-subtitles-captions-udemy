@@ -1,0 +1,142 @@
+WEBVTT
+
+00:00.200 --> 00:01.130
+Hi everyone.
+
+00:01.130 --> 00:03.920
+In this video we will learn Python casting.
+
+00:03.980 --> 00:10.280
+A casting is used to specify a type onto a variable, and it can be done using constructor functions
+
+00:10.280 --> 00:12.500
+like int, float and str.
+
+00:12.860 --> 00:22.640
+Here for example, we convert float to int and str to int via the constructor, and we can also convert
+
+00:22.670 --> 00:27.110
+a string and int to float with the constructor float.
+
+00:27.470 --> 00:29.750
+Let's try some examples.
+
+00:31.220 --> 00:32.720
+I use the debugger mode.
+
+00:38.330 --> 00:42.950
+Here y is a float with the constructor and it will be only two.
+
+00:42.980 --> 00:46.370
+We will delete the decimal part string.
+
+00:46.370 --> 00:48.020
+Also it will be int.
+
+00:49.400 --> 00:55.130
+I print the result in the console for the constructor float.
+
+00:57.380 --> 00:58.910
+And it will be float.
+
+00:58.910 --> 01:00.380
+We will add 0.0.
+
+01:03.020 --> 01:03.740
+The string.
+
+01:03.740 --> 01:05.810
+Also it will be 3.0.
+
+01:08.120 --> 01:13.010
+And this is the result in the console for the constructor.
+
+01:13.040 --> 01:20.810
+So here we will add a sample code for the int and the float.
+
+01:21.470 --> 01:22.610
+To be honest here.
+
+01:28.640 --> 01:32.990
+It is possible to convert a string hello to int.
+
+01:35.240 --> 01:36.440
+Let's try that.
+
+01:36.470 --> 01:38.540
+I execute only this.
+
+01:44.930 --> 01:48.800
+Python will throw an error invalid literal for int with base ten.
+
+01:48.830 --> 01:49.340
+Hello.
+
+01:49.460 --> 01:50.120
+That's mean.
+
+01:50.120 --> 01:57.860
+We cannot convert hello to n y because hello doesn't represent an integer when converting a string to
+
+01:57.890 --> 01:58.730
+int or float.
+
+01:58.760 --> 02:00.080
+Be sure that this is.
+
+02:00.110 --> 02:11.000
+This string represents an integer like for example ten 100 or any string that represents an integer.
+
+02:11.000 --> 02:15.800
+It is possible to convert the string 5.0 to int.
+
+02:16.510 --> 02:18.130
+Let's try that.
+
+02:18.160 --> 02:21.610
+I execute only this line of code.
+
+02:21.640 --> 02:28.150
+Python will throw an error invalid literal for int with base ten for the string 5.0.
+
+02:29.860 --> 02:36.940
+The solution in this case is to convert the string representation of a floating point number to an integer,
+
+02:36.940 --> 02:39.310
+and after that convert the integer.
+
+02:40.090 --> 02:41.680
+Convert the float to an integer.
+
+02:43.090 --> 02:43.690
+The solution.
+
+02:43.690 --> 02:50.440
+For this example, we need to convert the string to float via the constructor float, and after that
+
+02:50.440 --> 02:52.270
+convert the float to int.
+
+02:53.920 --> 02:56.410
+Let's execute this code.
+
+02:56.440 --> 02:57.190
+The result.
+
+02:57.190 --> 02:58.570
+It will be five.
+
+03:02.410 --> 03:11.260
+Just remember that when you convert a string to float or int, the string should be representation of
+
+03:11.290 --> 03:12.670
+a float or integer.
+
+03:13.030 --> 03:19.180
+And when we convert a string containing a float number to int.
+
+03:19.210 --> 03:23.980
+We need to, in the first part, convert to float, and after that convert to int.
+
+03:23.980 --> 03:25.360
+And that's it for this video.

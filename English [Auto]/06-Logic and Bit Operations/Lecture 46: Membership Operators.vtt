@@ -1,0 +1,64 @@
+WEBVTT
+
+00:00.080 --> 00:02.450
+Hi everyone, let's learn together.
+
+00:02.450 --> 00:04.370
+Python membership operators.
+
+00:04.640 --> 00:10.280
+Membership operators are used to test if a sequence is presented in an object.
+
+00:10.850 --> 00:12.440
+We have two operators.
+
+00:12.470 --> 00:15.710
+The first operator in returns a true.
+
+00:15.740 --> 00:19.610
+If a sequence with the specified value is present in the object.
+
+00:20.330 --> 00:27.410
+The second operator, not in, returns true if a sequence with the specified value is not present in
+
+00:27.410 --> 00:28.250
+the object.
+
+00:28.400 --> 00:31.280
+Let's go to PyCharm and play with some code.
+
+00:34.070 --> 00:35.600
+The operator in.
+
+00:36.500 --> 00:38.840
+Let's execute this code.
+
+00:39.560 --> 00:40.310
+The result.
+
+00:40.310 --> 00:45.200
+It will be true because the specified value is in the list.
+
+00:48.920 --> 00:50.120
+The result is true.
+
+00:50.150 --> 00:52.430
+The second operator not in.
+
+00:54.080 --> 00:55.400
+In this example.
+
+00:55.400 --> 00:56.090
+The result.
+
+00:56.090 --> 00:57.770
+It will be also true.
+
+00:57.800 --> 00:58.280
+Why?
+
+00:58.310 --> 01:02.000
+Because this specified value is not in the list.
+
+01:07.610 --> 01:09.170
+And that's it for this video.

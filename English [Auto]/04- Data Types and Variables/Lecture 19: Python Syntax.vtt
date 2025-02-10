@@ -1,0 +1,58 @@
+WEBVTT
+
+00:00.230 --> 00:01.610
+Python syntax.
+
+00:01.640 --> 00:06.470
+Now let's look at the rules for writing Python, starting with indentation.
+
+00:06.500 --> 00:10.670
+Indentation refers to the spaces at the beginning of a code line.
+
+00:10.700 --> 00:13.970
+In Python, indentation is very important.
+
+00:14.000 --> 00:20.330
+In this example, we have an if statement with the second line print five is greater than two.
+
+00:20.360 --> 00:23.630
+The second line is indented with four spaces.
+
+00:23.660 --> 00:29.180
+This indentation tells Python that the second line is part of the if statement.
+
+00:29.210 --> 00:36.110
+If you skip the indentation, Python will throw a syntax error or read them as two different statements.
+
+00:36.980 --> 00:39.590
+Let's try the first and the second example.
+
+00:41.150 --> 00:42.680
+The result of print.
+
+00:42.980 --> 00:48.950
+But if we skip the indentation, Python will throw a syntax error.
+
+00:50.210 --> 00:57.920
+You can use different number of spaces, but the standard is for can be one or more.
+
+00:59.210 --> 01:01.040
+But the standard is four.
+
+01:11.870 --> 01:16.430
+You have to use the same number of spaces in the same block of code.
+
+01:16.460 --> 01:19.220
+Otherwise Python will give you an error.
+
+01:19.820 --> 01:21.920
+Let's try this example.
+
+01:24.290 --> 01:30.770
+Here we have an if statement with two lines, and the two lines have the same indentation.
+
+01:31.250 --> 01:35.870
+If you change one of them, Python will throw a syntax error.
+
+01:36.680 --> 01:40.280
+Just make sure you are consistent with the same block.

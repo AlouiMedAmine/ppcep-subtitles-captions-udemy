@@ -1,0 +1,79 @@
+WEBVTT
+
+00:00.140 --> 00:01.250
+Hi everyone!
+
+00:01.250 --> 00:05.930
+In this video we will learn how to combine conditionals in the if statement.
+
+00:06.590 --> 00:12.590
+But before that, let's remember together the three operator used to combine conditional.
+
+00:12.980 --> 00:18.980
+We just learned that in the section Python logical operators we have and or and not.
+
+00:19.010 --> 00:19.850
+Operator.
+
+00:23.090 --> 00:25.880
+Let's see that in the if statement here.
+
+00:25.880 --> 00:28.850
+In this example, we have.
+
+00:28.880 --> 00:34.580
+If A is greater than B and c is greater than a print, both conditional are true.
+
+00:34.610 --> 00:43.310
+We combine these two condition and these two expressions with the operator, and we have the or operator.
+
+00:44.150 --> 00:46.250
+At least one of the condition is true.
+
+00:46.250 --> 00:53.750
+To execute this statement and we have the the Not operator, let's execute some code.
+
+00:56.030 --> 01:02.270
+Here in this example, a is greater than B and c is greater than A.
+
+01:03.260 --> 01:04.310
+We will print.
+
+01:04.310 --> 01:06.560
+Both conditions are true.
+
+01:07.760 --> 01:09.230
+Let's execute the code.
+
+01:11.360 --> 01:12.170
+And we have.
+
+01:12.200 --> 01:13.940
+Both conditions are true.
+
+01:14.450 --> 01:19.790
+For the operator or in this example we have a is greater than b.
+
+01:20.960 --> 01:27.560
+The first expression will return a true and we will execute this line because we just need at least
+
+01:27.560 --> 01:30.020
+one of the condition to be true.
+
+01:30.020 --> 01:31.340
+To execute this line.
+
+01:36.140 --> 01:39.320
+We will print at least one of the conditions is true.
+
+01:39.320 --> 01:50.240
+And for the operator or we have a is not greater than B, it will return false, but with with the operator
+
+01:50.270 --> 01:51.170
+not.
+
+01:51.200 --> 01:56.270
+It will return a true and we will print a is not greater than B.
+
+02:01.310 --> 02:02.840
+And that's it for this video.

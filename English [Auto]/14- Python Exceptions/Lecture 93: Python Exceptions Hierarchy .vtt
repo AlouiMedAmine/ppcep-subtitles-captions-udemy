@@ -1,0 +1,112 @@
+WEBVTT
+
+00:00.520 --> 00:01.640
+Hi everyone!
+
+00:01.960 --> 00:04.600
+Let's discover together Python exceptions.
+
+00:04.600 --> 00:06.400
+Hierarchy in Python.
+
+00:06.600 --> 00:10.200
+All exceptions are derived from the base exception class.
+
+00:10.640 --> 00:17.400
+This means that every exception in Python is an instance of base exception or one of its subclasses.
+
+00:17.920 --> 00:22.480
+The base exception class is the top level class in the exception hierarchy.
+
+00:22.960 --> 00:29.400
+It provides some common methods that all exceptions can use, such as str and dripper.
+
+00:30.000 --> 00:36.640
+However, you should not use base exception directly in your code, as it's too broad and can catch
+
+00:36.640 --> 00:38.040
+any type of exception.
+
+00:38.480 --> 00:45.120
+Instead, you should use more specific exception classes that are subclasses of base exception like
+
+00:45.120 --> 00:47.240
+we see in the last chapters.
+
+00:47.280 --> 00:54.040
+Python provides a number of built an exception classes that you can use, and you can also create your
+
+00:54.080 --> 00:56.040
+own custom exception classes.
+
+00:56.880 --> 01:01.920
+The following diagram shows the hierarchy of building exception classes in Python.
+
+01:02.680 --> 01:14.480
+Only the first level we have Bayes exception as a top level class has some subclasses like generator
+
+01:14.520 --> 01:18.880
+exit, Keyboardinterrupt, system exit, and exception.
+
+01:19.480 --> 01:22.000
+This is the first level of hierarchy.
+
+01:22.960 --> 01:30.920
+Exception also has a lot of subclasses like arithmetic error, name error, type error, and also runtime
+
+01:30.920 --> 01:31.280
+error.
+
+01:31.760 --> 01:35.680
+And this is considered as a second level of hierarchy.
+
+01:36.080 --> 01:39.400
+But we can have other levels.
+
+01:39.400 --> 01:45.480
+For example, zero division error is a subclass of arithmetic error file not found.
+
+01:45.480 --> 01:48.760
+Error is a subclass of OS error.
+
+01:49.840 --> 01:58.080
+This means that file not found error is a subclass of OS error, which is a subclass of the exception
+
+01:58.080 --> 02:02.600
+class, which itself inherits from the base exception.
+
+02:02.640 --> 02:04.640
+Let's do another example.
+
+02:05.800 --> 02:10.450
+Floating point error is a is a subclass of arithmetic error.
+
+02:10.490 --> 02:17.570
+Arithmetic error is a subclass of exception, and exception is a subclass of base exception.
+
+02:17.970 --> 02:22.010
+To remember the description of each exception, just.
+
+02:22.010 --> 02:32.690
+We need to go back in the chapter building exceptions and you can get all this exception with her description.
+
+02:33.290 --> 02:34.170
+Small recap.
+
+02:34.650 --> 02:38.850
+Base exception is the top level class of all exceptions.
+
+02:40.690 --> 02:48.090
+Exception is considered as the base of all other exceptions like here in this diagram.
+
+02:49.010 --> 02:55.970
+And we have also other exception like generator exit, keyboard interrupt and system exit.
+
+02:57.570 --> 03:05.690
+Also when we define the try except block, we need to specify the more specific exception class to know
+
+03:05.690 --> 03:07.810
+exactly the origin of error.
+
+03:10.730 --> 03:12.050
+That's it for this video.

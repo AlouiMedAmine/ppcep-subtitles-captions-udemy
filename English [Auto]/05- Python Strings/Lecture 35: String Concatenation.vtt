@@ -1,0 +1,31 @@
+WEBVTT
+
+00:00.140 --> 00:00.950
+Hi everyone!
+
+00:00.950 --> 00:03.620
+This is a short video for string concatenation.
+
+00:03.620 --> 00:12.530
+To concatenate or combine two strings you can use the plus operator and this is an example a take the
+
+00:12.530 --> 00:14.810
+value hello b take the value word.
+
+00:14.840 --> 00:17.900
+To concatenate these two strings, we use the plus operator.
+
+00:17.900 --> 00:19.220
+Let's see the result.
+
+00:22.880 --> 00:26.390
+I concatenate the two strings, but there is no space between.
+
+00:26.780 --> 00:33.770
+After concatenation we can add a space to have more clear result.
+
+00:36.440 --> 00:38.120
+Hello space world!
+
+00:38.120 --> 00:39.710
+And that's it for this video.

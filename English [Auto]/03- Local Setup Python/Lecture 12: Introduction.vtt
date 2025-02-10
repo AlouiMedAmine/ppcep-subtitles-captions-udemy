@@ -1,0 +1,21 @@
+WEBVTT
+
+1
+00:00.350 --> 00:01.400
+Hi everyone.
+
+2
+00:01.400 --> 00:03.680
+Section three local setup Python.
+
+3
+00:03.680 --> 00:09.230
+We will see together how to install Python on Windows and Mac and start Python on Linux.
+
+4
+00:09.260 --> 00:15.980
+How to run your Python scripts and code, setting up a virtual environment, and finally how to install
+
+5
+00:16.010 --> 00:17.180
+PyCharm on ubuntu.

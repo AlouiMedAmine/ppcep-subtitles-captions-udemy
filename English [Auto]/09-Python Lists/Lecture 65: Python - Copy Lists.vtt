@@ -1,0 +1,268 @@
+WEBVTT
+
+00:00.480 --> 00:01.560
+Hi everyone!
+
+00:01.840 --> 00:04.880
+In this video we will learn copy lists in Python.
+
+00:05.280 --> 00:07.480
+Let's start by small introduction.
+
+00:07.960 --> 00:10.840
+You cannot copy a list simply by typing list two.
+
+00:10.880 --> 00:17.520
+Equal list one, because list two will only be a reference to list one and the change is made in list
+
+00:17.520 --> 00:20.880
+one will automatically also be made in list two.
+
+00:20.920 --> 00:26.240
+Let's go to PyCharm and understand together these two lines.
+
+00:26.240 --> 00:29.040
+Here we have list one which contains three items.
+
+00:29.720 --> 00:33.920
+We assign list one to list two.
+
+00:34.640 --> 00:37.600
+Let's execute the code and see the result.
+
+00:42.280 --> 00:49.000
+With the operator assignment we have two Python list list one and list two, which contain the same
+
+00:49.000 --> 00:49.640
+items.
+
+00:50.800 --> 00:57.120
+If we can have two lists with the same items, only with the assignment operator.
+
+00:57.280 --> 00:58.840
+Why we need a copy.
+
+01:02.720 --> 01:04.520
+Let's continue with this code.
+
+01:04.880 --> 01:08.000
+We will update the second item in the list.
+
+01:08.040 --> 01:08.360
+Two.
+
+01:09.040 --> 01:11.520
+Let's execute the code and see the result.
+
+01:18.760 --> 01:31.520
+List two contain the new item orange in the index one, but also the list one is changed because list
+
+01:31.520 --> 01:34.640
+one and list two share the same allocation memory.
+
+01:35.560 --> 01:43.080
+For this reason, we need to use Python copy because with Python copy, each variable will be reference
+
+01:43.080 --> 01:45.720
+to a different list.
+
+01:45.760 --> 01:49.920
+Each variable have their own allocation memory.
+
+01:55.200 --> 01:58.040
+Let's learn together the introduction.
+
+01:58.480 --> 02:01.360
+You cannot copy a list simply by typing.
+
+02:01.400 --> 02:08.050
+List two equals list one because list two will only be a reference to list one, and the changes made
+
+02:08.050 --> 02:11.850
+in list one will automatically also be made in list two.
+
+02:12.330 --> 02:14.610
+Let's start by the first section.
+
+02:14.610 --> 02:15.890
+Use the copy method.
+
+02:16.450 --> 02:21.610
+You can use the building list method copy to copy a list here.
+
+02:21.610 --> 02:25.050
+In this example, we have a list with three items.
+
+02:25.050 --> 02:29.530
+We use the method copy to have a new copy of the list.
+
+02:30.770 --> 02:32.690
+Second, use the list method.
+
+02:33.690 --> 02:38.530
+List is a method or also is a constructor which can use it.
+
+02:39.170 --> 02:43.170
+To copy a Python list.
+
+02:43.210 --> 02:51.690
+We need to pass our initial list as a parameter in the constructor, or in the method list to have a
+
+02:51.690 --> 02:52.930
+new Python list.
+
+02:55.130 --> 02:57.530
+Section three use the slice operator.
+
+02:57.890 --> 03:06.090
+You can also make a copy of a list by using the slice operator when we don't specify the start value
+
+03:06.210 --> 03:07.330
+and the end value.
+
+03:07.530 --> 03:10.170
+We will take all the items of the list.
+
+03:10.850 --> 03:16.250
+Let's go to PyCharm and understand more each of this case.
+
+03:20.450 --> 03:23.450
+First copy a list using the method copy.
+
+03:23.490 --> 03:26.090
+We have our initial list.
+
+03:26.890 --> 03:29.690
+After that we execute the code.
+
+03:29.690 --> 03:35.210
+This list copy and we will have a new Python list.
+
+03:37.290 --> 03:40.170
+Let's execute this part of code.
+
+03:42.490 --> 03:47.690
+This is a copy and it have the same items for the initial list.
+
+03:49.530 --> 03:56.850
+We update the second item banana with the new item orange.
+
+03:56.890 --> 04:01.010
+Initial list is the same, only the copy list is changed.
+
+04:02.730 --> 04:06.770
+This is the reason why we need a copy list in Python.
+
+04:07.450 --> 04:11.340
+Second section, use the list method or the list constructor.
+
+04:12.460 --> 04:15.260
+Here we have our initial list.
+
+04:15.780 --> 04:26.060
+We pass our list as a parameter in the constructor list to create our copy of the list.
+
+04:26.380 --> 04:28.980
+Let's execute the code and see the result.
+
+04:31.380 --> 04:36.740
+We have a new list which contains the same items for the initial list.
+
+04:38.540 --> 04:47.980
+Let's try update the second item for the new list and see if the initial list will change it or not.
+
+04:53.300 --> 04:55.700
+Our initial list contains three items.
+
+04:55.740 --> 04:56.100
+Apple.
+
+04:56.140 --> 04:56.620
+Banana.
+
+04:56.620 --> 04:57.660
+Cherry.
+
+04:57.700 --> 05:01.740
+Here, when we create our copy list, it contains.
+
+05:01.780 --> 05:02.060
+Apple.
+
+05:02.100 --> 05:02.540
+Banana.
+
+05:02.580 --> 05:03.060
+Cherry.
+
+05:03.820 --> 05:09.660
+After a change, we update the second item by orange.
+
+05:11.340 --> 05:19.060
+After a change, we have apple, orange and cherry, but the initial list remained the same.
+
+05:22.620 --> 05:25.740
+The initial item is banana is not changed.
+
+05:30.460 --> 05:32.700
+Third, use the slice operator.
+
+05:33.220 --> 05:37.980
+When we don't specify start and end value, we will copy.
+
+05:40.220 --> 05:42.220
+All the items of the list.
+
+05:44.180 --> 05:48.620
+Let's execute only the three line of code.
+
+05:52.340 --> 05:59.460
+When we use the slice operator and we don't specify start and end value, we will copy all the items
+
+05:59.620 --> 06:00.460
+of the list.
+
+06:00.700 --> 06:05.740
+Let's do the same test like in the first and the second section.
+
+06:05.740 --> 06:13.150
+We try to update the second item for the new list, and we see if the initial list was changed or not.
+
+06:13.550 --> 06:14.990
+Let's execute the code.
+
+06:18.670 --> 06:21.310
+This is my copy list.
+
+06:21.470 --> 06:24.990
+Contain all the item like the initial list.
+
+06:25.030 --> 06:25.430
+Apple.
+
+06:25.470 --> 06:25.910
+Banana.
+
+06:25.950 --> 06:26.430
+Cherry.
+
+06:27.310 --> 06:35.710
+After the change of the second item, the new list contain apple, orange and cherry.
+
+06:35.710 --> 06:40.070
+But the initial list like we see here, it remained the same.
+
+06:40.790 --> 06:44.750
+The second item, always banana, is not changed.
+
+06:49.710 --> 06:56.910
+Just remember that we cannot copy a list only by assigning list one to list two.
+
+06:56.950 --> 07:06.350
+But we need to use one of three method to copy a list, the first using the method copy, the second
+
+07:06.350 --> 07:12.430
+using the constructor list and the third using the slice operator.
+
+07:12.470 --> 07:13.910
+That's it for this video.

@@ -1,0 +1,283 @@
+WEBVTT
+
+00:00.140 --> 00:01.130
+Hi everyone.
+
+00:01.130 --> 00:03.560
+In this video we learn Python numbers.
+
+00:03.590 --> 00:05.990
+There are three numeric types in Python.
+
+00:06.020 --> 00:08.240
+Int, float and complex.
+
+00:09.290 --> 00:14.570
+Like we know, variable of numeric types are created when you assign a value to them.
+
+00:14.570 --> 00:26.330
+X is an int because take one, y is a float because take 2.8 and z is a complex with the symbol J.
+
+00:27.920 --> 00:32.630
+To verify the type of any object in Python, we use always the type function.
+
+00:32.630 --> 00:36.260
+We will see in details each of this type.
+
+00:36.290 --> 00:37.970
+Let's start by int.
+
+00:38.000 --> 00:43.730
+Int or integer is a whole number positive or negative, without decimal of unlimited length.
+
+00:43.730 --> 00:48.620
+It can be positive or negative without unlimited of length.
+
+00:48.650 --> 00:49.460
+Why?
+
+00:50.090 --> 00:57.980
+Because there are programming languages like Java for example an int it have a max value and mean value.
+
+01:00.250 --> 01:06.460
+Float or floating point number, is a number, positive or negative, containing one or more decimals,
+
+01:06.730 --> 01:07.720
+like here x.
+
+01:08.680 --> 01:13.930
+Take the value 1.10 y take the value 1.0.
+
+01:15.460 --> 01:24.040
+We can also specify a float with the letter e uppercase or lowercase like in this example.
+
+01:24.730 --> 01:25.900
+This is a float.
+
+01:26.740 --> 01:30.610
+A complex number are written with a j letters.
+
+01:32.710 --> 01:34.690
+It can be positive or negative.
+
+01:37.300 --> 01:42.460
+You can convert from one type to another with the method int, float and complex.
+
+01:42.460 --> 01:49.930
+For example, we can convert from n to float with the method float from float to int with the method
+
+01:49.930 --> 01:58.330
+int and we can convert also float and int to the complex with the method complex.
+
+01:58.330 --> 02:03.420
+But be sure that you cannot convert complex numbers into another number type.
+
+02:03.810 --> 02:04.950
+In the section five.
+
+02:04.980 --> 02:10.170
+Python does not have a random function to make a random number, but Python has a built in.
+
+02:10.710 --> 02:15.390
+Module called random that can be used to make random numbers.
+
+02:16.650 --> 02:18.300
+Random is not a function.
+
+02:19.020 --> 02:25.170
+In Python, but for example Java, we have a method random in the class Java.
+
+02:25.440 --> 02:28.890
+Long dot math.
+
+02:32.160 --> 02:34.710
+Why I said method and not a function?
+
+02:34.710 --> 02:36.480
+Because a method is always.
+
+02:36.570 --> 02:39.720
+Associated to an object to an object.
+
+02:40.650 --> 02:43.800
+And this is the difference between method and function.
+
+02:43.800 --> 02:44.340
+And.
+
+02:44.520 --> 02:54.870
+Here we use the import the module random and we call the function randrange to to make.
+
+02:54.900 --> 02:55.830
+A random number.
+
+02:55.860 --> 02:59.730
+Let's do some examples to understand more.
+
+03:03.050 --> 03:04.160
+By the numbers.
+
+03:05.690 --> 03:09.290
+Here we have a lot of example x here defined as int.
+
+03:09.320 --> 03:11.150
+Let's execute our code.
+
+03:11.180 --> 03:13.040
+I execute the debugger mode.
+
+03:17.390 --> 03:20.540
+Let's start by the the first Python numbers.
+
+03:21.860 --> 03:26.210
+X take the value of int y.
+
+03:26.240 --> 03:29.690
+Take the value of float and z take the value of complex.
+
+03:30.740 --> 03:35.480
+To know the type of any object in Python, we use the function type.
+
+03:36.350 --> 03:44.480
+And when we see the console, it will be int for the x, float for the y and complex for g.
+
+03:47.390 --> 03:53.150
+A number n can be positive or negative and without and unlimited number.
+
+03:59.760 --> 04:01.350
+And three.
+
+04:01.860 --> 04:10.320
+Three examples x, y and z are type of int air float contain a decimal.
+
+04:16.170 --> 04:24.780
+And this is the the type float for each of this example, with the type function in the console, we
+
+04:24.780 --> 04:26.430
+show that the class float.
+
+04:27.630 --> 04:28.440
+In class.
+
+04:28.440 --> 04:34.140
+We can define also a float with the letter E uppercase or lowercase.
+
+04:34.980 --> 04:36.450
+Let's see the variable.
+
+04:39.120 --> 04:47.310
+X is a float, y is a float also, and z is a float in the console.
+
+04:47.310 --> 04:50.670
+All the class are float type conversion.
+
+04:50.700 --> 04:53.190
+We can convert from into float.
+
+04:56.760 --> 04:59.100
+But before that the type complex.
+
+05:00.260 --> 05:02.660
+And we see that in the console.
+
+05:03.290 --> 05:06.770
+All these types are complex with the symbol J.
+
+05:08.210 --> 05:16.340
+We can convert into float float to int or int float to complex with the method int float and complex.
+
+05:17.390 --> 05:20.390
+Here we define a as a float.
+
+05:29.840 --> 05:32.750
+And we convert we type of.
+
+05:37.070 --> 05:37.910
+We change.
+
+05:37.910 --> 05:39.920
+We convert from float to int.
+
+05:46.730 --> 05:51.110
+The old value is 22.8.
+
+05:51.110 --> 05:55.490
+And after we convert that to int the result it will be only two.
+
+05:58.580 --> 05:59.770
+X is an int.
+
+06:01.660 --> 06:08.110
+We can convert into complex where we have x is one.
+
+06:08.500 --> 06:10.840
+We convert to complex.
+
+06:13.810 --> 06:17.920
+And it will be one plus zero j.
+
+06:19.540 --> 06:26.530
+We use the modular random to make a random number between 1 to 9.
+
+06:32.350 --> 06:34.750
+They give the number one.
+
+06:34.960 --> 06:41.530
+Just be sure that the float is defined with the point number or with the scientific number with the
+
+06:41.530 --> 06:49.780
+letter e lowercase or uppercase to indicate that the number is a power of ten.
+
+06:49.810 --> 06:56.710
+For example, here 35 it will be multiplied by ten.
+
+06:57.430 --> 07:03.540
+Power three here by ten power four, and here by ten power 100.
+
+07:03.780 --> 07:06.390
+Let's verify the result of this.
+
+07:07.020 --> 07:08.310
+Three variables.
+
+07:08.520 --> 07:13.020
+Because I don't mention that at the beginning of this video.
+
+07:13.470 --> 07:14.070
+Here.
+
+07:14.370 --> 07:18.840
+Here we have 35 multiplied by ten power.
+
+07:18.870 --> 07:21.540
+Three by 1000.
+
+07:21.540 --> 07:25.140
+And why it multiplied by 10,000.
+
+07:26.160 --> 07:28.170
+E power e four.
+
+07:28.200 --> 07:29.040
+That's mean ten.
+
+07:29.040 --> 07:30.840
+Power 4E3.
+
+07:30.870 --> 07:32.670
+That's mean ten.
+
+07:32.670 --> 07:33.630
+Power three.
+
+07:33.720 --> 07:37.890
+Multiplied by the first part of this number.
+
+07:42.150 --> 07:51.840
+Also remember that we can convert from int to float from float to int also from float and int to complex.
+
+07:51.840 --> 07:56.160
+But we cannot convert from complex to int or float.
+
+07:56.160 --> 07:58.080
+And that's it for this video.

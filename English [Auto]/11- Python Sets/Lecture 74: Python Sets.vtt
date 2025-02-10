@@ -1,0 +1,181 @@
+WEBVTT
+
+00:00.140 --> 00:01.250
+Hi everyone!
+
+00:01.250 --> 00:03.770
+Today we will start a new section.
+
+00:03.770 --> 00:05.840
+Section 11 sets.
+
+00:05.870 --> 00:08.750
+Let's learn together more about sets.
+
+00:09.140 --> 00:13.160
+Sets are used to store multiple items in a single variable.
+
+00:13.430 --> 00:17.480
+It's written with a curly bracket like in this example.
+
+00:18.020 --> 00:23.060
+Set items are unordered and changeable and do not allow duplicate values.
+
+00:23.090 --> 00:27.650
+In order, it means that the item in a set do not have a defined order.
+
+00:28.130 --> 00:34.520
+Set items can appear in different order every time you use them, and cannot be referred to by index
+
+00:34.520 --> 00:35.210
+or queue.
+
+00:36.170 --> 00:42.590
+Set items are unchangeable, meaning that we cannot change the item after the set has been created.
+
+00:42.800 --> 00:49.760
+Once a set is created, you cannot change its items, but you can remove items and add new items.
+
+00:50.330 --> 00:54.260
+A set cannot have two items with the same value.
+
+00:54.290 --> 00:57.290
+Here for example, we have duplicate value.
+
+00:57.320 --> 00:58.100
+Apple.
+
+00:58.130 --> 01:02.960
+When I execute this code, Python will ignore one of these two value.
+
+01:04.350 --> 01:11.730
+Note the values two and one are considered the same value in sets, and Python will ignore them.
+
+01:12.600 --> 01:19.530
+The same for the values false and zero are considered the same values in sets, and when execute this
+
+01:19.530 --> 01:23.490
+code, Python will ignore one of these two values.
+
+01:25.110 --> 01:28.650
+To know the number of items, we use the function length.
+
+01:30.660 --> 01:33.240
+Set items can be of any data type.
+
+01:33.240 --> 01:34.980
+It can be a set of string.
+
+01:35.010 --> 01:38.370
+It can be a set of number or a set of boolean.
+
+01:39.810 --> 01:44.910
+Also, it's possible that the set contains different data types like.
+
+01:44.910 --> 01:51.300
+In this example, sets contain a string, an integer, and also a boolean.
+
+01:52.230 --> 01:57.120
+From Python's perspective, sets are defined as objects with the data type set.
+
+01:57.180 --> 02:03.240
+When execute the function type for a set, we have the result class set.
+
+02:04.110 --> 02:10.340
+It is also possible to use the set constructor to make a set like in this example.
+
+02:10.850 --> 02:13.550
+Let's go to PyCharm and execute some code.
+
+02:15.680 --> 02:19.280
+Section 11 sets the first.
+
+02:22.010 --> 02:26.180
+Here in this example we create a set via the curly brackets.
+
+02:26.210 --> 02:27.890
+Let's execute this code.
+
+02:29.360 --> 02:31.700
+Note this first example.
+
+02:31.700 --> 02:37.370
+The first example is to create a set with a curly brackets.
+
+02:39.590 --> 02:43.880
+We have the result of the set like we see here.
+
+02:43.880 --> 02:45.200
+There is no ordered.
+
+02:46.250 --> 02:56.690
+We make apple at the first item, but when execute the code cherry becomes the first item.
+
+02:59.810 --> 03:02.150
+Duplicates are not allowed.
+
+03:02.180 --> 03:05.330
+In this example we have a duplicate value.
+
+03:05.360 --> 03:14.640
+Apple when execute the code, Python will ignore one of these two values, and we have only three items
+
+03:14.640 --> 03:17.040
+and one value for Apple.
+
+03:18.930 --> 03:21.930
+True, and one is considered the same value.
+
+03:23.250 --> 03:27.270
+When execute the code, one of them will be ignored by Python.
+
+03:38.610 --> 03:46.020
+Here in this example, Python ignored the value one, and in the output we have only the value true.
+
+03:46.620 --> 03:50.820
+The same false and zero is considered the same value.
+
+03:51.330 --> 03:54.840
+When execute the code, Python will ignore one of these two value.
+
+03:57.570 --> 03:59.490
+He ignore the value zero.
+
+04:03.150 --> 04:07.140
+To get the length of a set, we use the function length.
+
+04:07.800 --> 04:10.730
+The result it will be three in this example.
+
+04:12.650 --> 04:15.440
+Next set items.
+
+04:15.470 --> 04:18.620
+It can be a different data types.
+
+04:18.620 --> 04:23.360
+It can be a set of a string, a set of integer, a set of boolean.
+
+04:23.510 --> 04:27.800
+And also it can contain string, integer, boolean.
+
+04:27.800 --> 04:35.360
+At the same time, when we execute the function type to set, we will have a result class set.
+
+04:41.900 --> 04:46.040
+We can create a set from the constructor set.
+
+04:51.170 --> 04:55.820
+And this is a set created by the constructor set.
+
+04:56.630 --> 04:58.490
+And that's it for this video.
+
+04:58.490 --> 05:07.550
+In the upcoming video, we will learn more about access to the set Add element to set remove from sets
+
+05:07.550 --> 05:09.740
+and loop through sets.
+
+05:09.770 --> 05:11.900
+How to join sets.

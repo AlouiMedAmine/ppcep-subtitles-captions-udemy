@@ -1,0 +1,253 @@
+WEBVTT
+
+00:00.020 --> 00:00.980
+Hi everyone!
+
+00:01.010 --> 00:04.880
+Let's learn together some methods that you can use on strings.
+
+00:05.420 --> 00:08.990
+Capitalize converts the first character to uppercase.
+
+00:09.020 --> 00:12.200
+Case fold converts the string into lower case.
+
+00:12.440 --> 00:19.670
+Count returns the number of times a specified value occurs in string, and sweet returns true if the
+
+00:19.670 --> 00:22.070
+string ends with the specified value.
+
+00:22.580 --> 00:28.610
+Find searches the string for a specified value and returns the position of where it was found.
+
+00:31.910 --> 00:32.510
+Isdigit.
+
+00:32.510 --> 00:37.880
+Returns true if all characters in the string are digits is lower.
+
+00:37.880 --> 00:41.270
+Returns true if all characters in the string are lowercase.
+
+00:41.630 --> 00:43.220
+We have also styled.
+
+00:43.220 --> 00:46.610
+Returns true if the string follows the rules of title.
+
+00:48.080 --> 00:48.590
+Lower.
+
+00:48.590 --> 00:51.080
+Converts a string into lowercase.
+
+00:51.500 --> 00:52.100
+Replace.
+
+00:52.100 --> 00:56.270
+Returns a string where a specified value is replaced with other.
+
+00:58.010 --> 01:02.460
+We have also strip returns a trimmed version of the version.
+
+01:02.490 --> 01:06.330
+Title converts the first character of each word to uppercase.
+
+01:06.420 --> 01:09.540
+Upper converts a string into uppercase.
+
+01:10.080 --> 01:13.770
+Just remember that all string methods return new values.
+
+01:13.800 --> 01:16.500
+They do not change the original string.
+
+01:16.530 --> 01:20.190
+Let's go to PyCharm and execute some examples.
+
+01:20.340 --> 01:22.710
+For example, the method capitalize.
+
+01:22.710 --> 01:26.070
+We said that convert the first character to uppercase.
+
+01:26.070 --> 01:27.690
+Let's execute the code.
+
+01:32.250 --> 01:35.490
+The first character is converted to uppercase.
+
+01:35.850 --> 01:40.650
+The original string it remained the same doesn't change.
+
+01:42.210 --> 01:47.550
+Be sure that function return strings doesn't change the original string.
+
+01:48.210 --> 01:51.600
+Here a second example case fold.
+
+01:52.290 --> 01:54.540
+Convert a string into lowercase.
+
+01:54.780 --> 01:56.490
+Let's execute the code.
+
+02:00.860 --> 02:02.720
+All the string in lowercase.
+
+02:04.400 --> 02:06.080
+The method count.
+
+02:11.090 --> 02:14.540
+Returns the number of time of specified value.
+
+02:15.560 --> 02:20.930
+Here we have Apple two times in this string.
+
+02:23.870 --> 02:28.280
+The find method finds the first occurrence of the specified value.
+
+02:30.080 --> 02:31.670
+Let's execute the code.
+
+02:32.360 --> 02:38.480
+Here the first occurrence is the index seven.
+
+02:41.090 --> 02:41.990
+Find.
+
+02:43.610 --> 02:47.960
+It will return minus one if the string not found.
+
+02:47.960 --> 02:53.780
+It test is not found in the string text.
+
+02:54.560 --> 02:56.570
+The result it will be minus one.
+
+02:57.770 --> 03:01.800
+The index method is almost the same as the find method.
+
+03:04.860 --> 03:05.460
+The result?
+
+03:05.460 --> 03:09.480
+It will be seven like the find method.
+
+03:09.510 --> 03:13.110
+The index method also returns seven.
+
+03:13.140 --> 03:15.510
+The first occurrence of the string.
+
+03:17.490 --> 03:26.040
+The difference between find and index is that when the value doesn't exist in the string, the method
+
+03:26.040 --> 03:27.990
+index will raise an exception.
+
+03:28.020 --> 03:31.530
+Let's execute the code and see the result.
+
+03:32.250 --> 03:33.600
+Index method.
+
+03:33.780 --> 03:36.060
+Raise a value error.
+
+03:36.630 --> 03:38.100
+Substring not found.
+
+03:38.130 --> 03:43.110
+This is the difference between find and index.
+
+03:44.190 --> 03:48.630
+Each digits return true if all characters in the string are digits.
+
+03:49.950 --> 03:52.170
+It will return true in this example.
+
+03:53.790 --> 03:56.400
+If we add some literal.
+
+03:58.410 --> 04:00.210
+The result it will be false.
+
+04:01.800 --> 04:06.210
+Is upper return true if all characters in the string are uppercase?
+
+04:07.380 --> 04:09.450
+It will be true in this example.
+
+04:10.080 --> 04:14.070
+If we add a lowercase the result it will be false.
+
+04:17.100 --> 04:17.700
+Is lower.
+
+04:17.700 --> 04:21.660
+Returns a true if all characters in this string are lowercase.
+
+04:24.660 --> 04:25.260
+The result.
+
+04:25.260 --> 04:26.400
+It will be true.
+
+04:26.400 --> 04:31.230
+If we add an uppercase the result it will be false.
+
+04:37.230 --> 04:39.390
+Also, we have this split method.
+
+04:39.900 --> 04:44.580
+It will return a list of substring based on the separator.
+
+04:44.610 --> 04:46.830
+Here we don't define a separator.
+
+04:46.830 --> 04:49.020
+Let's see the result of this code.
+
+04:51.720 --> 05:00.850
+We have a list of substring based on spaces based on white space.
+
+05:01.450 --> 05:02.050
+Why?
+
+05:02.080 --> 05:07.540
+Because the split function has a default separator.
+
+05:08.920 --> 05:15.700
+When set to none, the default value will split on any white space character, including and spaces,
+
+05:15.850 --> 05:17.290
+and will discard.
+
+05:18.820 --> 05:22.360
+The default separator for the split method is the white space.
+
+05:24.220 --> 05:29.770
+Here, for example, we add a separator as a comma plus a space.
+
+05:31.510 --> 05:32.860
+Let's see the result.
+
+05:36.310 --> 05:38.470
+We have three substrings.
+
+05:39.760 --> 05:43.420
+This is another example with different separator.
+
+05:43.450 --> 05:45.310
+Let's execute the code.
+
+05:45.550 --> 05:50.830
+We have four substring and that's it for this video.
+
+05:51.280 --> 05:59.890
+Always remember that all the method which return a string return a new string and the original string
+
+05:59.890 --> 06:00.550
+doesn't change.

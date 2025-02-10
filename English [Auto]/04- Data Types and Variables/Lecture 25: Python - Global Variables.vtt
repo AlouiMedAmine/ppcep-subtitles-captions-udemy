@@ -1,0 +1,151 @@
+WEBVTT
+
+00:00.170 --> 00:01.190
+Hi everyone.
+
+00:01.190 --> 00:03.320
+In this video we will learn Python.
+
+00:03.320 --> 00:04.640
+Global variables.
+
+00:04.910 --> 00:13.250
+Global variables are created outside of a function and can be used by everyone, both inside and outside
+
+00:13.250 --> 00:14.090
+the function.
+
+00:14.120 --> 00:18.650
+Here x is a global variable and it is accessible inside the function.
+
+00:18.860 --> 00:21.050
+Let's execute the first example.
+
+00:22.340 --> 00:24.170
+I execute the selection code.
+
+00:27.920 --> 00:28.730
+The result.
+
+00:28.760 --> 00:30.500
+Here Python is awesome.
+
+00:31.280 --> 00:35.660
+That means this function is can access to the global variable.
+
+00:36.470 --> 00:40.880
+In the case we have the same variable inside the function.
+
+00:43.070 --> 00:49.880
+Any new value for this variable, it will be in the scope of the function and the value of the original
+
+00:49.880 --> 00:50.810
+variable.
+
+00:50.840 --> 00:57.230
+The global variable will be the same and changeable like as the original value.
+
+00:57.500 --> 00:58.100
+Thus mean.
+
+00:58.100 --> 00:58.280
+Here.
+
+00:58.280 --> 01:06.380
+When we execute this example, the first print, it will print fantastic and the second the second print
+
+01:06.380 --> 01:09.110
+will output the value.
+
+01:09.140 --> 01:09.800
+Awesome.
+
+01:10.100 --> 01:12.200
+Let's execute this part of code.
+
+01:22.580 --> 01:23.180
+Here.
+
+01:23.210 --> 01:24.050
+The result?
+
+01:24.080 --> 01:26.570
+The first print Python is fantastic.
+
+01:27.080 --> 01:29.000
+And the second, Python is awesome.
+
+01:29.990 --> 01:34.160
+It is possible to define a global variable inside the function.
+
+01:34.460 --> 01:38.480
+Yes, with the global keyword.
+
+01:38.810 --> 01:46.940
+When we create a local variable, we add the keyword global and this variable will be global.
+
+01:48.770 --> 01:56.150
+Here when we print this, when execute this code x it will be accessible outside the function and take
+
+01:56.150 --> 01:56.750
+the value.
+
+01:56.780 --> 01:57.710
+Fantastic.
+
+02:02.510 --> 02:04.340
+Execute this part of code.
+
+02:08.210 --> 02:09.980
+Python is fantastic.
+
+02:11.960 --> 02:14.990
+In this case we have the global variable.
+
+02:17.570 --> 02:24.770
+Defined outside the function and in the function we define the same variable as global.
+
+02:25.400 --> 02:29.210
+The new value will change the original value.
+
+02:29.870 --> 02:35.930
+Thus mean when execute this code Python is will be not awesome, but fantastic.
+
+02:35.930 --> 02:36.290
+Why?
+
+02:36.800 --> 02:41.210
+Because this value it will update the original value.
+
+02:42.110 --> 02:49.910
+The scope of this variable is all our file, not just the function like a local variable.
+
+02:50.510 --> 02:51.950
+Let's execute the code.
+
+02:55.640 --> 02:56.810
+And the result?
+
+02:56.840 --> 02:58.190
+Python is fantastic.
+
+03:08.420 --> 03:10.190
+This is a short summary.
+
+03:10.490 --> 03:13.490
+Global variables are created outside of a function.
+
+03:13.490 --> 03:17.390
+Can be used by everyone, both inside and outside of a.
+
+03:17.390 --> 03:18.170
+Functions.
+
+03:18.800 --> 03:20.900
+Local variables are created inside.
+
+03:20.900 --> 03:24.110
+The function can be used only inside this function.
+
+03:24.440 --> 03:29.270
+A local variable can be a global variable via the global keywords.

@@ -1,0 +1,58 @@
+WEBVTT
+
+00:00.110 --> 00:01.160
+Hi everyone!
+
+00:01.160 --> 00:07.010
+In this video we will learn how to join tuples to join two or more tuples.
+
+00:07.040 --> 00:10.430
+You can use the plus operator like.
+
+00:10.430 --> 00:13.400
+In this example we have tuple one and two plus two.
+
+00:13.430 --> 00:18.080
+We use the plus operator to join the two tuples.
+
+00:18.770 --> 00:25.820
+If you want to multiply the content of a tuple a given number of times, you can use the asterisk operator
+
+00:25.820 --> 00:27.620
+like in this example.
+
+00:28.010 --> 00:31.040
+Let's execute this two example in PyCharm.
+
+00:33.620 --> 00:39.260
+The first example used to join two tuples, we use the plus operator.
+
+00:39.740 --> 00:41.060
+Let's see the result.
+
+00:46.760 --> 00:51.710
+We have the first tuple and after that the second tuple.
+
+00:53.570 --> 00:57.710
+The second example used to multiply a tuple.
+
+01:05.120 --> 01:10.520
+It's like to join two two plus with the same items.
+
+01:16.400 --> 01:17.990
+My two plus equal.
+
+01:28.580 --> 01:30.260
+In case of three.
+
+01:32.930 --> 01:41.690
+It will be join another tuple with the same type with the same items.
+
+01:43.670 --> 01:45.380
+Let's execute this example.
+
+02:02.300 --> 02:04.580
+We have this tuple.
+
+02:06.200 --> 02:09.170
+It's like multiply by three.

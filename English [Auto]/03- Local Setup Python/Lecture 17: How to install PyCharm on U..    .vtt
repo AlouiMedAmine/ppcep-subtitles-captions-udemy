@@ -1,0 +1,100 @@
+WEBVTT
+
+00:00.500 --> 00:02.390
+How to install PyCharm on ubuntu.
+
+00:02.420 --> 00:04.280
+But before that, what is PyCharm?
+
+00:04.310 --> 00:08.660
+PyCharm is an IDE integrated development environment.
+
+00:08.960 --> 00:16.010
+It increases developer productivity by combining capabilities such as software editing, building testing,
+
+00:16.010 --> 00:20.870
+version control, integration, debugger, and other benefits.
+
+00:21.230 --> 00:23.870
+Some IDE used to run Python.
+
+00:24.590 --> 00:29.090
+We have Visual Studio Code, Sublime Text, atom, PyCharm.
+
+00:32.150 --> 00:40.790
+We have Visual Studio Code used to run JavaScript, TypeScript, Python, Java and other programming
+
+00:40.790 --> 00:41.330
+language.
+
+00:42.140 --> 00:47.240
+Sublime text, atom and in our case P sharp.
+
+00:47.450 --> 00:55.010
+We will use the Community Edition and it is available for Linux, for Mac and for windows.
+
+00:55.640 --> 00:57.080
+Let's install PyCharm.
+
+01:00.680 --> 01:03.140
+There are two method to install PyCharm on ubuntu.
+
+01:03.170 --> 01:08.750
+First method via command line and the second via graphical user interface.
+
+01:08.780 --> 01:10.370
+We will use the first method.
+
+01:12.110 --> 01:13.700
+We will run this command.
+
+01:20.200 --> 01:21.940
+I will run again.
+
+01:21.940 --> 01:23.920
+But for me, I just installed.
+
+01:26.620 --> 01:29.440
+PyCharm community is already installed.
+
+01:29.980 --> 01:31.750
+Let's go to PyCharm.
+
+01:33.610 --> 01:39.940
+This is my first project Python for beginners and I can create a new project here.
+
+01:40.630 --> 01:42.460
+I will create my first file.
+
+01:44.200 --> 01:45.790
+Hello pig!
+
+02:02.170 --> 02:02.530
+Print.
+
+02:02.530 --> 02:03.280
+Hello world.
+
+02:07.420 --> 02:10.930
+I will execute here.
+
+02:11.140 --> 02:12.490
+And the execution.
+
+02:12.490 --> 02:13.150
+The result.
+
+02:13.180 --> 02:14.050
+Hello world.
+
+02:19.240 --> 02:22.690
+Settings to see what version of Python.
+
+02:24.340 --> 02:25.750
+Python interpreter.
+
+02:28.570 --> 02:34.000
+I used the latest version of Python 3.13.
+
+02:36.010 --> 02:36.580
+Okay.

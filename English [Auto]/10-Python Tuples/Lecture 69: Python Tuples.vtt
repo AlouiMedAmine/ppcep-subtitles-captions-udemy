@@ -1,0 +1,208 @@
+WEBVTT
+
+00:00.140 --> 00:01.220
+Hi everyone!
+
+00:01.220 --> 00:03.380
+Today we will start a new section.
+
+00:03.740 --> 00:05.510
+Section ten two plus.
+
+00:05.540 --> 00:07.130
+Let's learn together more.
+
+00:07.130 --> 00:12.500
+About two plus two plus are used to store multiple items in a single variable.
+
+00:12.500 --> 00:16.100
+It's a collection which is ordered and unchangeable.
+
+00:16.520 --> 00:20.900
+Two plus are written with round brackets like here.
+
+00:20.900 --> 00:24.560
+In this example, two plus items are indexed.
+
+00:24.560 --> 00:32.540
+The first item has index zero, the second item has index one, etc. tuple items are ordered and changeable
+
+00:32.540 --> 00:34.400
+and allow duplicate value.
+
+00:34.430 --> 00:38.270
+Let's understand more about each word from this sentence.
+
+00:40.460 --> 00:41.930
+What is mean ordered?
+
+00:41.960 --> 00:48.470
+When we say that two plus are ordered, it means that the item have a defined order and that order will
+
+00:48.470 --> 00:49.400
+not change.
+
+00:50.510 --> 00:51.500
+Unchangeable.
+
+00:51.530 --> 00:57.350
+T plus are unchangeable, meaning that we cannot change, add, or remove items after the tuple has
+
+00:57.350 --> 00:58.310
+been created.
+
+00:58.610 --> 00:59.750
+It's not like that.
+
+00:59.750 --> 01:00.590
+The list.
+
+01:01.840 --> 01:06.070
+Since two plus are indexed, they can have items with the same value.
+
+01:06.100 --> 01:07.930
+Here we have an example.
+
+01:07.990 --> 01:10.210
+We have duplicate value.
+
+01:10.240 --> 01:12.400
+Apple and cherry.
+
+01:13.480 --> 01:21.640
+To determine how many items a tuple has, we use the function length to create a tuple with one item.
+
+01:21.910 --> 01:24.520
+You have to add a comma after the item.
+
+01:24.550 --> 01:30.250
+Here is an example to create a tuple with one item.
+
+01:31.570 --> 01:34.900
+We need to add a comma after the first item.
+
+01:36.490 --> 01:39.100
+Tuple items can be of any data type.
+
+01:39.100 --> 01:43.510
+It can be of string, integer, or boolean.
+
+01:43.810 --> 01:47.830
+A tuple can contain different data types at the same time, like here.
+
+01:47.830 --> 01:53.320
+In this example, this tuple contain string, integer, and boolean.
+
+01:54.430 --> 02:00.160
+From Python's perspective, tuples are defined as objects with the data type tuple.
+
+02:00.970 --> 02:07.990
+When execute the function type in a tuple, the result it will be class tuple.
+
+02:10.330 --> 02:14.560
+It's also possible to use the tuple constructor to make a tuple.
+
+02:15.370 --> 02:17.260
+Let's run some examples.
+
+02:19.810 --> 02:20.650
+In PyCharm.
+
+02:20.650 --> 02:21.160
+Python.
+
+02:21.190 --> 02:21.910
+Tuples.
+
+02:24.880 --> 02:26.860
+This is an example of a tuple.
+
+02:35.320 --> 02:36.970
+Contain three element.
+
+02:38.290 --> 02:41.050
+We said that two plus a low duplicate.
+
+02:49.300 --> 02:51.460
+Because two plus r and exit.
+
+02:51.490 --> 02:58.390
+We have two value for duplicate value for Apple and also duplicate value for cherry.
+
+03:01.170 --> 03:04.470
+Do you know the number of items for a tuple?
+
+03:04.470 --> 03:06.150
+We use the function length.
+
+03:07.110 --> 03:11.760
+The result in this example it will be three because we have three items.
+
+03:15.120 --> 03:22.560
+When execute the function type to a tuple, the result it will be class.
+
+03:25.620 --> 03:26.220
+Tuple.
+
+03:29.670 --> 03:31.020
+It will be class tuple.
+
+03:31.470 --> 03:35.100
+Here this is a tuple from one item.
+
+03:35.100 --> 03:36.600
+We need to add a comma.
+
+03:36.810 --> 03:44.910
+In the second example, there is no comma after the first element and this element is not a tuple.
+
+03:44.940 --> 03:46.920
+Let's execute this code.
+
+03:49.860 --> 03:51.150
+It's in str.
+
+03:51.810 --> 03:56.040
+Python will consider it this variable as str.
+
+03:56.580 --> 04:03.210
+Like here in the execution of the code to be a tuple, we need to add a comma.
+
+04:05.520 --> 04:07.260
+After the first element.
+
+04:09.630 --> 04:10.830
+Tuple items.
+
+04:10.980 --> 04:12.660
+It can be a string.
+
+04:13.260 --> 04:16.230
+It can be an integer, or it can be boolean.
+
+04:16.770 --> 04:20.430
+A tuple can contain different data types at the same time, like here.
+
+04:20.430 --> 04:30.630
+In this example, we use the type function to know the type of tuple, and we just execute this function
+
+04:30.630 --> 04:33.090
+and the result it will be class tuple.
+
+04:37.290 --> 04:38.160
+Class tuple.
+
+04:38.190 --> 04:43.350
+We can create a tuple from the constructor tuple.
+
+04:44.130 --> 04:54.840
+We add the items to the constructor and we can create a tuple from the constructor.
+
+04:54.870 --> 04:56.460
+Let's execute that.
+
+04:58.620 --> 04:59.220
+The result?
+
+04:59.220 --> 05:00.600
+It will be a tuple.

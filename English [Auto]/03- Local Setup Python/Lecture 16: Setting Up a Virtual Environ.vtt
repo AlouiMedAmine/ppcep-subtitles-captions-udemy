@@ -1,0 +1,145 @@
+WEBVTT
+
+00:00.410 --> 00:03.200
+Setting up a virtual environment on ubuntu.
+
+00:03.590 --> 00:08.960
+Virtual environment is a tool that allows users to create isolated Python environments.
+
+00:08.960 --> 00:15.470
+It's like Docker, ensuring that each project has its own dependencies and packages and dependent of
+
+00:15.470 --> 00:16.160
+others.
+
+00:16.520 --> 00:22.220
+First step we will verify the installation of Python three via the command Python 3-V.
+
+00:24.170 --> 00:25.580
+Let's do that.
+
+00:28.370 --> 00:34.040
+Okay, I have the version 3.3 and this is the default version in my ubuntu.
+
+00:34.490 --> 00:37.490
+How can I change the default version?
+
+00:38.030 --> 00:46.070
+I can change the default version via this command sudo update alternatives dash dash config Python three.
+
+00:48.980 --> 00:52.580
+I have two version 3.1 and 3.3.
+
+00:52.850 --> 00:57.170
+We will continue with this version 3.13.
+
+01:03.030 --> 01:13.830
+Next step we will install virtual environment via the command sudo apt get install python the same version
+
+01:13.920 --> 01:18.810
+in the same default version virtual env.
+
+01:21.180 --> 01:23.550
+Let's install the virtual environment.
+
+01:23.580 --> 01:27.450
+I will change the version.
+
+01:33.150 --> 01:36.690
+Okay, the virtual environment was successfully installed.
+
+01:38.280 --> 01:48.150
+Next step we will create our first virtual environment via the command python3 m virtual environment.
+
+01:48.180 --> 01:52.110
+My working directory and the name of the virtual environment.
+
+01:59.190 --> 02:01.890
+Let's verify the creation stopped.
+
+02:05.250 --> 02:05.910
+Okay.
+
+02:05.940 --> 02:09.760
+The word environment was successfully created.
+
+02:10.780 --> 02:15.970
+Next step will activate the via the command source.
+
+02:15.970 --> 02:17.890
+My first virtual environment.
+
+02:17.920 --> 02:21.310
+That means the the name of my virtual environment.
+
+02:21.340 --> 02:21.610
+Slash.
+
+02:21.640 --> 02:21.820
+Bin.
+
+02:21.820 --> 02:22.090
+Slash.
+
+02:22.090 --> 02:22.810
+Activate.
+
+02:30.790 --> 02:32.530
+No such file or directory.
+
+02:34.330 --> 02:37.660
+Okay, I will fix the path.
+
+02:41.140 --> 02:43.720
+And the virtual environment was activated.
+
+02:43.960 --> 02:49.690
+We will do two two example to understand more how works with the virtual environment.
+
+02:49.720 --> 02:52.690
+The first example we will create a file hello P Greg.
+
+02:52.690 --> 02:57.850
+And after that we will run via the command python3.
+
+02:57.850 --> 03:01.300
+And the second example we will install Django.
+
+03:01.600 --> 03:03.700
+Let's start by the first example.
+
+03:06.550 --> 03:07.870
+I clear the screen.
+
+03:10.520 --> 03:11.810
+Hello, Greg.
+
+03:25.100 --> 03:30.200
+I execute my file in my virtual environment.
+
+03:32.300 --> 03:32.990
+Okay.
+
+03:33.500 --> 03:34.400
+Hello, world.
+
+03:34.430 --> 03:37.100
+Next we will install Django.
+
+03:45.020 --> 03:46.820
+In this virtual environment.
+
+03:46.880 --> 03:49.790
+Django was successfully installed.
+
+03:50.810 --> 03:52.940
+After working with the virtual environment.
+
+03:52.940 --> 03:56.780
+We can deactivate it via the command.
+
+04:00.050 --> 04:01.100
+Deactivate.
+
+04:08.120 --> 04:11.720
+And the virtual environment was successfully deactivated.

@@ -1,0 +1,139 @@
+WEBVTT
+
+00:00.170 --> 00:01.310
+Hi everyone!
+
+00:01.310 --> 00:03.230
+Today we will start a new section.
+
+00:03.230 --> 00:05.420
+Section 13 functions.
+
+00:05.420 --> 00:06.980
+What is a function?
+
+00:07.010 --> 00:10.730
+A function is a block of code which only runs when it's called.
+
+00:10.730 --> 00:14.240
+You can pass data known as parameters into a function.
+
+00:14.240 --> 00:17.060
+A function can return data as a result.
+
+00:17.600 --> 00:21.980
+In Python, function is defined using the def keyword like here.
+
+00:21.980 --> 00:30.200
+In this example, to call a function, use the function name followed by parentheses function name followed
+
+00:30.230 --> 00:31.160
+by parentheses.
+
+00:31.190 --> 00:35.420
+If we have argument, we need to add our argument separated by a comma.
+
+00:36.170 --> 00:39.770
+Information can be passed into functions as arguments.
+
+00:40.640 --> 00:45.140
+Arguments are specified after the function name inside the parentheses.
+
+00:45.140 --> 00:50.450
+You can add as many arguments as you want, just separate them with a comma.
+
+00:50.810 --> 00:54.590
+The following example has a function with one argument f name.
+
+00:54.590 --> 01:00.170
+When the function is called, we pass along a first name which is used inside the function.
+
+01:00.170 --> 01:03.890
+To print the full name we have our function.
+
+01:03.890 --> 01:12.880
+We pass the argument first name and we will print inside the function a note arguments are often shortened
+
+01:12.880 --> 01:14.290
+to arg s in Python.
+
+01:14.290 --> 01:15.340
+Documentation.
+
+01:15.730 --> 01:19.270
+To let a function return a value, use the return statement.
+
+01:21.100 --> 01:24.460
+Here this function returns an integer.
+
+01:25.360 --> 01:30.790
+Function definition cannot be empty, but if you for some reason have a function definition with no
+
+01:30.790 --> 01:34.840
+content, put in the pass statement to avoid getting an error.
+
+01:34.870 --> 01:44.170
+If you remember, we just see that with the section conditional blocks in the chapter nested if.
+
+01:44.200 --> 01:48.490
+Let's see that if a statement cannot be empty.
+
+01:48.490 --> 01:54.520
+But if you for some reason have an if statement with no content, put in the pass statement to avoid
+
+01:54.520 --> 01:55.690
+getting an error.
+
+01:56.830 --> 02:03.430
+We put the pass statement to avoid getting an error to an empty if statement.
+
+02:03.460 --> 02:06.520
+Let's go to PyCharm to do some practices.
+
+02:08.140 --> 02:10.180
+Section 13 first part.
+
+02:11.710 --> 02:15.010
+Here in the first example we create our function.
+
+02:17.770 --> 02:21.430
+When execute this code there is no result to the console.
+
+02:21.430 --> 02:21.760
+Why?
+
+02:21.790 --> 02:28.100
+Because to do this function to be executed, we need to call this function like.
+
+02:28.100 --> 02:36.650
+In the second example, we need to call the function to be executed rlhs the result it will be hello
+
+02:36.650 --> 02:42.650
+from a function two we can pass an argument to our functions like here.
+
+02:42.650 --> 02:48.830
+In this example, we can pass a lot of arguments as you want.
+
+02:48.980 --> 02:53.120
+Just be sure to separate them by a comma.
+
+02:53.720 --> 02:57.470
+First name, last name for example.
+
+03:03.620 --> 03:05.240
+Let's execute this example.
+
+03:11.330 --> 03:12.260
+The return value.
+
+03:12.290 --> 03:17.090
+We can return a value from a function with the statement return.
+
+03:17.090 --> 03:20.300
+In this example, we will return an integer.
+
+03:23.570 --> 03:29.120
+The pass statement is used to avoid getting an error in empty functions.
+
+03:32.150 --> 03:34.970
+Because a function cannot be empty.

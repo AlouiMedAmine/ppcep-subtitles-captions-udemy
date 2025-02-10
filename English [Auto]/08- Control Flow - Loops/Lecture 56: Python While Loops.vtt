@@ -1,0 +1,172 @@
+WEBVTT
+
+00:00.140 --> 00:01.160
+Hi everyone.
+
+00:01.160 --> 00:08.450
+Today we will start the section eight control Flow loops and we will start by learning while loops with
+
+00:08.450 --> 00:14.480
+the while loop, we can execute a set of statements as long as a condition is true here.
+
+00:14.480 --> 00:22.850
+In this example, while I less than seven print, I just note remember to increment I or else the loop
+
+00:22.850 --> 00:24.230
+will continue forever.
+
+00:25.310 --> 00:29.600
+With the break statement, we can stop the loop even if the while condition is true.
+
+00:29.630 --> 00:34.100
+Here the condition that I is less than seven.
+
+00:34.100 --> 00:42.200
+But if I equal three, we will use the statement break and will exit the loop.
+
+00:43.280 --> 00:44.630
+With the continue statement.
+
+00:44.630 --> 00:52.610
+We can stop the current iteration and continue with the next here, while if I equal three, I will
+
+00:52.610 --> 00:55.700
+continue to the next iteration and I will not print three.
+
+00:57.260 --> 01:04.640
+We just see that else statement used with the if statement, but also it can be used with while loop.
+
+01:04.670 --> 01:08.910
+When this condition is not verified, we will pass to the else statement.
+
+01:09.600 --> 01:12.120
+Let's go to PyCharm and run some code.
+
+01:13.590 --> 01:16.590
+Here I execute the debugger mode.
+
+01:20.880 --> 01:27.870
+I take the value one here while I less than seven I continue to print I.
+
+01:27.900 --> 01:29.220
+Let's execute.
+
+01:29.250 --> 01:34.260
+I take 1234.
+
+01:36.540 --> 01:37.260
+Six.
+
+01:38.190 --> 01:41.490
+In the console I just.
+
+01:49.200 --> 01:50.850
+Print the value six.
+
+01:51.570 --> 01:56.940
+In the next iteration, the condition will not be verified and will exit the loop.
+
+01:58.260 --> 02:04.380
+Okay, let's execute the second example the break statement.
+
+02:08.490 --> 02:11.760
+I continue the execution.
+
+02:13.280 --> 02:17.030
+I take one next?
+
+02:18.350 --> 02:19.490
+I take two.
+
+02:23.780 --> 02:24.980
+I take three.
+
+02:27.320 --> 02:31.190
+If I equal three, we will execute the statement break.
+
+02:31.940 --> 02:40.490
+And in this case, we will exit from the while we just print until the value three and we will pass
+
+02:40.490 --> 02:41.780
+to the next example.
+
+02:44.840 --> 02:46.550
+The continue statement.
+
+02:48.830 --> 02:51.050
+I take the value zero.
+
+02:52.160 --> 02:53.420
+Let's execute.
+
+02:55.460 --> 02:57.200
+I take the value one.
+
+02:57.740 --> 02:59.150
+Take the value two.
+
+03:01.160 --> 03:02.510
+Take the value three.
+
+03:02.540 --> 03:03.830
+The condition is verified.
+
+03:03.830 --> 03:04.550
+We'll continue.
+
+03:04.580 --> 03:08.060
+Will pass to the line.
+
+03:08.060 --> 03:08.810
+Continue.
+
+03:09.920 --> 03:11.510
+We will not print.
+
+03:11.870 --> 03:13.460
+We will not execute this line.
+
+03:13.460 --> 03:15.470
+We will pass to the next iteration.
+
+03:18.690 --> 03:20.250
+Will print four.
+
+03:23.370 --> 03:26.010
+We don't print the line.
+
+03:26.700 --> 03:33.120
+The index three because we used the keyword.
+
+03:33.120 --> 03:33.840
+Continue.
+
+03:36.480 --> 03:39.450
+Let's continue the execution of code.
+
+03:41.610 --> 03:44.520
+And the last example the else statement.
+
+03:46.650 --> 03:49.380
+We will execute this line of code.
+
+03:50.550 --> 03:54.330
+When this condition is not more available.
+
+03:55.920 --> 04:00.330
+I continue to print until I take the value seven.
+
+04:04.320 --> 04:06.030
+I take the value six.
+
+04:07.320 --> 04:12.660
+The condition is not verified and we will execute the else statement.
+
+04:16.770 --> 04:19.260
+I is no longer less than seven.
+
+04:19.860 --> 04:23.580
+In the next video we will see how to use the for loop.
+
+04:24.150 --> 04:25.860
+And that's it for this video.
